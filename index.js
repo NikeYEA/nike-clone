@@ -4,7 +4,7 @@ var cors = require('cors');
 var express = require('express');
 var massive = require('massive');
 var session = require('express-session');
-var config = require('./.config.js')
+var config = require('./config.js')
 // PORT //
 var port = config.port;
 
