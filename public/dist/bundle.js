@@ -27,6 +27,12 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'girlsCtrl',
       url: '/girls'
     })
+    .state('customize', {
+      templateUrl: './app/routes/customize/customize.html',
+      controller: 'customizeCtrl',
+      url: '/customize'
+    })
+
 }])
 
 angular.module('nike-clone').service('mainService', ["$http", function($http) {
@@ -49,6 +55,10 @@ angular.module('nike-clone').directive('header', function() {
 
 angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) {
 
+}])
+
+angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
+  
 }])
 
 angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
