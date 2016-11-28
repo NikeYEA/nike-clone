@@ -31,6 +31,7 @@ var db = app.get('db');
 
 
 // PRODUCTS //
+
 app.get('/api/products', productsCtrl.getProducts);
 
 app.get('/api/products/:id', productsCtrl.getProductById);
