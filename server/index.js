@@ -9,6 +9,7 @@ var config = require('./config.js')
 var port = config.port;
 
 // EXPRESS //
+
 var app = module.exports = express();
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
