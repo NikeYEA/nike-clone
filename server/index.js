@@ -16,6 +16,7 @@ var productsCtrl = require('./products/productsCtrl');
 var port = config.port;
 
 // EXPRESS //
+
 var app = module.exports = express();
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
