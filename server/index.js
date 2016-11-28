@@ -4,7 +4,14 @@ var cors = require('cors');
 var express = require('express');
 var massive = require('massive');
 var session = require('express-session');
-var config = require('./config.js')
+var _ = require('underscore');
+
+
+// SERVER //
+var config = require('../config');
+var productsCtrl = require('./products/productsCtrl');
+
+
 // PORT //
 var port = config.port;
 
@@ -23,22 +30,26 @@ var db = app.get('db');
 
 
 // PRODUCTS //
-app.get('/api/products', function(req, res) {
-  console.log("sup");
-  db.run("SELECT * FROM PRODUCTS", function(err, products){
-    res.status(200).json(products);
-  });
-  // db.products.find(5, function(err, products){
-  //   res.status(200).json(products);
-  // }); FIND ALL
+app.get('/api/products', productsCtrl.getProducts);
 
-  // db.products.findOne({name: req.body.name}, function(err, products){
-  //   res.status(200).json(products);
-  // }); FIND ONE BY PARAMETER
-});
-// app.post('/api/products', function( req, res) {
-//
-// })
+app.get('/api/products/:id', productsCtrl.getProductById);
+
+
+// CART //
+
+// app.get('/api/cart', cartCtrl.getCart);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
