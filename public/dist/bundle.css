@@ -1,3 +1,53 @@
+
+
+
+.home-content-wrapper .image-large{
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.home-content-wrapper .image-large.section-one{
+  background-image: url("/images/give_nike_gray.jpg");
+}
+.home-inner-wrapper {
+  max-width: 1000px;
+  padding: 15px;
+}
+.image-large .text-wrapper{
+  max-width: 230px;
+}
+.image-large .text-wrapper h2{
+  font-size: 29px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.image-large .text-wrapper p{
+  font-size: 11px;
+  line-height: 13px;
+}
+.image-large .text-wrapper a {
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-large .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.home-content-wrapper .image-large.section-two{
+  background: url("http://nikevideo.nike.com/72451143001/201609/1429/72451143001_5149731427001_5149395351001.mp4");
+}
+
+.home-content-wrapper .image-large.section-three{
+  background-image: url("/images/give-creativity.jpg");
+}
+
+
+
+
 footer{
   background-color: rgb(19, 19, 19);
 }
@@ -125,6 +175,7 @@ header nav a {
   height: 68px;
   width: 58px;
 }
+<<<<<<< HEAD
 
 
 
@@ -278,3 +329,5 @@ header nav a {
   padding-bottom: 55px;
 }
 
+=======
+>>>>>>> master
