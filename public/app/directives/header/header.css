@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 header {
 }
 header nav {
