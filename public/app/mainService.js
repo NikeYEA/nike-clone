@@ -71,4 +71,13 @@ angular.module('nike-clone').service('mainService', function($http) {
     });
   };
 
+  this.getProductById = function(id) {
+    return $http({
+      method:' GET',
+      url: '/api/products/' + id
+    }).then(function(response){
+      return response.data;
+    })
+  }
+
 });
