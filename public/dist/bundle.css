@@ -129,8 +129,6 @@ header nav a {
 
 
 
-
-
 .home-content-wrapper .image-large{
   min-height: 430px;
   background-repeat: no-repeat;
@@ -174,8 +172,6 @@ header nav a {
 .home-content-wrapper .image-large.section-three{
   background-image: url("/images/give-creativity.jpg");
 }
-<<<<<<< HEAD
-=======
 
 
 .pendleton-container {
@@ -190,13 +186,14 @@ header nav a {
 }
 
 .pendleton-text-left-wrapper {
-  height: 100px;
-  width: 200px;
+  height: 15vh;
+  width: 17%;
   background-color: #f1f1f1;
   border: 1px solid white;
   position: absolute;
   margin-top: 100px;
   margin-left: 20px;
+
 }
 
 .categories-container {
@@ -211,12 +208,44 @@ header nav a {
 }
 
 .categories-left-text-wrapper {
-  height: 300px;
-  width: 200px;
+  height: 40vh;
+  width: 15%;
   border: 1px solid black;
   position: absolute;
-  margin-top: 120px;
+  margin-top: 110px;
   margin-left: 40px;
 }
 
->>>>>>> d424e9e7eebb040542c7eac3d08224623a615b63
+.vest-watch-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid blue;*/
+  background-image: url('../app/images/mens/Vest_WatchMiles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.orange-shirt-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-image: url('../app/images/mens/orange_shirt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jacket-ball-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid purple;*/
+  background-image: url('../app/images/mens/jacket_ball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
