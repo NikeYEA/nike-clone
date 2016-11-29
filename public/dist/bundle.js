@@ -134,7 +134,25 @@ angular.module('nike-clone').directive('footerDir', function() {
   }
 })
 
+angular.module('nike-clone').directive('headerDir', function() {
+  return {
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: ["$scope", function($scope) {
+      
+    }]
+  }
+})
+
 angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) {
+
+}])
+
+angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
+  
+}])
+
+angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
 
 }])
 
@@ -170,22 +188,4 @@ angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
 
 angular.module('nike-clone').controller('womenCtrl', ["$scope", function($scope) {
 
-}])
-
-angular.module('nike-clone').directive('headerDir', function() {
-  return {
-    restrict: 'E',
-    templateUrl: './app/directives/header/header.html',
-    controller: ["$scope", function($scope) {
-      
-    }]
-  }
-})
-
-angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
-
-}])
-
-angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
-  
 }])
