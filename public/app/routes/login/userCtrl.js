@@ -1,4 +1,4 @@
-angular.module("app")
+angular.module("nike-clone")
 	.controller("userCtrl", function($scope, mainService) {
 
 		$scope.getUsers = function() {
