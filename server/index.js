@@ -1,50 +1,40 @@
-// MODULES //
-var bodyParser = require('body-parser');
-var cors = require('cors');
-var express = require('express');
-var massive = require('massive');
-var session = require('express-session');
-var config = require('./config.js')
-// PORT //
-var port = config.port;
 
-// EXPRESS //
+var express = require('express');
+var cors = require('cors');
+var massive = require('massive');
+var bodyParser = require('body-parser');
+var config = require('../config');
 var app = module.exports = express();
-app.use(express.static(__dirname + './../public'));
 app.use(bodyParser.json());
 app.use(cors());
+app.use(express.static(__dirname + './../public'));
+var port = config.port;
 
-// MASSIVE //
 var sdrDatabase = massive.connectSync({
-  connectionString: config.massiveUri
+	connectionString: config.massiveUri
 });
 app.set('db', sdrDatabase);
 var db = app.get('db');
 
+var userCtrl = require('./controllers/userCtrl');
+var orderCtrl = require('./controllers/orderCtrl');
+var productCtrl = require('./controllers/productsCtrl');
 
-// PRODUCTS //
-app.get('/api/products', function(req, res) {
-  console.log("sup");
-  db.run("SELECT * FROM PRODUCTS", function(err, products){
-    res.status(200).json(products);
-  });
-  // db.products.find(5, function(err, products){
-  //   res.status(200).json(products);
-  // }); FIND ALL
+app.post('/api/user', userCtrl.createUser);
+app.get('/api/user', userCtrl.getUsers);
 
-  // db.products.findOne({name: req.body.name}, function(err, products){
-  //   res.status(200).json(products);
-  // }); FIND ONE BY PARAMETER
-});
-// app.post('/api/products', function( req, res) {
-//
-// })
+app.post('/api/order/:userid', orderCtrl.createOrder);
+app.put('/api/order/complete/:orderid/:userid', orderCtrl.completeOrder, orderCtrl.createOrder);
+app.get('/api/order/:userid', orderCtrl.getUserOrder);
+app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 
-
-
-
+app.get('/api/products', productCtrl.getProducts);
+app.get('/api/in/cart/:cartid', productCtrl.getInCart);
+app.post('/api/add/item/cart/:cartid', productCtrl.addToCart);
+app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
+app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
 
 
 app.listen(port, function() {
-  console.log('open in port ' + port);
+	console.log('Listening on port ' + port);
 });
