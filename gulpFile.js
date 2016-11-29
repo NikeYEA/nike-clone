@@ -7,7 +7,7 @@ var nodemon = require('gulp-nodemon');
 var paths = {
     jsSource: ['public/app/**/*.js'],
     cssSource: ['public/app/**/*.css'],
-    server: ['server/index.js']
+    server: ["./server/index.js"]
 };
 
 // gulp.task('serve', function() {
