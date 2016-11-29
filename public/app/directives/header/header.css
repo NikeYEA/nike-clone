@@ -1,0 +1,50 @@
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 14px;
+  line-height: 17px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  height: 16px;
+  width: 21px;
+}
+.flag {
+  height: 12px;
+  width: 18px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.nike-image {
+  height: 68px;
+  width: 58px;
+}

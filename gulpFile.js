@@ -9,7 +9,7 @@ var paths = {
     cssSource: ['public/app/**/*.css'],
     server: ["./server/index.js"]
 };
-//
+
 // gulp.task('serve', function() {
 //     nodemon({
 //         'script': paths.server

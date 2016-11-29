@@ -27,23 +27,35 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'girlsCtrl',
       url: '/girls'
     })
+    .state('customize', {
+      templateUrl: './app/routes/customize/customize.html',
+      controller: 'customizeCtrl',
+      url: '/customize'
+    })
+
 }])
 
 angular.module('nike-clone').service('mainService', ["$http", function($http) {
-  
+
 }])
 
-angular.module('nike-clone').directive('footer', function() {
+angular.module('nike-clone').directive('footerDir', function() {
   return {
     restrict: 'AE',
-    templateUrl: './footer.html'
+    templateUrl: './app/directives/footer/footer.html',
+    controller: ["$scope", function($scope) {
+
+    }]
   }
 })
 
-angular.module('nike-clone').directive('header', function() {
+angular.module('nike-clone').directive('headerDir', function() {
   return {
-    restrict: 'AE',
-    templateUrl: './header.html'
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: ["$scope", function($scope) {
+
+    }]
   }
 })
 
@@ -51,7 +63,16 @@ angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) 
 
 }])
 
+
 angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
+
+
+angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
+
+
+}])
+
+angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) {
 
 }])
 
@@ -60,7 +81,7 @@ angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) 
 }])
 
 angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
-  
+
 }])
 
 angular.module('nike-clone').controller('womenCtrl', ["$scope", function($scope) {
