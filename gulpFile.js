@@ -7,14 +7,14 @@ var nodemon = require('gulp-nodemon');
 var paths = {
     jsSource: ['public/app/**/*.js'],
     cssSource: ['public/app/**/*.css'],
-    server: ['server/index.js']
+    server: ["./server/index.js"]
 };
-
-gulp.task('serve', function() {
-    nodemon({
-        'script': paths.server
-    });
-});
+//
+// gulp.task('serve', function() {
+//     nodemon({
+//         'script': paths.server
+//     });
+// });
 
 gulp.task('css', function() {
     gulp.src(paths.cssSource)
@@ -34,4 +34,4 @@ gulp.task('watch', function() {
     gulp.watch(paths.cssSource, ['css']);
 });
 
-gulp.task('default', ['js', 'css', 'watch', 'serve']);
+gulp.task('default', ['js', 'css', 'watch']);

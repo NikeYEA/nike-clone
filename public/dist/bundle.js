@@ -51,11 +51,11 @@ angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) 
 
 }])
 
-angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) {
+angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
 
 }])
 
-angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
+angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) {
 
 }])
 
