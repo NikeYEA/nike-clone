@@ -3,15 +3,15 @@ var express = require('express');
 var cors = require('cors');
 var massive = require('massive');
 var bodyParser = require('body-parser');
-
+var config = require('../../config');
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static(__dirname + './../public'));
+var port = config.port;
 
-var massiveUri = 'postgres://sbdvsvar:mIJA3-s6iQjcKTXrnyslBzgpSHHaibBr@elmer.db.elephantsql.com:5432/sbdvsvar';
-var massiveServer = massive.connectSync({
-	connectionString: massiveUri
+var sdrDatabase = massive.connectSync({
+	connectionString: config.massiveUri
 });
 app.set('db', massiveServer);
 var db = app.get('db');
@@ -34,7 +34,7 @@ app.post('/api/add/item/cart/:cartid', productCtrl.addToCart);
 app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
 app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
 
-var port = 3000;
+
 app.listen(port, function() {
 	console.log('Listening on port ' + port);
 });
