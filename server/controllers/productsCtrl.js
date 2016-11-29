@@ -3,7 +3,7 @@ var db = app.get('db');
 
 module.exports = {
 	getInCart: function(req, res, next) {
-		db.product_cart_find([req.params.cartid], function(err, products) {
+		db.product_cart_find([req.params.orderid], function(err, products) {
 			if (err) {
 				return res.status(500)
 					.send(err);
@@ -15,7 +15,7 @@ module.exports = {
 	addToCart: function(req, res, next) {
 		var product = req.body;
 
-		db.product_cart_insert([req.params.cartid, product.id, product.qty], function(err, productInCart) {
+		db.product_cart_insert([req.params.orderid, product.id, product.qty], function(err, productInCart) {
 			if (err) {
 				return res.status(500)
 					.send(err);
