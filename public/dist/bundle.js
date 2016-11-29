@@ -39,17 +39,23 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
   
 }])
 
-angular.module('nike-clone').directive('footer', function() {
+angular.module('nike-clone').directive('footerDir', function() {
   return {
     restrict: 'AE',
-    templateUrl: './footer.html'
+    templateUrl: './app/directives/footer/footer.html',
+    controller: ["$scope", function($scope) {
+
+    }]
   }
 })
 
-angular.module('nike-clone').directive('header', function() {
+angular.module('nike-clone').directive('headerDir', function() {
   return {
-    restrict: 'AE',
-    templateUrl: './header.html'
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: ["$scope", function($scope) {
+      
+    }]
   }
 })
 

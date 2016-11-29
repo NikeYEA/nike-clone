@@ -1,6 +1,9 @@
-angular.module('nike-clone').directive('header', function() {
+angular.module('nike-clone').directive('headerDir', function() {
   return {
-    restrict: 'AE',
-    templateUrl: './header.html'
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: function($scope) {
+      
+    }
   }
 })

@@ -10,7 +10,7 @@ var port = config.port;
 
 // EXPRESS //
 var app = module.exports = express();
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + './../public'));
 app.use(bodyParser.json());
 app.use(cors());
 
