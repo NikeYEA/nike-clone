@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static(__dirname + './../public'));
 var port = config.port;
-var massiveUri = 'postgres://sbdvsvar:mIJA3-s6iQjcKTXrnyslBzgpSHHaibBr@elmer.db.elephantsql.com:5432/sbdvsvar';
-var massiveServer = massive.connectSync({
-	connectionString: massiveUri
+
+var sdrDatabase = massive.connectSync({
+	connectionString: config.massiveUri
 });
 app.set('db', massiveServer);
 var db = app.get('db');
