@@ -17,5 +17,5 @@ angular.module("nike-clone")
 		}
 		$scope.getUsers();
 
-
+		
 	});
