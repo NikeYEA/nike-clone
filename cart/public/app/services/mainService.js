@@ -1,6 +1,15 @@
 angular.module("app")
 	.service("mainService", function($http) {
 
+		this.postUsers = function(fname,lname) {
+			return $http({
+				method: 'POST',
+				url: '/api/user',
+				name: fname,
+				email: email
+			});
+		};
+
 		this.getUsers = function() {
 			return $http({
 				method: 'GET',
