@@ -19,19 +19,20 @@ var db = app.get('db');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
-
+// USER //
 app.post('/api/user', userCtrl.createUser);
 app.get('/api/user', userCtrl.getUsers);
-
+// ORDER //
 app.post('/api/order/:userid', orderCtrl.createOrder);
 app.put('/api/order/complete/:orderid/:userid', orderCtrl.completeOrder, orderCtrl.createOrder);
 app.get('/api/order/:userid', orderCtrl.getUserOrder);
 app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
-
+// PRODUCTS //
 app.get('/api/products', productCtrl.getProducts);
 app.get('/api/products/:id',productCtrl.getProductById);
-app.get('/api/in/cart/:cartid', productCtrl.getInCart);
-app.post('/api/add/item/cart/:cartid', productCtrl.addToCart);
+// CART //
+app.get('/api/in/cart/:orderid', productCtrl.getInCart);
+app.post('/api/add/item/cart/:orderid', productCtrl.addToCart);
 app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
 app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
 
