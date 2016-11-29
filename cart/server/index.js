@@ -13,7 +13,7 @@ var port = config.port;
 var sdrDatabase = massive.connectSync({
 	connectionString: config.massiveUri
 });
-app.set('db', massiveServer);
+app.set('db', sdrDatabase);
 var db = app.get('db');
 
 var userCtrl = require('./controllers/userCtrl');
