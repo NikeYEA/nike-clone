@@ -219,7 +219,6 @@ header nav a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*position: relative;*/
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -227,18 +226,14 @@ header nav a {
 .below-vest-text-wrapper {
   border: 2px solid blue;
   width: 30%;
-  /*position: absolute;*/
-  /*margin-top: 460px;*/
-  /*margin-left: 100px;*/
   text-align: center;
+  padding-bottom: 35px;
 }
 .below-watch-text-wrapper {
   border: 2px solid green;
   width: 30%;
-  /*position: absolute;*/
-  /*margin-top: 460px;*/
-  /*margin-left: 750px;*/
   text-align: center;
+  padding-bottom: 35px;
 }
 .orange-shirt-container {
   height: 80vh;
@@ -248,7 +243,6 @@ header nav a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /*position: relative;*/
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -257,6 +251,7 @@ header nav a {
   width: 40%;
   border: 2px solid gray;
   text-align: center;
+  padding-bottom: 32px;
 }
 .jacket-ball-container {
   height: 80vh;
@@ -266,6 +261,20 @@ header nav a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.below-jacket-text-wrapper {
+  border: 2px solid yellow;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 40px;
+}
+.below-ball-text-wrapper {
+  border: 2px solid orange;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 55px;
 }
 
