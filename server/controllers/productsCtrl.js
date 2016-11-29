@@ -53,5 +53,18 @@ module.exports = {
 			res.status(200)
 				.send(products);
 		});
+	},
+	getProductById: function(req, res, next) {
+		console.log('this is req params id:' + req.params.id);
+
+		db.get_product_by_id([req.params.id], function(err, products){
+
+			if (err) {
+				return res.status(500)
+					.send(err);
+			}
+			res.status(200)
+				.send(products);
+		})
 	}
 };

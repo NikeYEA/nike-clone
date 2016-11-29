@@ -29,6 +29,7 @@ app.get('/api/order/:userid', orderCtrl.getUserOrder);
 app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 
 app.get('/api/products', productCtrl.getProducts);
+app.get('/api/products/:id',productCtrl.getProductById);
 app.get('/api/in/cart/:cartid', productCtrl.getInCart);
 app.post('/api/add/item/cart/:cartid', productCtrl.addToCart);
 app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
