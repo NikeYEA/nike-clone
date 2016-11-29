@@ -22,9 +22,11 @@ module.exports = {
 		});
 	},
 	getUserOrder: function(req, res, next) {
+		console.log(req.params.userid);
 		var completeOrder = {};
 		db.order_by_user([req.params.userid], function(err, order) {
 			if (err) {
+				console.log(err);
 				return res.status(500)
 					.send(err);
 			}
@@ -32,6 +34,7 @@ module.exports = {
 			completeOrder.order = order[0];
 			db.product_cart_find([completeOrder.order.id], function(err, products) {
 				if (err) {
+					console.log(err);
 					return res.status(500)
 						.send(err);
 				}
