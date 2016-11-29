@@ -8,7 +8,6 @@
   background-position: center;
   position: relative;
 }
-
 .pendleton-text-left-wrapper {
   height: 15vh;
   width: 17%;
@@ -17,9 +16,7 @@
   position: absolute;
   margin-top: 100px;
   margin-left: 20px;
-
 }
-
 .categories-container {
   height: 74vh;
   width: 100%;
@@ -30,7 +27,6 @@
   background-position: center;
   position: relative;
 }
-
 .categories-left-text-wrapper {
   height: 40vh;
   width: 15%;
@@ -39,7 +35,6 @@
   margin-top: 110px;
   margin-left: 40px;
 }
-
 .vest-watch-container {
   height: 80vh;
   width: 100%;
@@ -48,9 +43,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  /*position: relative;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
-
+.below-vest-text-wrapper {
+  border: 2px solid blue;
+  width: 30%;
+  /*position: absolute;*/
+  /*margin-top: 460px;*/
+  /*margin-left: 100px;*/
+  text-align: center;
+}
+.below-watch-text-wrapper {
+  border: 2px solid green;
+  width: 30%;
+  /*position: absolute;*/
+  /*margin-top: 460px;*/
+  /*margin-left: 750px;*/
+  text-align: center;
+}
 .orange-shirt-container {
   height: 80vh;
   width: 100%;
@@ -59,9 +72,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  /*position: relative;*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-
+.below-orange-shirt-text-wrapper {
+  width: 40%;
+  border: 2px solid gray;
+  text-align: center;
+}
 .jacket-ball-container {
   height: 80vh;
   width: 100%;
