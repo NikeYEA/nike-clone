@@ -15,6 +15,7 @@ angular.module("nike-clone")
 				console.log('this is the postuser response: ',response);
 			})
 		}
+
 		$scope.getUsers();
 
 
