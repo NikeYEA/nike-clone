@@ -32,5 +32,10 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'customizeCtrl',
       url: '/customize'
     })
+    .state('login', {
+      templateUrl: './app/routes/login/login.html',
+      controller: 'userCtrl',
+      url: '/user'
+    })
 
 })
