@@ -113,6 +113,15 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
     });
   };
 
+  this.getProductById = function(id) {
+    return $http({
+      method:' GET',
+      url: '/api/products/' + id
+    }).then(function(response){
+      return response.data;
+    })
+  }
+
 }]);
 
 angular.module('nike-clone').directive('footerDir', function() {
@@ -170,7 +179,7 @@ angular.module("nike-clone")
 		}
 		$scope.getUsers();
 
-
+		
 	}]);
 
 angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {

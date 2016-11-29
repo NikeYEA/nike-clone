@@ -7,34 +7,57 @@
 #bgshoevid{
   margin-right: auto;
   margin-left:auto;
-  border: solid;
+  /*border: solid;*/
   width: 99%;
-  background-color: black;
 }
 .box-options{
   background-color: rgb(245, 245, 245);
   display: flex;
-
 }
 .shipment-box {
-  border: solid;
+  /*border: solid;*/
+  /*padding-top: 50px;*/
   display: inline-block;
   width: 33%;
   flex-direction: row;
   text-align: center;
 }
 .shipment-box a{
-  border: solid;
-  border-radius: 50%;
+  text-decoration: none;
+  color: rgb(159, 159, 159);
+  /*border: solid;
+  border-radius: 50%;*/
   border-color: rgb(179, 179, 179);
-  height: 100px;
-  width: 100px;
-  font-size: 23px;
-
+  /*height: 100px;
+  width: 100px;*/
+  font-size: 35px;
+  padding-bottom: 200px;
 }
 .shipment-box h2{
-  font-size: 25px;
+  font-size: 45px;
+  padding-bottom: 40px;
 }
 .shipment-box p{
+  font-size: 25px;
+  color: rgb(83, 83, 83);
+  padding-bottom: 40px;
+}
+
+.customize-mid-section {
+}
+.starting-text{
+  border: solid;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /*display: inline-block;*/
+  /*margin-left: 100px;*/
+  /*margin-left: auto;*/
+}
+.starting-text h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.starting-text p{
   font-size: 15px;
 }
