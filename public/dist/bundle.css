@@ -129,6 +129,8 @@ header nav a {
 
 
 
+
+
 .home-content-wrapper .image-large{
   min-height: 430px;
   background-repeat: no-repeat;
@@ -172,6 +174,9 @@ header nav a {
 .home-content-wrapper .image-large.section-three{
   background-image: url("/images/give-creativity.jpg");
 }
+<<<<<<< HEAD
+=======
+
 
 .pendleton-container {
   height: 74vh;
@@ -214,3 +219,4 @@ header nav a {
   margin-left: 40px;
 }
 
+>>>>>>> d424e9e7eebb040542c7eac3d08224623a615b63
