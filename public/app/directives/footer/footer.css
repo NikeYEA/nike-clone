@@ -1,5 +1,6 @@
 footer{
   background-color: rgb(19, 19, 19);
+  padding-bottom: 25px;
 }
 .footer-wrapper {
   max-width: 1100px;
@@ -17,7 +18,9 @@ footer{
 .footer-container p {
   color: white;
   margin-top: 0px;
+  margin-bottom: 19px;
 }
+
 .footer-container a {
   color: white;
 }
