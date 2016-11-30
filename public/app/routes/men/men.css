@@ -2,11 +2,22 @@
   height: 74vh;
   width: 100%;
   /*border: 1px solid black;*/
-  background-image: url('../app/images/mens/Pendlton.jpg');
+  /*background-image: url('../app/images/mens/Pendlton.jpg');*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  position: relative;
+}
+#pendleton-vid{
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  color: #fff;
+  width: 100%;
 }
 .pendleton-text-left-wrapper {
   height: 15vh;
@@ -16,12 +27,13 @@
   position: absolute;
   margin-top: 100px;
   margin-left: 20px;
+  /*z-index: 2;*/
 }
 .categories-container {
   height: 74vh;
   width: 100%;
   /*border: 1px solid blue;*/
-  background-image: url('../app/images/mens/men_categories.jpg');
+  background-image: url('./../app/images/mens/men_categories.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -78,7 +90,7 @@
   height: 80vh;
   width: 100%;
   /*border: 2px solid blue;*/
-  background-image: url('../app/images/mens/Vest_WatchMiles.jpg');
+  background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -101,7 +113,7 @@
   height: 80vh;
   width: 100%;
   /*border: 2px solid red;*/
-  background-image: url('../app/images/mens/orange_shirt.jpg');
+  background-image: url('./../app/images/mens/orange_shirt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -119,7 +131,7 @@
   height: 80vh;
   width: 100%;
   /*border: 2px solid purple;*/
-  background-image: url('../app/images/mens/jacket_ball.jpg');
+  background-image: url('./../app/images/mens/jacket_ball.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
