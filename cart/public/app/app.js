@@ -8,7 +8,7 @@ angular.module("app")
 			.state('user', {
 			url: '/user',
 			templateUrl: './app/routes/user/userTmpl.html',
-			controller: 'userCtrl'
+			controller: 'mouseCtrl'
 		})
 
 

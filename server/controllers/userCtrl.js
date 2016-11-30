@@ -32,5 +32,5 @@ console.log(err);
 			res.status(200)
 				.send(users);
 		});
-	},
+	}
 };
