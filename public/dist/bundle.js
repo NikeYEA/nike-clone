@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+ls
+>>>>>>> master
 angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/home');
 
@@ -37,6 +41,10 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'userCtrl',
       url: '/user'
     })
+<<<<<<< HEAD
+=======
+  
+>>>>>>> master
 
 }])
 
@@ -124,22 +132,40 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
 
 }]);
 
+<<<<<<< HEAD
 angular.module('nike-clone').directive('footerDir', function() {
   return {
     restrict: 'AE',
     templateUrl: './app/directives/footer/footer.html',
     controller: ["$scope", function($scope) {
 
-    }]
-  }
-})
-
+=======
 angular.module('nike-clone').directive('headerDir', function() {
   return {
     restrict: 'E',
     templateUrl: './app/directives/header/header.html',
     controller: ["$scope", function($scope) {
       
+>>>>>>> master
+    }]
+  }
+})
+
+<<<<<<< HEAD
+angular.module('nike-clone').directive('headerDir', function() {
+  return {
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: ["$scope", function($scope) {
+      
+=======
+angular.module('nike-clone').directive('footerDir', function() {
+  return {
+    restrict: 'AE',
+    templateUrl: './app/directives/footer/footer.html',
+    controller: ["$scope", function($scope) {
+
+>>>>>>> master
     }]
   }
 })
@@ -148,6 +174,10 @@ angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) 
 
 }])
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
   
 }])
