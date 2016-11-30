@@ -6,6 +6,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
 }
 .clear{
   clear: both;
@@ -22,9 +23,13 @@ header nav {
   display: flex;
 }
 header nav a {
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 16px;
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .header_top {
   display: block;
@@ -33,36 +38,39 @@ header nav a {
 .header_top_content {
   float: right;
   padding-right: 33px;
-  padding-top: 15px;
-  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 4px;
 }
 .header_top_content a{
   margin-right: 12px;
   margin-left: 12px;
   color: #8D8D8D;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 12px;
+  line-height: 15px;
 }
 .header_top_content a:hover{
   cursor: pointer;
 }
 .cart {
-  height: 16px;
-  width: 21px;
+  width: 20px;
+  margin-bottom: -3px;
 }
 .flag {
-  height: 12px;
-  width: 18px;
+  width: 20px;
+  margin-bottom: -3px;
 }
 .header_bottom {
   display: flex;
   justify-content: space-between;
   padding-right: 33px;
   padding-left: 33px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 .nike-image {
-  height: 68px;
   width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
 }

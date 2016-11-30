@@ -25,13 +25,17 @@
 .shipment-box a{
   text-decoration: none;
   color: rgb(159, 159, 159);
-  /*border: solid;
-  border-radius: 50%;*/
+  border: solid thin;
   border-color: rgb(179, 179, 179);
-  /*height: 100px;
-  width: 100px;*/
   font-size: 35px;
-  padding-bottom: 200px;
+  height: 50px;
+  /*line height must be the same as the heightfor contentto be in the middle*/
+  line-height: 50px;
+  width: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px
 }
 .shipment-box h2{
   font-size: 45px;
@@ -50,6 +54,9 @@
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
+  max-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
   /*display: inline-block;*/
   /*margin-left: 100px;*/
   /*margin-left: auto;*/
@@ -57,7 +64,14 @@
 .starting-text h2{
   font-size: 25px;
   padding-bottom: 20px;
+  letter-spacing: 2px;
+
 }
 .starting-text p{
   font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+.starting-text .p-1 {
+  padding-bottom: 10px;
 }

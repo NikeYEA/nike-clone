@@ -9,20 +9,24 @@
   background-image: url("./../app/images/home/give_nike_gray.jpg");
 }
 .home-inner-wrapper {
-  max-width: 1000px;
-  padding: 15px;
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .image-large .text-wrapper{
   max-width: 230px;
 }
 .image-large .text-wrapper h2{
   font-size: 29px;
-  line-height: 32px;
+  line-height: 41px;
   text-transform: uppercase;
+  margin-bottom: 22px;
 }
 .image-large .text-wrapper p{
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 9px;
 }
 .image-large .text-wrapper a {
   font-size: 11px;
@@ -60,12 +64,15 @@
 .article-wrapper {
   display: flex;
   justify-content: space-between;
-
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.section-four{
+  background-color: rgb(242, 242, 242);
 }
 
-
 article {
-  /*width: 25%;*/
+  width: 24%;
 }
 
 article h3 {
@@ -73,13 +80,21 @@ article h3 {
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
+  padding-bottom: 24px;
+  margin-top: 25px;
+  text-transform: uppercase;
 }
 
 article li {
-  color: rgb(83, 83, 83);
-  font-size: 11px;
-  line-height: 13px;
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
   text-decoration: none;
+  padding-bottom: 9px;
+}
+
+article img {
+  max-width: 100%;
 }
 
 article a {
