@@ -1,0 +1,103 @@
+.pendleton-container {
+  height: 74vh;
+  width: 100%;
+  /*border: 1px solid black;*/
+  background-image: url('../app/images/mens/Pendlton.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.pendleton-text-left-wrapper {
+  height: 15vh;
+  width: 17%;
+  background-color: #f1f1f1;
+  border: 1px solid white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.categories-container {
+  height: 74vh;
+  width: 100%;
+  /*border: 1px solid blue;*/
+  background-image: url('../app/images/mens/men_categories.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.categories-left-text-wrapper {
+  height: 40vh;
+  width: 15%;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 40px;
+}
+.vest-watch-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid blue;*/
+  background-image: url('../app/images/mens/Vest_WatchMiles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.below-vest-text-wrapper {
+  border: 2px solid blue;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.below-watch-text-wrapper {
+  border: 2px solid green;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.orange-shirt-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-image: url('../app/images/mens/orange_shirt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.below-orange-shirt-text-wrapper {
+  width: 40%;
+  border: 2px solid gray;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.jacket-ball-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid purple;*/
+  background-image: url('../app/images/mens/jacket_ball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.below-jacket-text-wrapper {
+  border: 2px solid yellow;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 40px;
+}
+.below-ball-text-wrapper {
+  border: 2px solid orange;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 55px;
+}
