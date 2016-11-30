@@ -4,7 +4,7 @@ var db = app.get('db');
 module.exports = {
 	createUser: function(req, res, next) {
 
-		db.user_create([req.body.name, req.body.email], function(err, user) {
+		db.user_create([req.body.name, req.body.email, req.body.mobile_phone], function(err, user) {
 			if (err) {
 				return res.status(500)
 					.send(err);
