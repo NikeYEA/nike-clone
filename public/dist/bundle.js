@@ -37,6 +37,11 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'userCtrl',
       url: '/user'
     })
+    .state('cart', {
+      templateUrl: './app/routes/cart/cart.html',
+      controller: 'cartCtrl',
+      url: '/cart'
+    })
 
 }])
 
@@ -113,6 +118,15 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
     });
   };
 
+  this.getProductById = function(id) {
+    return $http({
+      method:' GET',
+      url: '/api/products/' + id
+    }).then(function(response){
+      return response.data;
+    })
+  }
+
 }]);
 
 angular.module('nike-clone').directive('footerDir', function() {
@@ -138,6 +152,7 @@ angular.module('nike-clone').directive('headerDir', function() {
 angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) {
 
 }])
+
 
 angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
   
@@ -170,7 +185,7 @@ angular.module("nike-clone")
 		}
 		$scope.getUsers();
 
-
+		
 	}]);
 
 angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
