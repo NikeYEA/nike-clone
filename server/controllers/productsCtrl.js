@@ -15,7 +15,7 @@ module.exports = {
 	addToCart: function(req, res, next) {
 		var product = req.body;
 
-		db.product_cart_insert([req.params.orderid, product.id, product.qty], function(err, productInCart) {
+		db.product_cart_insert([req.params.orderid, product.product_id, product.qty], function(err, productInCart) {
 			if (err) {
 				return res.status(500)
 					.send(err);

@@ -1,3 +1,4 @@
+ls
 angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/home');
 
@@ -37,5 +38,6 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'userCtrl',
       url: '/user'
     })
+
 
 })
