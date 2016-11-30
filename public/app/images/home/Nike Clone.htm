@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://localhost:9000/#/customize -->
+<html ng-app="nike-clone" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <title>Nike Clone</title>
+    <link rel="stylesheet" href="./Nike Clone_files/reset.css">
+    <link rel="stylesheet" href="./Nike Clone_files/bundle.css">
+  <script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script></head>
+  <body cz-shortcut-listen="true">
+    
+    <header-dir><header>
+  <div class="header_top">
+    <div class="header_top_content">
+      <a ui-sref="login-in" ng-class="navClass(&#39;today&#39;)">Join / Log In To Nike+ Account</a>
+      <a ui-sref="login-in" ng-class="navClass(&#39;today&#39;)">Help</a>
+      <a ui-sref="login-in" ng-class="navClass(&#39;today&#39;)"><img class="cart" src="./Nike Clone_files/shopping_cart.png" alt="cart"></a>
+      <a ui-sref="login-in" ng-class="navClass(&#39;today&#39;)"><img class="flag" src="./Nike Clone_files/us_sml.png" alt="cart"></a>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <hr>
+  <div class="header_bottom">
+    <a ui-sref="home" href="http://localhost:9000/#/home"><img class="nike-image" src="./Nike Clone_files/nike_logo.png" alt="logo"></a>
+    <nav class="oswald">
+      <a ui-sref="men" href="http://localhost:9000/#/men">Men</a>
+      <a ui-sref="women" href="http://localhost:9000/#/women">Women</a>
+      <a ui-sref="boys" href="http://localhost:9000/#/boys">Boys</a>
+      <a ui-sref="girls" href="http://localhost:9000/#/girls">Girls</a>
+      <a ui-sref="customize" href="http://localhost:9000/#/customize">Customize</a>
+    </nav>
+    <input class="search ng-pristine ng-untouched ng-valid" ng-model="string" placeholder="Search">
+  </div>
+</header>
+</header-dir>
+    <!-- uiView: undefined --><ui-view class="ng-scope"><div class="customize-content-wrapper ng-scope">
+    <section class="customize-top-section">
+        <video poster="./../app/images/customize/shoe-video.mp4" id="bgshoevid" playsinline="" autoplay="" muted="" loop="">
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="./../app/images/customize/shoe-video.mp4" type="video/webm">
+          <!-- <source src="http://nikevideo.nike.com/72451143001/201609/1429/72451143001_5149731427001_5149395351001.mp4" type="video/mp4"> -->
+        </video>
+
+      <div class="box-options">
+        <div class="shipment-box shipment-box-1">
+          <a class="link-num link-1 oswald" href="http://localhost:9000/#">1</a>
+          <h2 class="oswald">You Design It</h2>
+          <p class="oswald">We'll show you how to get started below</p>
+        </div>
+        <div class="shipment-box shipment-box-2">
+          <a class="link-num link-2" href="http://localhost:9000/#">2</a>
+          <h2 class="oswald">We Make It</h2>
+          <p class="oswald">To your exact specifications</p>
+        </div>
+        <div class="shipment-box shipment-box-3">
+          <a class="link-num link-3" href="http://localhost:9000/#">3</a>
+          <h2 class="oswald">Delivered in 3-5 Weeks</h2>
+          <p class="oswald">We'll email you updates along the way</p>
+        </div>
+     </div>
+    </section>
+
+  <section class="customize-mid-section oswald">
+    <div class="starting-text">
+      <h2>Let's Get Started</h2>
+      <p class="p-1">Choose a starting point below to</p>
+      <p class="p-2">arrive at your perfect shoe</p>
+    </div>
+
+    <div class="starting-pics">
+      <a href="http://localhost:9000/#"><img src="./Nike Clone_files/starting-pics-1.png" alt=""></a>
+      <a href="http://localhost:9000/#"><img src="./Nike Clone_files/starting-pics-2.png" alt=""></a>
+      <a href="http://localhost:9000/#"><img src="./Nike Clone_files/starting-pics-3.png" alt=""></a>
+      <a href="http://localhost:9000/#"><img src="./Nike Clone_files/starting-pics-4.png" alt=""></a>
+    </div>
+  </section>
+</div>
+</ui-view>
+    <footer-dir><footer>
+  <div class="footer-wrapper">
+
+    <div class="footer-container">
+      <div class="left-footer">
+
+        <div class="footer-one left-footer-columns">
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps oswald">GIFT CARDS</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps oswald">FIND A STORE</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps oswald">SIGN UP FOR EMAIL</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps oswald">JOIN NIKE+</a></p>
+        </div>
+        <div class="footer-two left-footer-columns">
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps">GET HELP</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Order Status</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Shipping and Delivery</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Returns</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Payment Options</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Contact Us</a></p>
+
+        </div>
+        <div class="footer-three left-footer-columns">
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps">NEWS</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)" class="footer_caps">ABOUT NIKE</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Careers</a></p>
+          <p><a ui-sref="today" ng-class="navClass(&#39;men&#39;)">Investors</a></p>
+        </div>
+
+      </div>
+      <div class="right-footer">
+
+
+        <div class="social-media oswald">
+          <p>SOCIAL</p>
+          <a href="https://twitter.com/Nike"><img src="./Nike Clone_files/twitter_icon.png" alt="logo"></a>
+          <a href="https://www.facebook.com/nike"><img src="./Nike Clone_files/facebook_icon.png" alt="logo"></a>
+          <a href="https://www.youtube.com/user/nike"><img src="./Nike Clone_files/youtube_icon.png" alt="logo"></a>
+          <a href="https://www.instagram.com/nike/"><img src="./Nike Clone_files/instagram_icon.png" alt="logo"></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="bottom-left-footer">
+      <p>© 2016 Nike, Inc. All Rights Reserved</p>
+    </div>
+
+    <div class="bottom-right-footer">
+      <p><a ui-sref="login-in"> Terms of Use</a> | <a ui-sref="login-in" ng-class="navClass(&#39;today&#39;)">Nike Privacy Policy</a></p>
+    </div>
+    <div class="clear">
+
+    </div>
+  </div>
+</footer>
+</footer-dir>
+
+    <script src="./Nike Clone_files/jquery.min.js"></script>
+    <script src="./Nike Clone_files/angular.js"></script>
+    <script src="./Nike Clone_files/angular-ui-router.js"></script>
+    <script src="./Nike Clone_files/bundle.js"></script>
+  
+
+</body></html>
