@@ -37,11 +37,6 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'userCtrl',
       url: '/user'
     })
-    .state('cart', {
-      templateUrl: './app/routes/cart/cart.html',
-      controller: 'cartCtrl',
-      url: '/cart'
-    })
 
 }])
 
@@ -152,7 +147,6 @@ angular.module('nike-clone').directive('footerDir', function() {
 angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) {
 
 }])
-
 
 angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
   
