@@ -30,8 +30,7 @@ angular.module("app")
 			mainService.placeOrder(id, orderid)
 				.then(function(response) {
 					console.log(response.data);
-					$state.go('user');
-				});
-		};
+					$state.go('user');				});
+	};
 
-	});
+});

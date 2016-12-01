@@ -4,6 +4,7 @@ var cors = require('cors');
 var massive = require('massive');
 var bodyParser = require('body-parser');
 var config = require('../config');
+var client = require('twilio')(config.accountSid, config.authToken);
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -35,6 +36,21 @@ app.get('/api/in/cart/:orderid', productCtrl.getInCart);
 app.post('/api/add/item/cart/:orderid', productCtrl.addToCart);
 app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
 app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
+
+// TWILIO //
+app.get('/testtwilio', function(req, res) {
+	client.sendMessage({
+		to:'+18016945874',
+		from: '+13857071154',
+		body: 'Yo what up, booooiiiissss'
+	}, function(err, data) {
+		if(err) {
+			console.log(err);
+		} else {
+			console.log(data);
+		}
+	})
+})
 
 
 app.listen(port, function() {
