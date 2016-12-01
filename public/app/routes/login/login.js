@@ -1,6 +1,6 @@
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("app").controller("loginCtrl", function($scope, authService, $state) {
+angular.module("app").controller("loginCtrl", function($scope, authService, $state, mainService) {
 
   // VARIABLES
   // ============================================================
@@ -33,5 +33,21 @@ angular.module("app").controller("loginCtrl", function($scope, authService, $sta
       return alert("Could not register user");
     });
   };
+
+  $scope.getUsers = function() {
+    mainService.getUsers()
+      .then(function(response) {
+        $scope.users = response.data;
+        console.log(response);
+
+      });
+  };
+
+  $scope.postUsers = function(fname,email){
+    mainService.postUsers(fname,email).then(function(response){
+      console.log('this is the postuser response: ',response);
+    })
+  }
+  $scope.getUsers();
 
 });
