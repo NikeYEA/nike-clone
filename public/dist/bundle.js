@@ -167,6 +167,10 @@ angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) 
 
 }])
 
+angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
+  
+}])
+
 angular.module("nike-clone")
 	.controller("userCtrl", ["$scope", "mainService", function($scope, mainService) {
 
@@ -188,10 +192,6 @@ angular.module("nike-clone")
 
 		
 	}]);
-
-angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
-  
-}])
 
 angular.module('nike-clone').controller('stuffCtrl', ["$scope", function($scope) {
   $scope.test = "test";
