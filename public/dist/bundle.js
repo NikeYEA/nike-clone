@@ -47,6 +47,11 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
 
 }])
 
+
+function findMe(){
+
+}
+
 angular.module('nike-clone').service('mainService', ["$http", function($http) {
   this.postUsers = function(fname,email) {
     return $http({
