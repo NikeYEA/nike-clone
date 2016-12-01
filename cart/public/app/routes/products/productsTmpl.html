@@ -1,0 +1,7 @@
+<div ng-repeat="product in products">
+  {{product.name}}<br> {{product.description}}
+  <br> {{product.price | currency}}
+  <input type="number" ng-model="qty">
+  <button type="button" name="button" ng-click="addToCart(order_id, product.id, qty)">Add me to cart</button>
+  <br><br>
+</div>
