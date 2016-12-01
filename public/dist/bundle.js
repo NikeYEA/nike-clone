@@ -131,22 +131,22 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
 
 }]);
 
-angular.module('nike-clone').directive('footerDir', function() {
-  return {
-    restrict: 'AE',
-    templateUrl: './app/directives/footer/footer.html',
-    controller: ["$scope", function($scope) {
-
-    }]
-  }
-})
-
 angular.module('nike-clone').directive('headerDir', function() {
   return {
     restrict: 'E',
     templateUrl: './app/directives/header/header.html',
     controller: ["$scope", function($scope) {
       
+    }]
+  }
+})
+
+angular.module('nike-clone').directive('footerDir', function() {
+  return {
+    restrict: 'AE',
+    templateUrl: './app/directives/footer/footer.html',
+    controller: ["$scope", function($scope) {
+
     }]
   }
 })
