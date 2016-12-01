@@ -37,5 +37,10 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'userCtrl',
       url: '/user'
     })
+    .state('path', {
+      templateUrl: './app/routes/path/path.html',
+      controller: 'pathCtrl',
+      url: '/path'
+    })
 
 })
