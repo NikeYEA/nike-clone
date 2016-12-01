@@ -37,8 +37,20 @@ angular.module('nike-clone', ['ui.router']).config(["$stateProvider", "$urlRoute
       controller: 'userCtrl',
       url: '/user'
     })
+    .state('stuff', {
+      templateUrl: './app/routes/stuff/stuff.html',
+      controller: 'stuffCtrl',
+      url: '/stuff'
+    })
+
+
 
 }])
+
+
+function findMe(){
+
+}
 
 angular.module('nike-clone').service('mainService', ["$http", function($http) {
   this.postUsers = function(fname,email) {
@@ -124,22 +136,22 @@ angular.module('nike-clone').service('mainService', ["$http", function($http) {
 
 }]);
 
-angular.module('nike-clone').directive('headerDir', function() {
-  return {
-    restrict: 'E',
-    templateUrl: './app/directives/header/header.html',
-    controller: ["$scope", function($scope) {
-      
-    }]
-  }
-})
-
 angular.module('nike-clone').directive('footerDir', function() {
   return {
     restrict: 'AE',
     templateUrl: './app/directives/footer/footer.html',
     controller: ["$scope", function($scope) {
 
+    }]
+  }
+})
+
+angular.module('nike-clone').directive('headerDir', function() {
+  return {
+    restrict: 'E',
+    templateUrl: './app/directives/header/header.html',
+    controller: ["$scope", function($scope) {
+      
     }]
   }
 })
@@ -184,6 +196,10 @@ angular.module("nike-clone")
 
 angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
   
+}])
+
+angular.module('nike-clone').controller('stuffCtrl', ["$scope", function($scope) {
+  $scope.test = "test";
 }])
 
 angular.module('nike-clone').controller('womenCtrl', ["$scope", function($scope) {
