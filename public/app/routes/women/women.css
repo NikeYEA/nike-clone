@@ -1,0 +1,98 @@
+.womens-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.womens-sneak-boots-container {
+  position: relative;
+  min-height: 472px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#sneak-boots {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.sneak-boot-text-wrapper {
+  height: 230px;
+  width: 475px;
+  /*border: 2px solid red;*/
+  text-align: right;
+  margin-right: 50px;
+}
+.four-ways-text {
+  font-size: 40px;
+  font-family: 'Roboto: 700', sans-serif;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.cold-wet-weather {
+  font-family: 'Roboto: 300', sans-serif;
+  color: #434343;
+  padding-bottom: 40px;
+}
+.womens-categories-container {
+  min-height: 400px;
+  background-image: url('./../app/images/womens/womens_categories_pic.jpg');
+}
+.right-shoe-text-wrapper {
+  height: 265px;
+  width: 500px;
+  /*border: 1px solid red;*/
+  padding-top: 75px;
+  padding-left: 40px;
+}
+.the-right-shoe {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.different-workouts {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.womens-categories-text-container {
+  width: 100%;
+  height: 135px;
+  border: 2px solid black;
+  padding-left: 385px;
+}
+.womens-text-wrapper {
+  height: 130px;
+  width: 120px;
+  border: 2px solid red;
+  display: inline-block;
+  margin-right: 95px;
+  text-align: center;
+  padding-top: 35px;
+}
+.womens-text-wrapper h1 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.womens-text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.tights-bras-yoga-container {
+  min-height: 364px;
+  background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
+}
+.shoe-jump-container {
+  min-height: 500px;
+  background-image: url('./../app/images/womens/shoes_jump.jpg');
+}
+.below-shoe-jump-container {
+  min-height: 198px;
+  width: 100%;
+}
