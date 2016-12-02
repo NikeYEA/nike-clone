@@ -26,6 +26,7 @@ angular.module("nike-clone").service("authService", function($http) {
       method: 'GET',
       url: '/api/me'
     }).then(function(response) {
+      console.log('this is the current user: ',response);
       return response;
     });
   };

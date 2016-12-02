@@ -62,8 +62,7 @@ app.get('/api/logout', function(req, res, next) {
 app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
 app.put('/api/user/current', isAuthed, authCtrl.update);
-
-
+// app.get('/api/logout', authCtrl.logout);
 // USER //
 app.post('/api/user', userCtrl.createUser);
 app.get('/api/user', userCtrl.getUsers);
