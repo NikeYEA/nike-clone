@@ -73,6 +73,7 @@ console.log(err);
   update: function(req, res, next) {
     var updateUser = req.body;
 
+
     updateUser.id = req.user.id;
 
     db.users.save(updateUser, function(err, user) {
