@@ -2,7 +2,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
+  min-width: 100%;
 }
 .womens-sneak-boots-container {
   position: relative;
@@ -64,13 +64,18 @@
 .womens-categories-text-container {
   width: 100%;
   height: 135px;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   padding-left: 385px;
+  /*display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;*/
+  white-space: nowrap;
+  /*overflow: hidden;*/
 }
 .womens-text-wrapper {
   height: 130px;
   width: 120px;
-  /*border: 2px solid red;*/
+  border: 2px solid red;
   display: inline-block;
   margin-right: 95px;
   text-align: center;
@@ -87,12 +92,23 @@
 .tights-bras-yoga-container {
   min-height: 364px;
   background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
 }
-.shoe-jump-container {
+.tights-bras-yoga-container h1 {
+  color: white;
+}
+.shoes-legs-container {
   min-height: 500px;
-  background-image: url('./../app/images/womens/shoes_jump.jpg');
+  background-image: url('./../app/images/womens/shoes_legs.jpg');
+  padding-top: 60px;
+  padding-left: 45px;
 }
-.below-shoe-jump-container {
+.shoes-legs-container h1 {
+}
+.below-shoes-legs-container {
   min-height: 198px;
   width: 100%;
 }
