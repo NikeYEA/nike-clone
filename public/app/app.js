@@ -32,6 +32,13 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'customizeCtrl',
       url: '/customize'
     })
+
+    .state('mens-running-shoes', {
+      templateUrl: './app/routes/mens-running-shoes/mens-running-shoes.html',
+      controller: 'mens-running-shoesCtrl',
+      url: '/mens-running-shoes'
+    })
+
   .state('login', {
     url: '/login',
     templateUrl: './app/routes/login/login.html',
@@ -55,6 +62,14 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       }
     }
   });
+
+
+
+    // .state('stuff', {
+    //   templateUrl: './app/routes/stuff/stuff.html',
+    //   controller: 'stuffCtrl',
+    //   url: '/stuff'
+    // })
 
 
 
