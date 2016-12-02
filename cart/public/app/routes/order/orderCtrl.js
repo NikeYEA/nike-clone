@@ -1,4 +1,4 @@
-angular.module("app")
+angular.module("nike-clone")
 	.controller("orderCtrl", function($scope, order, $state, mainService) {
 
 		$scope.order = order.data.order;

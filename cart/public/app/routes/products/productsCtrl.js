@@ -1,4 +1,4 @@
-angular.module("app")
+angular.module("nike-clone")
 	.controller("productsCtrl", function($scope, products, mainService, $state) {
 
 		$scope.products = products.data;

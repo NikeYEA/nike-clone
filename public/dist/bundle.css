@@ -304,6 +304,7 @@ input {
 }
 
 
+
 .home-content-wrapper .image-large{
   min-height: 430px;
   background-repeat: no-repeat;
@@ -406,7 +407,6 @@ article img {
 article a {
   text-decoration: none;
 }
-
 
 .pendleton-container {
   height: 74vh;
