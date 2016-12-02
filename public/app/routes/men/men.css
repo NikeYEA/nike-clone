@@ -42,7 +42,7 @@
 .categories-left-text-wrapper {
   height: 270px;
   width: 190px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: absolute;
   margin-top: 110px;
   margin-left: 40px;
@@ -50,7 +50,7 @@
 .mens-shoes-container {
   height: 100%;
   width: 75%;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   float: right;
   display: flex;
   flex-wrap: wrap;
@@ -61,7 +61,7 @@
 .mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
   height: 40%;
   width: 28%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -100,12 +100,12 @@
   padding-bottom: 55px;
 }
 .below-vest-text-wrapper {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   width: 30%;
   text-align: center;
 }
 .below-watch-text-wrapper {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   width: 30%;
   text-align: center;
 }
@@ -124,7 +124,7 @@
 }
 .below-orange-shirt-text-wrapper {
   width: 520px;
-  border: 2px solid gray;
+  /*border: 2px solid gray;*/
   text-align: center;
   margin-bottom: 35px;
 }
@@ -142,12 +142,12 @@
   padding-top: 465px;
 }
 .below-jacket-text-wrapper {
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
   text-align: center;
   width: 505px;
 }
 .below-ball-text-wrapper {
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   text-align: center;
   width: 505px;
 }
