@@ -64,13 +64,13 @@
 .womens-categories-text-container {
   width: 100%;
   height: 135px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   padding-left: 385px;
 }
 .womens-text-wrapper {
   height: 130px;
   width: 120px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   display: inline-block;
   margin-right: 95px;
   text-align: center;
