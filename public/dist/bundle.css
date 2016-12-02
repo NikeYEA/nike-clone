@@ -1,3 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+
 footer{
   background-color: rgb(19, 19, 19);
   padding-bottom: 25px;
@@ -76,83 +153,6 @@ footer{
 }
 .bottom-right-footer a {
   color: #888;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
-.oswald{
-  font-family: 'Oswald', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, sans-serif;
-}
-.clear{
-  clear: both;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-}
-header nav {
-  display: flex;
-}
-header nav a {
-  padding-left: 23px;
-  padding-right: 23px;
-  font-size: 14px;
-  color: rgb(17, 17, 17);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-.header_top {
-  display: block;
-  width: 100%;
-}
-.header_top_content {
-  float: right;
-  padding-right: 33px;
-  padding-top: 12px;
-  padding-bottom: 4px;
-}
-.header_top_content a{
-  margin-right: 12px;
-  margin-left: 12px;
-  color: #8D8D8D;
-  font-size: 12px;
-  line-height: 15px;
-}
-.header_top_content a:hover{
-  cursor: pointer;
-}
-.cart {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.flag {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.header_bottom {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 33px;
-  padding-left: 33px;
-  padding-top: 21px;
-  padding-bottom: 21px;
-}
-.nike-image {
-  width: 58px;
-}
-input {
-  padding-left: 8px;
-  margin-right: 11px;
 }
 
 
@@ -304,7 +304,6 @@ input {
 }
 
 
-
 .home-content-wrapper .image-large{
   min-height: 430px;
   background-repeat: no-repeat;
@@ -407,6 +406,7 @@ article img {
 article a {
   text-decoration: none;
 }
+
 
 .pendleton-container {
   height: 74vh;

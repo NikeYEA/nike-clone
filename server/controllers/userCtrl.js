@@ -49,7 +49,8 @@ console.log(err);
     user.email = user.email.toLowerCase();
 
     db.user.user_create([user.name, user.email, user.password, user.mobile_phone], function(err, newUser) {
-			console.log('this is the user.mobilephone', user.mobile_phone);
+			console.log('this is the server newUser:',newUser);
+
       if (err) {
         console.log("Registration err: ", err);
         return res.status(401).send(err);
