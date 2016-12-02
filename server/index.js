@@ -2,7 +2,7 @@ var express = require('express');
 var cors = require('cors');
 var massive = require('massive');
 var bodyParser = require('body-parser');
-var config = require('../config');
+var config = require('./../config');
 var session = require('express-session');
 var client = require('twilio')(config.accountSid, config.authToken);
 var app = module.exports = express();
@@ -60,7 +60,6 @@ app.get('/api/logout', function(req, res, next) {
 });
 
 app.post('/api/register', authCtrl.register);
-app.get('/api/in/user', authCtrl.read);
 app.get('/api/me', isAuthed, authCtrl.me);
 app.put('/api/user/current', isAuthed, authCtrl.update);
 

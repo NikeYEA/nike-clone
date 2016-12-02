@@ -1,6 +1,6 @@
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("app").controller("profileCtrl", function($scope, authService, user, $state) {
+angular.module("nike-clone").controller("profileCtrl", function($scope, authService, user, $state) {
 
   // VARIABLES
   // ============================================================

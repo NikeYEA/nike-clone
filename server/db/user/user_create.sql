@@ -1,2 +1,2 @@
-INSERT INTO Users (name, email, password, admin)
-VALUES ($1, $2, $3, false)
+INSERT INTO Users (first_name, email, password, admin, mobile_phone)
+VALUES ($1, $2, $3, false, $4)
