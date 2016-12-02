@@ -186,7 +186,9 @@ angular.module("app").service("authService", ["$http", function($http) {
       url: '/api/register',
       data: user
     }).then(function(response) {
+      console.log('this is register response: ',response);
       return response;
+
     });
   };
   // this.editUser = function(id, user) {
@@ -229,12 +231,12 @@ angular.module('nike-clone').controller('boysCtrl', ["$scope", function($scope) 
 
 }])
 
-angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
-  
-}])
-
 angular.module('nike-clone').controller('girlsCtrl', ["$scope", function($scope) {
 
+}])
+
+angular.module('nike-clone').controller('customizeCtrl', ["$scope", function($scope) {
+  
 }])
 
 angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) {
@@ -243,7 +245,7 @@ angular.module('nike-clone').controller('homeCtrl', ["$scope", function($scope) 
 
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("app").controller("loginCtrl", ["$scope", "authService", "$state", "mainService", function($scope, authService, $state, mainService) {
+angular.module("nike-clone").controller("loginCtrl", ["$scope", "authService", "$state", "mainService", function($scope, authService, $state, mainService) {
 
   // VARIABLES
   // ============================================================
@@ -301,7 +303,7 @@ angular.module('nike-clone').controller('menCtrl', ["$scope", function($scope) {
 
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("app").controller("profileCtrl", ["$scope", "authService", "user", "$state", function($scope, authService, user, $state) {
+angular.module("nike-clone").controller("profileCtrl", ["$scope", "authService", "user", "$state", function($scope, authService, user, $state) {
 
   // VARIABLES
   // ============================================================

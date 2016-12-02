@@ -48,7 +48,8 @@ console.log(err);
 
     user.email = user.email.toLowerCase();
 
-    db.user.user_create([user.name, user.email, user.password], function(err, newUser) {
+    db.user.user_create([user.name, user.email, user.password, user.mobile_phone], function(err, newUser) {
+			console.log('this is the user.mobilephone', user.mobile_phone);
       if (err) {
         console.log("Registration err: ", err);
         return res.status(401).send(err);
@@ -57,26 +58,11 @@ console.log(err);
     })
   },
 
-  read: function (req, res, next) {
-    var searchOptions = {
-			columns: ['id', 'name', 'email']
-		};
-
-    db.users.find(req.query, searchOptions, function(err, users) {
-      if (err) {
-				console.log('User read error: ', err);
-				return res.status(401)
-					.send(err);
-			}
-
-			res.status(200)
-				.send(users);
-    })
-  },
-
   me: function(req, res, next) {
+		console.log('this is req.user: ',req.user);
     if (!req.user) {
       res.status(401).send('User is not logged in');
+
     }
     var user = req.user;
     delete user.password;

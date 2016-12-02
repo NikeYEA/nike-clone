@@ -35,7 +35,9 @@ angular.module("app").service("authService", function($http) {
       url: '/api/register',
       data: user
     }).then(function(response) {
+      console.log('this is register response: ',response);
       return response;
+
     });
   };
   // this.editUser = function(id, user) {

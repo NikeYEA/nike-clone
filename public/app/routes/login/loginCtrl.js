@@ -1,6 +1,6 @@
 // INITILIZE CONTROLLER
 // ============================================================
-angular.module("app").controller("loginCtrl", function($scope, authService, $state, mainService) {
+angular.module("nike-clone").controller("loginCtrl", function($scope, authService, $state, mainService) {
 
   // VARIABLES
   // ============================================================
