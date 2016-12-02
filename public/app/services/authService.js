@@ -30,6 +30,7 @@ angular.module("nike-clone").service("authService", function($http) {
     });
   };
   this.register = function(user) {
+
     return $http({
       method: 'POST',
       url: '/api/register',
