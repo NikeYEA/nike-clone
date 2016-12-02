@@ -169,8 +169,9 @@ input {
   width: 99%;
 }
 .box-options{
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(249, 249, 249);
   display: flex;
+  padding-top: 15px;
 }
 .shipment-box {
   /*border: solid;*/
@@ -185,15 +186,16 @@ input {
   color: rgb(159, 159, 159);
   border: solid thin;
   border-color: rgb(179, 179, 179);
-  font-size: 35px;
-  height: 50px;
+  font-size: 12px;
+  height: 25px;
   /*line height must be the same as the heightfor contentto be in the middle*/
-  line-height: 50px;
-  width: 50px;
+  line-height: 23px;
+  width: 25px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50px
+  border-radius: 50px;
+  margin-bottom: 20px;
 }
 .shipment-box h2{
   font-size: 45px;
@@ -206,6 +208,7 @@ input {
 }
 
 .customize-mid-section {
+
 }
 .starting-text{
   border: solid;
@@ -232,7 +235,74 @@ input {
 }
 .starting-text .p-1 {
   padding-bottom: 10px;
+
 }
+.starting-pics {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-grow: 2;*/
+  justify-content: center;
+
+}
+.starting-pics img{
+  max-width: 475;
+  padding: 16px;
+}
+
+.customize-mid-lower-section {
+
+}
+.feature-text h2 {
+  text-align: center;
+  padding-top: 82px;
+  padding-bottom: 102px;
+  font-size: 23px;
+  line-height: 23px;
+  text-align:
+}
+#bgshoevid2{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.battle-built {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+.battle-built h2 {
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 22px;
+}
+.battle-built p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 16px;
+}
+.battle-built .customize-link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 38px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.battle-built .customize-link p{
+  padding-top: 16px;
+}
+.battle-built .customize-link img {
+  padding-right: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.battle-built .customize-link p {
+  display: block;
+  display: inline-block;
+  padding-right: 25px;
+  padding-top: 16px;
+}
+
 
 
 .home-content-wrapper .image-large{
@@ -337,7 +407,6 @@ article img {
 article a {
   text-decoration: none;
 }
-
 
 .pendleton-container {
   height: 74vh;
@@ -490,6 +559,57 @@ article a {
   border: 2px solid orange;
   text-align: center;
   width: 40%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
 }
 
 

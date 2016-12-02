@@ -1,6 +1,6 @@
 // INITILIZE SERVICE
 // ============================================================
-angular.module("app").service("authService", function($http) {
+angular.module("nike-clone").service("authService", function($http) {
 
   // AUTH FUNCTIONS
   // ============================================================
