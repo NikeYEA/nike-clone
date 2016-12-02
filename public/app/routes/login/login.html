@@ -1,4 +1,4 @@
-<br>
+<!-- <br>
 <br>
 <label>First Name:
 <input ng-model="fname"></input>
@@ -7,4 +7,27 @@
 <label>Email:
 <input ng-model="email"></input>
 </label>
-<button ng-click="postUsers(fname,email)">LOGIN</button>
+<button ng-click="postUsers(fname,email)">LOGIN</button> -->
+
+<h1>LOGIN</h1>
+<form ng-submit="login(user)">
+  email: <input type="email" ng-model="user.email">
+  <br>
+  password: <input type="password" ng-model="user.password">
+  <br>
+  <button type="submit" name="button">login</button>
+</form>
+<br><hr>
+<br>
+<h1>REGISTER</h1>
+<form ng-submit="register(newUser)">
+  name: <input type="text" ng-model="newUser.name">
+  <br>
+  email: <input type="email" ng-model="newUser.email">
+  <br>
+  password: <input type="password" ng-model="newUser.password">
+  <br>
+  mobile: <input type="text" ng-model="newUser.mobile_phone">
+  <br>
+  <button type="submit" name="button">register</button>
+</form>

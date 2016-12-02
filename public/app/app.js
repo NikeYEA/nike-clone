@@ -32,16 +32,37 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'customizeCtrl',
       url: '/customize'
     })
-    .state('login', {
-      templateUrl: './app/routes/login/login.html',
-      controller: 'userCtrl',
-      url: '/user'
-    })
+
     .state('mens-running-shoes', {
       templateUrl: './app/routes/mens-running-shoes/mens-running-shoes.html',
       controller: 'mens-running-shoesCtrl',
       url: '/mens-running-shoes'
     })
+
+  .state('login', {
+    url: '/login',
+    templateUrl: './app/routes/login/login.html',
+    controller: 'loginCtrl'
+  })
+  .state('profile', {
+    url: '/profile',
+    templateUrl: './app/routes/profile/profile.html',
+    controller: 'profileCtrl',
+    resolve: {
+      user: function(authService, $state) {
+        return authService.getCurrentUser()
+          .then(function(response) {
+            if (!response.data.email) {
+              return $state.go('login');
+            }
+            return response.data
+          }).catch(function(err) {
+            $state.go('login');
+          });
+      }
+    }
+  });
+
 
 
     // .state('stuff', {
@@ -53,3 +74,8 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
 
 
 })
+
+
+function findMe(){
+
+}

@@ -1,9 +1,9 @@
-
 var express = require('express');
 var cors = require('cors');
 var massive = require('massive');
 var bodyParser = require('body-parser');
-var config = require('../config');
+var config = require('./../config');
+var session = require('express-session');
 var client = require('twilio')(config.accountSid, config.authToken);
 var app = module.exports = express();
 app.use(bodyParser.json());
@@ -17,9 +17,53 @@ var sdrDatabase = massive.connectSync({
 app.set('db', sdrDatabase);
 var db = app.get('db');
 
+//CONTROLLERS//
+var authCtrl = require('./controllers/userCtrl');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
+
+//POLICIES//
+var passport = require('./services/passport');
+var isAuthed = function(req, res, next) {
+	if (!req.isAuthenticated()) return res.status(401)
+		.send();
+	return next();
+};
+
+var isAdmin = function(req, res, next) {
+	if (req.user.admin) {
+		next();
+	} else {
+		return res.status(401)
+			.send();
+	}
+};
+
+// Session and passport //
+app.use(session({
+	secret: config.SESSION_SECRET,
+	saveUninitialized: false,
+	resave: false
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Passport Endpoints //
+app.post('/api/login', passport.authenticate('local', {
+	successRedirect: '/api/me'
+}));
+app.get('/api/logout', function(req, res, next) {
+	req.logout();
+	return res.status(200)
+		.send('logged out');
+});
+
+app.post('/api/register', authCtrl.register);
+app.get('/api/me', isAuthed, authCtrl.me);
+app.put('/api/user/current', isAuthed, authCtrl.update);
+
+
 // USER //
 app.post('/api/user', userCtrl.createUser);
 app.get('/api/user', userCtrl.getUsers);
