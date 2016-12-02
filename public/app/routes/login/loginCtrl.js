@@ -23,6 +23,7 @@ angular.module("nike-clone").controller("loginCtrl", function($scope, authServic
   };
 
   $scope.register = function(newUser) {
+
     authService.register(newUser)
     .then(function(response) {
       if (response.data !== "User created successfully!") {
