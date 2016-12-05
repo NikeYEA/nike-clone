@@ -22,9 +22,6 @@ var authCtrl = require('./controllers/userCtrl');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
-
-var categoryCtrl = require('./controllers/categoryCtrl');
-
 var mensCtrl = require('./controllers/mensCtrl')
 
 
@@ -63,10 +60,6 @@ app.get('/api/logout', function(req, res, next) {
 	return res.status(200)
 		.send('logged out');
 });
-//test//
-app.get('/api/men/running', categoryCtrl.menrunning);
-//test//
-
 app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
 app.put('/api/user/current', isAuthed, authCtrl.update);

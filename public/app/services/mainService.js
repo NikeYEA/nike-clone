@@ -81,10 +81,10 @@ angular.module('nike-clone').service('mainService', function($http) {
   }
 
   //TEST//
-  this.getmenrunningshoes = function() {
+  this.getMenRunningShoes = function() {
     return $http({
       method:'GET',
-      url: '/api/men/running'
+      url: '/api/mens/running'
     }).then(function(response){
       return response;
     })
