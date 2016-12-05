@@ -90,4 +90,49 @@ angular.module('nike-clone').service('mainService', function($http) {
     })
   }
 
+  this.getMenBasketballShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/basketball'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenSoccerShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/soccer',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenTrainingGymShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/training',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensSportswearShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/sportswear',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensJordanShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/jordan',
+    }).then(function(response){
+      return response;
+    })
+  }
+
 });

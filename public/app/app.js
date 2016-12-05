@@ -45,7 +45,35 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       url: '/individual-shoe'
     })
 
+    .state('mens-basketball', {
+      templateUrl: './app/routes/mens-basketball/mens-basketball.html',
+      controller: 'mens-basketballCtrl',
+      url: '/mens-basketball'
+    })
 
+    .state('mens-soccer', {
+      templateUrl: './app/routes/mens-soccer/mens-soccer.html',
+      controller: 'mens-soccerCtrl',
+      url: '/mens-soccer'
+    })
+
+    .state('mens-training', {
+      templateUrl: './app/routes/mens-training-gym/mens-training-gym.html',
+      controller: 'mens-training-gymCtrl',
+      url: '/mens-training-gym'
+    })
+
+    .state('mens-sportswear', {
+      templateUrl: './app/routes/mens-sportswear/mens-sportswear.html',
+      controller: 'mens-sportswearCtrl',
+      url: '/mens-sportswear'
+    })
+
+    .state('mens-jordan', {
+      templateUrl: './app/routes/mens-jordan/mens-jordan.html',
+      controller: 'mens-jordanCtrl',
+      url: '/mens-jordan'
+    })
 
     .state('cart', {
       templateUrl: './app/routes/cart/cart.html',
