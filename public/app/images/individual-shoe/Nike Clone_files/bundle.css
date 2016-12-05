@@ -540,7 +540,67 @@ width: 100%;
 
 .shoe-purchase-info {
   width: 40%;
-  border: solid;
+  margin-left: 24px;
+}
+.shoe-purchase-info h2{
+  font-size: 30px;
+  line-height: 33px;
+  padding-bottom: 7px;
+}
+.shoe-purchase-info .shoe-name{
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+  font-style: italic;
+  padding-bottom: 3px;
+}
+.shoe-purchase-info .shoe-price{
+  font-size: 20px;
+  line-height: 22px
+}
+.cart-info {
+  width: 99%;
+}
+.cart-info .top-line {
+  font-size: 11px;
+  line-height: 15px;
+  color: #666666;
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 10px;
+}
+.cart-info .shoe-style {
+  text-align: right;
+}
+.cart-info img {
+  padding-bottom: 46px;
+}
+.grey-option {
+  width: 107px;
+  font-size: 12px;
+  line-height: 40px;
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+.orange-button {
+  width: 172px;
+  background-color: rgb(246, 72, 6);
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.help-info p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #222222;
 }
 
 
