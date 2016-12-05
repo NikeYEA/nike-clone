@@ -1,0 +1,33 @@
+.individual-shoe-body-wrapper {
+  display: flex;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.shoe-view {
+  width: 60%;
+  /*padding-left: 30px;*/
+
+}
+.shoe-individual-view {
+  float: left;
+  width: 80px;
+  padding-right: 20px;
+}
+.shoe-individual-view img{
+width: 100%;
+}
+.shoe-big-view {
+  padding-left: 80px;
+  max-width: 100%;
+}
+.shoe-big-view img{
+  max-width: 100%;
+}
+
+.shoe-purchase-info {
+  width: 40%;
+  border: solid;
+}
