@@ -118,7 +118,7 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     .state('womens-training', {
       url: '/womens-training',
       templateUrl: './app/routes/womens-training/womensTraining.html',
-      controller: 'womensRunningCtrl'
+      controller: 'womensTrainingCtrl'
 
     .state('mens-basketball', {
       templateUrl: './app/routes/mens-basketball/mens-basketball.html',
