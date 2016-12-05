@@ -182,6 +182,7 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
   })
 
 })
+})
 
 
 function findMe(){
