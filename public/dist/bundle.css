@@ -1,80 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
-.oswald{
-  font-family: 'Oswald', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, sans-serif;
-}
-.clear{
-  clear: both;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-}
-header nav {
-  display: flex;
-}
-header nav a {
-  padding-left: 23px;
-  padding-right: 23px;
-  font-size: 14px;
-  color: rgb(17, 17, 17);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-.header_top {
-  display: block;
-  width: 100%;
-}
-.header_top_content {
-  float: right;
-  padding-right: 33px;
-  padding-top: 12px;
-  padding-bottom: 4px;
-}
-.header_top_content a{
-  margin-right: 12px;
-  margin-left: 12px;
-  color: #8D8D8D;
-  font-size: 12px;
-  line-height: 15px;
-}
-.header_top_content a:hover{
-  cursor: pointer;
-}
-.cart {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.flag {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.header_bottom {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 33px;
-  padding-left: 33px;
-  padding-top: 21px;
-  padding-bottom: 21px;
-}
-.nike-image {
-  width: 58px;
-}
-input {
-  padding-left: 8px;
-  margin-right: 11px;
-}
-
 footer{
   background-color: rgb(19, 19, 19);
   padding-bottom: 25px;
@@ -155,6 +78,338 @@ footer{
   color: #888;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
 
 /*body {
   background: springgreen;
@@ -406,6 +661,159 @@ color: black;
 }
 
 
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
 .home-content-wrapper .image-large{
   min-height: 430px;
   background-repeat: no-repeat;
@@ -603,7 +1011,6 @@ width: 100%;
   color: #222222;
 }
 
-
 .pendleton-container {
   min-height: 517px;
   width: 100%;
@@ -757,6 +1164,7 @@ width: 100%;
   text-align: center;
   width: 505px;
 }
+
 
 .men-running-content-wrapper .image-large-men-running {
   min-height: 430px;
