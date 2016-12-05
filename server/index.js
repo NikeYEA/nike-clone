@@ -25,6 +25,7 @@ var productCtrl = require('./controllers/productsCtrl');
 var mensCtrl = require('./controllers/mensCtrl');
 var boysCtrl = require('./controllers/boysCtrl');
 
+
 //POLICIES//
 var passport = require('./services/passport');
 var isAuthed = function(req, res, next) {
@@ -60,7 +61,6 @@ app.get('/api/logout', function(req, res, next) {
 	return res.status(200)
 		.send('logged out');
 });
-
 app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
 app.put('/api/user/current', isAuthed, authCtrl.update);
