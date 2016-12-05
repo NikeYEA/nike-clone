@@ -89,6 +89,75 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response;
     })
   }
+  this.getWomensLifestyle = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/lifestyle'
+    }).then(function(response){
+      return response;
+    })
+  }
+  this.getWomensRunning = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/running'
+    }).then(function(response){
+      return response;
+    })
+  }
+  this.getWomensTraining = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/training'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenBasketballShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/basketball'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenSoccerShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/soccer',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenTrainingGymShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/training',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensSportswearShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/sportswear',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensJordanShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/jordan',
+    }).then(function(response){
+      return response;
+    })
+  }
 
   this.getBoysRunningShoes = function() {
     return $http({
