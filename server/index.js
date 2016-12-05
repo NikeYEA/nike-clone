@@ -23,6 +23,11 @@ var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
 
+var categoryCtrl = require('./controllers/categoryCtrl');
+
+var mensCtrl = require('./controllers/mensCtrl')
+
+
 //POLICIES//
 var passport = require('./services/passport');
 var isAuthed = function(req, res, next) {
@@ -58,6 +63,9 @@ app.get('/api/logout', function(req, res, next) {
 	return res.status(200)
 		.send('logged out');
 });
+//test//
+app.get('/api/men/running', categoryCtrl.menrunning);
+//test//
 
 app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
@@ -74,6 +82,17 @@ app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 // PRODUCTS //
 app.get('/api/products', productCtrl.getProducts);
 app.get('/api/products/:id',productCtrl.getProductById);
+
+// MENS //
+app.get('/api/mens', mensCtrl.getMensShoes);
+app.get('/api/mens/basketball', mensCtrl.getMensBasketball);
+app.get('/api/mens/jordan', mensCtrl.getMensJordan);
+app.get('/api/mens/running', mensCtrl.getMensRunning);
+app.get('/api/mens/soccer', mensCtrl.getMensSoccer);
+app.get('/api/mens/sportswear', mensCtrl.getMensSportswear);
+app.get('/api/mens/training', mensCtrl.getMensTraining);
+
+
 // CART //
 app.get('/api/in/cart/:orderid', productCtrl.getInCart);
 app.post('/api/add/item/cart/:orderid', productCtrl.addToCart);
