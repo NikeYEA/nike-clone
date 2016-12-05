@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+
+footer{
+  background-color: rgb(19, 19, 19);
+  padding-bottom: 25px;
+}
+.footer-wrapper {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.footer-container {
+  /* background-color: rgb(19, 19, 19); */
+  display: flex;
+  flex-direction: row;
+  padding-top: 33px;
+}
+.footer-container p {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 19px;
+}
+
+.footer-container a {
+  color: white;
+}
+.social-media {
+  text-align: right;
+}
+.social-media img {
+  height: 23px;
+  width: 23px;
+  margin-left: 12px;
+  opacity: .2;
+}
+.social-media img:hover {
+  opacity: .85;
+}
+.left-footer {
+  width: 58%;
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer-columns {
+  flex-direction: column;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.left-footer-columns a {
+  flex-direction: column;
+  color: #888;
+  font-size: 13px;
+}
+.left-footer-columns a.footer_caps {
+  color: white;
+}
+.right-footer {
+  width: 42%;
+}
+.bottom-left-footer {
+  float: left;
+  font-size: 13px;
+  color: #888;
+}
+.bottom-left-footer a {
+  color: white;
+}
+.bottom-left-footer p {
+  color: #888;
+  display: inline-block;
+}
+.bottom-right-footer {
+  float:right;
+  text-align: right;
+  font-size: 13px;
+}
+.bottom-right-footer a {
+  color: #888;
+}
+
+
+.customize-content-wrapper {
+  width: 100%;
+}
+.customize-top-section{
+  background-color: rgb(245, 245, 245);
+}
+#bgshoevid{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.box-options{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  padding-top: 15px;
+}
+.shipment-box {
+  /*border: solid;*/
+  /*padding-top: 50px;*/
+  display: inline-block;
+  width: 33%;
+  flex-direction: row;
+  text-align: center;
+}
+.shipment-box a{
+  text-decoration: none;
+  color: rgb(159, 159, 159);
+  border: solid thin;
+  border-color: rgb(179, 179, 179);
+  font-size: 12px;
+  height: 25px;
+  /*line height must be the same as the heightfor contentto be in the middle*/
+  line-height: 23px;
+  width: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.shipment-box h2{
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.shipment-box p{
+  font-size: 25px;
+  color: rgb(83, 83, 83);
+  padding-bottom: 40px;
+}
+
+.customize-mid-section {
+
+}
+.starting-text{
+  border: solid;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  /*display: inline-block;*/
+  /*margin-left: 100px;*/
+  /*margin-left: auto;*/
+}
+.starting-text h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+
+}
+.starting-text p{
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+.starting-text .p-1 {
+  padding-bottom: 10px;
+
+}
+.starting-pics {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-grow: 2;*/
+  justify-content: center;
+
+}
+.starting-pics img{
+  max-width: 475;
+  padding: 16px;
+}
+
+.customize-mid-lower-section {
+
+}
+.feature-text h2 {
+  text-align: center;
+  padding-top: 82px;
+  padding-bottom: 102px;
+  font-size: 23px;
+  line-height: 23px;
+  text-align:
+}
+#bgshoevid2{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.battle-built {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+.battle-built h2 {
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 22px;
+}
+.battle-built p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 16px;
+}
+.battle-built .customize-link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 38px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.battle-built .customize-link p{
+  padding-top: 16px;
+}
+.battle-built .customize-link img {
+  padding-right: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.battle-built .customize-link p {
+  display: block;
+  display: inline-block;
+  padding-right: 25px;
+  padding-top: 16px;
+}
+
+
+.home-content-wrapper .image-large{
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.home-content-wrapper .image-large.section-one{
+  background-image: url("./../app/images/home/give_nike_gray.jpg");
+}
+.home-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large .text-wrapper{
+  max-width: 230px;
+}
+.image-large .text-wrapper h2{
+  font-size: 29px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large .text-wrapper p{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 9px;
+}
+.image-large .text-wrapper a {
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-large .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.home-content-wrapper .image-large.section-two{
+  position: relative;
+  height: 0px;
+  min-height: 0;
+  padding-bottom: 43.750276%; /*img-height / img-width * 100*/
+}
+
+#bgvid {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+
+.home-content-wrapper .image-large.section-three{
+  background-image: url("./../app/images/home/give-creativity.jpg");
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.section-four{
+  background-color: rgb(242, 242, 242);
+}
+
+article {
+  width: 24%;
+}
+
+article h3 {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  padding-bottom: 24px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+article li {
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  padding-bottom: 9px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article a {
+  text-decoration: none;
+}
+
+.individual-shoe-body-wrapper {
+  display: flex;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.shoe-view {
+  width: 60%;
+  /*padding-left: 30px;*/
+
+}
+.shoe-individual-view {
+  float: left;
+  width: 80px;
+  padding-right: 20px;
+}
+.shoe-individual-view img{
+width: 100%;
+}
+.shoe-big-view {
+  padding-left: 80px;
+  max-width: 100%;
+}
+.shoe-big-view img{
+  max-width: 100%;
+}
+
+.shoe-purchase-info {
+  width: 40%;
+  border: solid;
+}
+
+
+.pendleton-container {
+  height: 74vh;
+  width: 100%;
+  /*border: 1px solid black;*/
+  /*background-image: url('../app/images/mens/Pendlton.jpg');*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  position: relative;
+}
+#pendleton-vid{
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.pendleton-text-left-wrapper {
+  height: 15vh;
+  width: 17%;
+  background-color: #f1f1f1;
+  border: 1px solid white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  /*z-index: 2;*/
+}
+.categories-container {
+  height: 74vh;
+  width: 100%;
+  /*border: 1px solid blue;*/
+  background-image: url('./../app/images/mens/men_categories.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.categories-left-text-wrapper {
+  height: 40vh;
+  width: 15%;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 40px;
+}
+.mens-shoes-container {
+  height: 100%;
+  width: 75%;
+  border: 2px solid black;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+}
+.mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
+  height: 40%;
+  width: 28%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mens-running-text {
+
+}
+.mens-basketball-text {
+
+}
+.mens-soccer-text {
+  padding-right: 30px;
+}
+.mens-training-text {
+  padding-bottom: 25px;
+}
+.mens-sportswear-text {
+  padding-bottom: 25px;
+}
+.mens-jordan-text {
+  padding-bottom: 25px;
+  padding-right: 30px;
+}
+
+.vest-watch-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid blue;*/
+  background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 55px;
+}
+.below-vest-text-wrapper {
+  border: 2px solid blue;
+  width: 30%;
+  text-align: center;
+}
+.below-watch-text-wrapper {
+  border: 2px solid green;
+  width: 30%;
+  text-align: center;
+}
+.orange-shirt-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-image: url('./../app/images/mens/orange_shirt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 35px;
+}
+.below-orange-shirt-text-wrapper {
+  width: 42%;
+  border: 2px solid gray;
+  text-align: center;
+}
+.jacket-ball-container {
+  height: 80vh;
+  width: 100%;
+  /*border: 2px solid purple;*/
+  background-image: url('./../app/images/mens/jacket_ball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 465px;
+}
+.below-jacket-text-wrapper {
+  border: 2px solid yellow;
+  text-align: center;
+  width: 40%;
+}
+.below-ball-text-wrapper {
+  border: 2px solid orange;
+  text-align: center;
+  width: 40%;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+
