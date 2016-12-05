@@ -80,4 +80,14 @@ angular.module('nike-clone').service('mainService', function($http) {
     })
   }
 
+  //TEST//
+  this.getmenrunningshoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/men/running'
+    }).then(function(response){
+      return response;
+    })
+  }
+
 });

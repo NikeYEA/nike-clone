@@ -1,80 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
-.oswald{
-  font-family: 'Oswald', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, sans-serif;
-}
-.clear{
-  clear: both;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-}
-header nav {
-  display: flex;
-}
-header nav a {
-  padding-left: 23px;
-  padding-right: 23px;
-  font-size: 14px;
-  color: rgb(17, 17, 17);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-.header_top {
-  display: block;
-  width: 100%;
-}
-.header_top_content {
-  float: right;
-  padding-right: 33px;
-  padding-top: 12px;
-  padding-bottom: 4px;
-}
-.header_top_content a{
-  margin-right: 12px;
-  margin-left: 12px;
-  color: #8D8D8D;
-  font-size: 12px;
-  line-height: 15px;
-}
-.header_top_content a:hover{
-  cursor: pointer;
-}
-.cart {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.flag {
-  width: 20px;
-  margin-bottom: -3px;
-}
-.header_bottom {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 33px;
-  padding-left: 33px;
-  padding-top: 21px;
-  padding-bottom: 21px;
-}
-.nike-image {
-  width: 58px;
-}
-input {
-  padding-left: 8px;
-  margin-right: 11px;
-}
-
 footer{
   background-color: rgb(19, 19, 19);
   padding-bottom: 25px;
@@ -155,6 +78,185 @@ footer{
   color: #888;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+
+
+/*body {
+  background: springgreen;
+}*/
+nav {
+  width:auto;
+  height: 50px;
+  /*background-color: springgreen;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+
+li {
+  float: left;
+  padding: 14px 16px;
+  font-size: 14px;
+}
+
+.continue{
+font-size: 12px;
+text-decoration: underline;
+}
+
+#wrapper {
+  position: relative;
+  margin: 0 auto;
+  /*background-color: springgreen;*/
+  width:100%;
+  height:1000px;
+}
+
+#innerwrapper {
+
+  width:664px;
+  height:395px;
+  margin-left: 468px;
+}
+
+#innerwrapper div:first-child {
+  background-color: #eee;
+  height: 82px;
+  width: auto;
+  font-family: Helvetica;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#plus {
+font-size: 10px;
+color: black;
+}
+
+#orange {
+  color: #FA5400;
+  font-size: 20px;
+}
+
+
+#innerwrapper div:nth-of-type(2) {
+  background-color: #eee;
+  height: 295px;
+  width: auto;
+  margin-top: 20px;
+  font-family: arial;
+}
+
+/*.cart {
+  overflow-y: auto;
+}*/
+.cart h3 {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.cart div img {
+  padding-left: 20px;
+}
+
+
+#test {
+
+  background-color: cyan;
+  height: 545px;
+  width: auto;
+}
+
+.swoosh {
+  display:inline-block;
+  width: 35px;
+  height: 18px;
+}
+
+.rs {
+  float:right;
+}
 
 .customize-content-wrapper {
   width: 100%;
@@ -443,7 +545,7 @@ width: 100%;
 
 
 .pendleton-container {
-  height: 74vh;
+  min-height: 517px;
   width: 100%;
   /*border: 1px solid black;*/
   /*background-image: url('../app/images/mens/Pendlton.jpg');*/
@@ -464,8 +566,8 @@ width: 100%;
   width: 100%;
 }
 .pendleton-text-left-wrapper {
-  height: 15vh;
-  width: 17%;
+  height: 100px;
+  width: 200px;
   background-color: #f1f1f1;
   border: 1px solid white;
   position: absolute;
@@ -474,7 +576,7 @@ width: 100%;
   /*z-index: 2;*/
 }
 .categories-container {
-  height: 74vh;
+  height: 517px;
   width: 100%;
   /*border: 1px solid blue;*/
   background-image: url('./../app/images/mens/men_categories.jpg');
@@ -484,9 +586,9 @@ width: 100%;
   position: relative;
 }
 .categories-left-text-wrapper {
-  height: 40vh;
-  width: 15%;
-  border: 1px solid black;
+  height: 270px;
+  width: 190px;
+  /*border: 1px solid black;*/
   position: absolute;
   margin-top: 110px;
   margin-left: 40px;
@@ -494,7 +596,7 @@ width: 100%;
 .mens-shoes-container {
   height: 100%;
   width: 75%;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   float: right;
   display: flex;
   flex-wrap: wrap;
@@ -505,7 +607,7 @@ width: 100%;
 .mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
   height: 40%;
   width: 28%;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -531,7 +633,7 @@ width: 100%;
 }
 
 .vest-watch-container {
-  height: 80vh;
+  height: 555px;
   width: 100%;
   /*border: 2px solid blue;*/
   background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
@@ -544,17 +646,17 @@ width: 100%;
   padding-bottom: 55px;
 }
 .below-vest-text-wrapper {
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   width: 30%;
   text-align: center;
 }
 .below-watch-text-wrapper {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   width: 30%;
   text-align: center;
 }
 .orange-shirt-container {
-  height: 80vh;
+  height: 555px;
   width: 100%;
   /*border: 2px solid red;*/
   background-image: url('./../app/images/mens/orange_shirt.jpg');
@@ -564,15 +666,16 @@ width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 35px;
+  /*padding-bottom: 35px;*/
 }
 .below-orange-shirt-text-wrapper {
-  width: 42%;
-  border: 2px solid gray;
+  width: 520px;
+  /*border: 2px solid gray;*/
   text-align: center;
+  margin-bottom: 35px;
 }
 .jacket-ball-container {
-  height: 80vh;
+  height: 555px;
   width: 100%;
   /*border: 2px solid purple;*/
   background-image: url('./../app/images/mens/jacket_ball.jpg');
@@ -585,14 +688,14 @@ width: 100%;
   padding-top: 465px;
 }
 .below-jacket-text-wrapper {
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
   text-align: center;
-  width: 40%;
+  width: 505px;
 }
 .below-ball-text-wrapper {
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   text-align: center;
-  width: 40%;
+  width: 505px;
 }
 
 .men-running-content-wrapper .image-large-men-running {
@@ -646,4 +749,171 @@ width: 100%;
   width: 100%;
 }
 
-
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.womens-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+}
+.womens-sneak-boots-container {
+  position: relative;
+  min-height: 472px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#sneak-boots {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.sneak-boot-text-wrapper {
+  height: 230px;
+  width: 475px;
+  /*border: 2px solid red;*/
+  text-align: right;
+  margin-right: 50px;
+}
+.four-ways-text {
+  font-size: 40px;
+  font-family: 'Roboto: 700', sans-serif;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.cold-wet-weather {
+  font-family: 'Roboto: 300', sans-serif;
+  color: #434343;
+  padding-bottom: 40px;
+}
+.sneak-boot-text-wrapper h1 {
+  color: #222222;
+}
+.womens-categories-container {
+  min-height: 400px;
+  background-image: url('./../app/images/womens/womens_categories_pic.jpg');
+}
+.right-shoe-text-wrapper {
+  height: 265px;
+  width: 500px;
+  /*border: 1px solid red;*/
+  padding-top: 75px;
+  padding-left: 40px;
+}
+.the-right-shoe {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.different-workouts {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.womens-categories-text-container {
+  width: 100%;
+  height: 135px;
+  /*border: 2px solid black;*/
+  padding-left: 385px;
+  /*display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;*/
+  white-space: nowrap;
+  /*overflow: hidden;*/
+}
+.womens-text-wrapper {
+  height: 130px;
+  width: 120px;
+  /*border: 2px solid red;*/
+  display: inline-block;
+  margin-right: 95px;
+  text-align: center;
+  padding-top: 35px;
+}
+.womens-text-wrapper h1 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.womens-text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.tights-bras-yoga-container {
+  min-height: 364px;
+  background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;*/
+}
+.shop-by-text-wrapper {
+  height: 50px;
+  /*border: 2px solid yellow;*/
+  padding-top: 15px;
+  padding-left: 48px;
+}
+.tights-bras-yoga-text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*border: 2px solid red;*/
+  height: 314px;
+}
+.tights-bras-yoga-container h1 {
+  color: #ffffff;
+}
+.shoes-legs-container {
+  min-height: 500px;
+  background-image: url('./../app/images/womens/shoes_legs.jpg');
+  padding-top: 70px;
+  padding-left: 48px;
+}
+.below-shoes-legs-container {
+  min-height: 198px;
+  width: 100%;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nike-beautiful-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.our-favorite-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.below-shoes-legs-container h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-shoes-legs-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.below-shoes-legs-container button {
+  border-radius: 3px;
+  background-color: #222222;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}

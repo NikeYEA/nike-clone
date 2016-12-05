@@ -22,7 +22,7 @@ var authCtrl = require('./controllers/userCtrl');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
-
+var categoryCtrl = require('./controllers/categoryCtrl');
 //POLICIES//
 var passport = require('./services/passport');
 var isAuthed = function(req, res, next) {
@@ -58,6 +58,9 @@ app.get('/api/logout', function(req, res, next) {
 	return res.status(200)
 		.send('logged out');
 });
+//test//
+app.get('/api/men/running', categoryCtrl.menrunning);
+//test//
 
 app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
