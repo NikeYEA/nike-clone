@@ -38,12 +38,22 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       controller: 'mens-running-shoesCtrl',
       url: '/mens-running-shoes'
     })
+
     .state('individual-shoe', {
       templateUrl: './app/routes/individual-shoe/individual-shoe.html',
       controller: 'individual-shoeCtrl',
       url: '/individual-shoe'
     })
-    .state('login', {
+
+
+
+    .state('cart', {
+      templateUrl: './app/routes/cart/cart.html',
+      controller: 'cartCtrl',
+      url: '/cart'
+    })
+
+  .state('login', {
     url: '/login',
     templateUrl: './app/routes/login/login.html',
     controller: 'loginCtrl'
@@ -67,13 +77,6 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     }
   });
 
-
-
-    // .state('stuff', {
-    //   templateUrl: './app/routes/stuff/stuff.html',
-    //   controller: 'stuffCtrl',
-    //   url: '/stuff'
-    // })
 
 
 
