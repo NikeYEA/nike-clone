@@ -118,7 +118,7 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     .state('womens-training', {
       url: '/womens-training',
       templateUrl: './app/routes/womens-training/womensTraining.html',
-      controller: 'womensRunningCtrl'
+      controller: 'womensTrainingCtrl'
 
     .state('mens-basketball', {
       templateUrl: './app/routes/mens-basketball/mens-basketball.html',
@@ -148,7 +148,6 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       templateUrl: './app/routes/mens-jordan/mens-jordan.html',
       controller: 'mens-jordanCtrl',
       url: '/mens-jordan'
-
     })
 
     .state('cart', {
@@ -176,12 +175,11 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
             return response.data
           }).catch(function(err) {
             $state.go('login');
-          });
+          })
       }
     }
   })
-
-})
+});
 })
 
 
