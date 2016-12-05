@@ -1,0 +1,979 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 33px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+
+footer{
+  background-color: rgb(19, 19, 19);
+  padding-bottom: 25px;
+}
+.footer-wrapper {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.footer-container {
+  /* background-color: rgb(19, 19, 19); */
+  display: flex;
+  flex-direction: row;
+  padding-top: 33px;
+}
+.footer-container p {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 19px;
+}
+
+.footer-container a {
+  color: white;
+}
+.social-media {
+  text-align: right;
+}
+.social-media img {
+  height: 23px;
+  width: 23px;
+  margin-left: 12px;
+  opacity: .2;
+}
+.social-media img:hover {
+  opacity: .85;
+}
+.left-footer {
+  width: 58%;
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer-columns {
+  flex-direction: column;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.left-footer-columns a {
+  flex-direction: column;
+  color: #888;
+  font-size: 13px;
+}
+.left-footer-columns a.footer_caps {
+  color: white;
+}
+.right-footer {
+  width: 42%;
+}
+.bottom-left-footer {
+  float: left;
+  font-size: 13px;
+  color: #888;
+}
+.bottom-left-footer a {
+  color: white;
+}
+.bottom-left-footer p {
+  color: #888;
+  display: inline-block;
+}
+.bottom-right-footer {
+  float:right;
+  text-align: right;
+  font-size: 13px;
+}
+.bottom-right-footer a {
+  color: #888;
+}
+
+
+/*body {
+  background: springgreen;
+}*/
+nav {
+  width:auto;
+  height: 50px;
+  /*background-color: springgreen;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+
+li {
+  float: left;
+  padding: 14px 16px;
+  font-size: 14px;
+}
+
+.continue{
+font-size: 12px;
+text-decoration: underline;
+}
+
+#wrapper {
+  position: relative;
+  margin: 0 auto;
+  /*background-color: springgreen;*/
+  width:100%;
+  height:1000px;
+}
+
+#innerwrapper {
+
+  width:664px;
+  height:395px;
+  margin-left: 468px;
+}
+
+#innerwrapper div:first-child {
+  background-color: #eee;
+  height: 82px;
+  width: auto;
+  font-family: Helvetica;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#plus {
+font-size: 10px;
+color: black;
+}
+
+#orange {
+  color: #FA5400;
+  font-size: 20px;
+}
+
+
+#innerwrapper div:nth-of-type(2) {
+  background-color: #eee;
+  height: 295px;
+  width: auto;
+  margin-top: 20px;
+  font-family: arial;
+}
+
+/*.cart {
+  overflow-y: auto;
+}*/
+.cart h3 {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.cart div img {
+  padding-left: 20px;
+}
+
+
+#test {
+
+  background-color: cyan;
+  height: 545px;
+  width: auto;
+}
+
+.swoosh {
+  display:inline-block;
+  width: 35px;
+  height: 18px;
+}
+
+.rs {
+  float:right;
+}
+
+.customize-content-wrapper {
+  width: 100%;
+}
+.customize-top-section{
+  background-color: rgb(245, 245, 245);
+}
+#bgshoevid{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.box-options{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  padding-top: 15px;
+}
+.shipment-box {
+  /*border: solid;*/
+  /*padding-top: 50px;*/
+  display: inline-block;
+  width: 33%;
+  flex-direction: row;
+  text-align: center;
+}
+.shipment-box a{
+  text-decoration: none;
+  color: rgb(159, 159, 159);
+  border: solid thin;
+  border-color: rgb(179, 179, 179);
+  font-size: 12px;
+  height: 25px;
+  /*line height must be the same as the heightfor contentto be in the middle*/
+  line-height: 23px;
+  width: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.shipment-box h2{
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.shipment-box p{
+  font-size: 25px;
+  color: rgb(83, 83, 83);
+  padding-bottom: 40px;
+}
+
+.customize-mid-section {
+
+}
+.starting-text{
+  border: solid;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  /*display: inline-block;*/
+  /*margin-left: 100px;*/
+  /*margin-left: auto;*/
+}
+.starting-text h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+
+}
+.starting-text p{
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+.starting-text .p-1 {
+  padding-bottom: 10px;
+
+}
+.starting-pics {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-grow: 2;*/
+  justify-content: center;
+
+}
+.starting-pics img{
+  max-width: 475px;
+  padding: 16px;
+}
+
+.customize-mid-lower-section {
+
+}
+.feature-text h2 {
+  text-align: center;
+  padding-top: 82px;
+  padding-bottom: 102px;
+  font-size: 23px;
+  line-height: 23px;
+  text-align:
+}
+#bgshoevid2{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.battle-built {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+.battle-built h2 {
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 22px;
+}
+.battle-built p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 16px;
+}
+.battle-built .customize-link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 38px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.battle-built .customize-link p{
+  padding-top: 16px;
+}
+.battle-built .customize-link img {
+  padding-right: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.battle-built .customize-link p {
+  display: block;
+  display: inline-block;
+  padding-right: 25px;
+  padding-top: 16px;
+}
+
+
+.home-content-wrapper .image-large{
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.home-content-wrapper .image-large.section-one{
+  background-image: url("./../app/images/home/give_nike_gray.jpg");
+}
+.home-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large .text-wrapper{
+  max-width: 230px;
+}
+.image-large .text-wrapper h2{
+  font-size: 29px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large .text-wrapper p{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 9px;
+}
+.image-large .text-wrapper a {
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-large .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.home-content-wrapper .image-large.section-two{
+  position: relative;
+  height: 0px;
+  min-height: 0;
+  padding-bottom: 43.750276%; /*img-height / img-width * 100*/
+}
+
+#bgvid {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+
+.home-content-wrapper .image-large.section-three{
+  background-image: url("./../app/images/home/give-creativity.jpg");
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.section-four{
+  background-color: rgb(242, 242, 242);
+}
+
+article {
+  width: 24%;
+}
+
+article h3 {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  padding-bottom: 24px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+article li {
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  padding-bottom: 9px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article a {
+  text-decoration: none;
+}
+
+.individual-shoe-body-wrapper {
+  display: flex;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.shoe-view {
+  width: 60%;
+  /*padding-left: 30px;*/
+
+}
+.shoe-individual-view {
+  float: left;
+  width: 80px;
+  padding-right: 20px;
+}
+.shoe-individual-view img{
+width: 100%;
+}
+.shoe-big-view {
+  padding-left: 80px;
+  max-width: 100%;
+}
+.shoe-big-view img{
+  max-width: 100%;
+}
+
+.shoe-purchase-info {
+  width: 40%;
+  margin-left: 24px;
+}
+.shoe-purchase-info h2{
+  font-size: 30px;
+  line-height: 33px;
+  padding-bottom: 7px;
+}
+.shoe-purchase-info .shoe-name{
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+  font-style: italic;
+  padding-bottom: 3px;
+}
+.shoe-purchase-info .shoe-price{
+  font-size: 20px;
+  line-height: 22px
+}
+.cart-info {
+  width: 99%;
+}
+.cart-info .top-line {
+  font-size: 11px;
+  line-height: 15px;
+  color: #666666;
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 10px;
+}
+.cart-info .shoe-style {
+  text-align: right;
+}
+.cart-info img {
+  padding-bottom: 46px;
+}
+.grey-option {
+  width: 107px;
+  font-size: 12px;
+  line-height: 40px;
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+.orange-button {
+  width: 172px;
+  background-color: rgb(246, 72, 6);
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.help-info p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #222222;
+}
+
+
+.pendleton-container {
+  min-height: 517px;
+  width: 100%;
+  /*border: 1px solid black;*/
+  /*background-image: url('../app/images/mens/Pendlton.jpg');*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  position: relative;
+}
+#pendleton-vid{
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.pendleton-text-left-wrapper {
+  height: 100px;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  /*z-index: 2;*/
+}
+.categories-container {
+  height: 517px;
+  width: 100%;
+  /*border: 1px solid blue;*/
+  background-image: url('./../app/images/mens/men_categories.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.categories-left-text-wrapper {
+  height: 270px;
+  width: 190px;
+  /*border: 1px solid black;*/
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 40px;
+}
+.mens-shoes-container {
+  height: 100%;
+  width: 75%;
+  /*border: 2px solid black;*/
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+}
+.mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
+  height: 40%;
+  width: 28%;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mens-running-text {
+
+}
+.mens-basketball-text {
+
+}
+.mens-soccer-text {
+  padding-right: 30px;
+}
+.mens-training-text {
+  padding-bottom: 25px;
+}
+.mens-sportswear-text {
+  padding-bottom: 25px;
+}
+.mens-jordan-text {
+  padding-bottom: 25px;
+  padding-right: 30px;
+}
+
+.vest-watch-container {
+  height: 555px;
+  width: 100%;
+  /*border: 2px solid blue;*/
+  background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 55px;
+}
+.below-vest-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 30%;
+  text-align: center;
+}
+.below-watch-text-wrapper {
+  /*border: 2px solid green;*/
+  width: 30%;
+  text-align: center;
+}
+.orange-shirt-container {
+  height: 555px;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-image: url('./../app/images/mens/orange_shirt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /*padding-bottom: 35px;*/
+}
+.below-orange-shirt-text-wrapper {
+  width: 520px;
+  /*border: 2px solid gray;*/
+  text-align: center;
+  margin-bottom: 35px;
+}
+.jacket-ball-container {
+  height: 555px;
+  width: 100%;
+  /*border: 2px solid purple;*/
+  background-image: url('./../app/images/mens/jacket_ball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 465px;
+}
+.below-jacket-text-wrapper {
+  /*border: 2px solid yellow;*/
+  text-align: center;
+  width: 505px;
+}
+.below-ball-text-wrapper {
+  /*border: 2px solid orange;*/
+  text-align: center;
+  width: 505px;
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.shoe-options-box {
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.shoe-options-box img{
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.womens-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+}
+.womens-sneak-boots-container {
+  position: relative;
+  min-height: 472px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#sneak-boots {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.sneak-boot-text-wrapper {
+  height: 230px;
+  width: 475px;
+  /*border: 2px solid red;*/
+  text-align: right;
+  margin-right: 50px;
+}
+.four-ways-text {
+  font-size: 40px;
+  font-family: 'Roboto: 700', sans-serif;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.cold-wet-weather {
+  font-family: 'Roboto: 300', sans-serif;
+  color: #434343;
+  padding-bottom: 40px;
+}
+.sneak-boot-text-wrapper h1 {
+  color: #222222;
+}
+.womens-categories-container {
+  min-height: 400px;
+  background-image: url('./../app/images/womens/womens_categories_pic.jpg');
+}
+.right-shoe-text-wrapper {
+  height: 265px;
+  width: 500px;
+  /*border: 1px solid red;*/
+  padding-top: 75px;
+  padding-left: 40px;
+}
+.the-right-shoe {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.different-workouts {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.womens-categories-text-container {
+  width: 100%;
+  height: 135px;
+  /*border: 2px solid black;*/
+  padding-left: 385px;
+  /*display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;*/
+  white-space: nowrap;
+  /*overflow: hidden;*/
+}
+.womens-text-wrapper {
+  height: 130px;
+  width: 120px;
+  /*border: 2px solid red;*/
+  display: inline-block;
+  margin-right: 95px;
+  text-align: center;
+  padding-top: 35px;
+}
+.womens-text-wrapper h1 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.womens-text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.tights-bras-yoga-container {
+  min-height: 364px;
+  background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;*/
+}
+.shop-by-text-wrapper {
+  height: 50px;
+  /*border: 2px solid yellow;*/
+  padding-top: 15px;
+  padding-left: 48px;
+}
+.tights-bras-yoga-text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*border: 2px solid red;*/
+  height: 314px;
+}
+.tights-bras-yoga-container h1 {
+  color: #ffffff;
+}
+.shoes-legs-container {
+  min-height: 500px;
+  background-image: url('./../app/images/womens/shoes_legs.jpg');
+  padding-top: 70px;
+  padding-left: 48px;
+}
+.below-shoes-legs-container {
+  min-height: 198px;
+  width: 100%;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nike-beautiful-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.our-favorite-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.below-shoes-legs-container h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-shoes-legs-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.below-shoes-legs-container button {
+  border-radius: 3px;
+  background-color: #222222;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
