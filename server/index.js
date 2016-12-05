@@ -22,7 +22,8 @@ var authCtrl = require('./controllers/userCtrl');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
-var mensCtrl = require('./controllers/mensCtrl')
+var mensCtrl = require('./controllers/mensCtrl');
+var boysCtrl = require('./controllers/boysCtrl');
 
 
 //POLICIES//
@@ -75,7 +76,6 @@ app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 // PRODUCTS //
 app.get('/api/products', productCtrl.getProducts);
 app.get('/api/products/:id',productCtrl.getProductById);
-
 // MENS //
 app.get('/api/mens', mensCtrl.getMensShoes);
 app.get('/api/mens/basketball', mensCtrl.getMensBasketball);
@@ -84,7 +84,13 @@ app.get('/api/mens/running', mensCtrl.getMensRunning);
 app.get('/api/mens/soccer', mensCtrl.getMensSoccer);
 app.get('/api/mens/sportswear', mensCtrl.getMensSportswear);
 app.get('/api/mens/training', mensCtrl.getMensTraining);
-
+// BOYS //
+app.get('/api/boys', boysCtrl.getBoysShoes);
+app.get('/api/boys/basketball', boysCtrl.getBoysBasketball);
+app.get('/api/boys/jordan', boysCtrl.getBoysJordan);
+app.get('/api/boys/lifestyle', boysCtrl.getBoysLifestyle);
+app.get('/api/boys/running', boysCtrl.getBoysRunning);
+app.get('/api/boys/soccer', boysCtrl.getBoysSoccer);
 
 // CART //
 app.get('/api/in/cart/:orderid', productCtrl.getInCart);
