@@ -1,4 +1,4 @@
-angular.module('nike-clone').controller('womensTraningCtrl', function($scope, mainService) {
+angular.module('nike-clone').controller('womensTrainingCtrl', function($scope, mainService) {
 
     $scope.getWomensTraining = function() {
       mainService.getWomensTraining().then(function(response) {
