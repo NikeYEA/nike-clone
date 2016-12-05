@@ -148,7 +148,6 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       templateUrl: './app/routes/mens-jordan/mens-jordan.html',
       controller: 'mens-jordanCtrl',
       url: '/mens-jordan'
-
     })
 
     .state('cart', {
@@ -176,14 +175,9 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
             return response.data
           }).catch(function(err) {
             $state.go('login');
-          });
+          })
       }
     }
   })
-
+});
 })
-
-
-function findMe(){
-
-}
