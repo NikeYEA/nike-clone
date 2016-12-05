@@ -45,7 +45,22 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       url: '/individual-shoe'
     })
 
+    .state('womens-Lifestyle', {
+      url: '/womens-lifestyle',
+      templateUrl: './app/routes/womens-lifestyle/womenLifestyle.html',
+      controller: 'womenLifestyleCtrl'
+    })
 
+    .state('womens-running', {
+      url: '/womens-running',
+      templateUrl: './app/routes/womensRunning/womensRunning.html',
+      controller: 'womensRunningCtrl'
+    })
+    .state('womens-training', {
+      url: '/womens-training',
+      templateUrl: './app/routes/womens-training/womensTraining.html',
+      controller: 'womensRunningCtrl'
+    })
 
     .state('cart', {
       templateUrl: './app/routes/cart/cart.html',
@@ -75,10 +90,7 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
           });
       }
     }
-  });
-
-
-
+  })
 
 })
 

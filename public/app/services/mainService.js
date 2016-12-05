@@ -89,5 +89,29 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response;
     })
   }
+  this.getWomensLifestyle = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/lifestyle'
+    }).then(function(response){
+      return response;
+    })
+  }
+  this.getWomensRunning = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/running'
+    }).then(function(response){
+      return response;
+    })
+  }
+  this.getWomensTraining = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/training'
+    }).then(function(response){
+      return response;
+    })
+  }
 
 });
