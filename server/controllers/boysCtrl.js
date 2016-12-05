@@ -25,7 +25,7 @@ module.exports = {
   },
 
   getBoysJordan: function(req, res, next) {
-    db.boys.product_boys_jordan(ion(err, products) {
+    db.boys.product_boys_jordan(function(err, products) {
       if (err) {
         return res.status(500)
           .send(err);
