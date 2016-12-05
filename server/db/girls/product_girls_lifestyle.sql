@@ -1,3 +1,4 @@
 SELECT *
-WHERE mwbg = "Girls"
-ANd activity = "Lifestyle";
+FROM products
+WHERE mwbg = 'Girls'
+AND activity = 'Lifestyle';

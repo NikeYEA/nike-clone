@@ -22,6 +22,9 @@ var authCtrl = require('./controllers/userCtrl');
 var userCtrl = require('./controllers/userCtrl');
 var orderCtrl = require('./controllers/orderCtrl');
 var productCtrl = require('./controllers/productsCtrl');
+var girlsCtrl = require('./controllers/girlsCtrl');
+var womensCtrl = require('./controllers/womensCtrl');
+
 
 //POLICIES//
 var passport = require('./services/passport');
@@ -74,6 +77,18 @@ app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 // PRODUCTS //
 app.get('/api/products', productCtrl.getProducts);
 app.get('/api/products/:id',productCtrl.getProductById);
+// GIRLS //
+app.get('/api/girls', girlsCtrl.getGirlsShoes);
+app.get('/api/girls/basketball', girlsCtrl.getGirlsBasketball);
+app.get('/api/girls/jordan', girlsCtrl.getGirlsJordan);
+app.get('/api/girls/lifestyle', girlsCtrl.getGirlsLifestyle);
+app.get('/api/girls/running', girlsCtrl.getGirlsRunning);
+app.get('/api/girls/soccer', girlsCtrl.getGirlsSoccer);
+// WOMENS //
+app.get('/api/womens', womensCtrl.getWomensShoes);
+app.get('/api/womens/lifestyle', womensCtrl.getWomensLifestyle);
+app.get('/api/womens/running', womensCtrl.getWomensRunning);
+app.get('/api/womens/training', womensCtrl.getWomensTraining);
 // CART //
 app.get('/api/in/cart/:orderid', productCtrl.getInCart);
 app.post('/api/add/item/cart/:orderid', productCtrl.addToCart);

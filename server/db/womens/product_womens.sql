@@ -1,2 +1,3 @@
 SELECT *
-FROM "womens";
+FROM products
+WHERE mwbg = 'Womens';
