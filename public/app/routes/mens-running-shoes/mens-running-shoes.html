@@ -21,75 +21,14 @@
   </section >
 
   <section class="shoe-options-container">
-    <div class="shoe-options-box box-num-1">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
+    <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1">
+        <img ng-src="{{shoe.img}}" alt="">
+        <p>{{shoe.name}}</p>
+        <p>{{shoe.mini_desc}}</p>
+        <p>${{shoe.price}}</p>
 
     </div>
-    <div class="shoe-options-box box-num-2">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-3">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-4">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-5">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-6">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-7">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-8">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-9">
-        <img src="./../app/images/mens-running/shoe.png" alt="">
-        <p>Nike Flyknit Race</p>
-        <p>Unisex Running Shoe</p>
-        <p>$150</p>
-
-    </div>
-    <div class="shoe-options-box box-num-10">
-      <img src="./../app/images/mens-running/shoe.png" alt="">
-      <p>Nike Flyknit Race</p>
-      <p>Unisex Running Shoe</p
-        <p>$150</p>
-    </div>
+    
 
 
   </section>
