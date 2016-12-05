@@ -1,0 +1,34 @@
+<div class="men-running-content-wrapper">
+  <section class="image-large-men-running section-one">
+    <div class="home-inner-wrapper">
+      <div class="text-wrapper">
+        <h2 class="oswald">Boy's Jordan Shoe Guide</h2>
+        <p>Find the perfect shoes for your run</p>
+        <p class="return">60-Day Free Returns. Wear it, test it, keep what you like.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="shoe-option-title">
+    <div class="title-container">
+      <h2>Boys Jordan Shoes</h2>
+      <h3>(141)</h3>
+    </div>
+    <div class="sort-by-container">
+      <p>Sort By </p>
+    </div>
+
+  </section >
+
+  <section class="shoe-options-container">
+    <div ng-repeat="shoe in lifestyleShoes" class="shoe-options-box box-num-1">
+        <img ng-src="{{shoe.img}}" alt="">
+        <p>{{shoe.name}}</p>
+        <p>{{shoe.mini_desc}}</p>
+        <p>${{shoe.price}}</p>
+    </div>
+
+
+
+  </section>
+</div>
