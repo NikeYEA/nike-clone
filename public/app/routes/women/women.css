@@ -1,9 +1,3 @@
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 .womens-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +43,10 @@ a:hover {
 .sneak-boot-text-wrapper h1 {
   color: #222222;
 }
+.sneak-boot-text-wrapper h1:hover {
+  text-decoration: underline;;
+  cursor: pointer;
+}
 .womens-categories-container {
   min-height: 400px;
   background-image: url('./../app/images/womens/womens_categories_pic.jpg');
@@ -89,6 +87,14 @@ a:hover {
   margin-right: 95px;
   text-align: center;
   padding-top: 35px;
+}
+.womens-text-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+.womens-text-wrapper a:hover {
+  color: black;
+  text-decoration: underline;
 }
 .womens-text-wrapper h1 {
   font-size: 17px;

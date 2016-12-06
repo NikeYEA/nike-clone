@@ -1,3 +1,16 @@
+.nike-men {
+  min-height: 150px;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nike-men-text-wrapper {
+  /*border: 2px solid black;*/
+}
+.nike-men-text-wrapper h1 {
+  font-size: 45px;
+}
 .pendleton-container {
   min-height: 517px;
   width: 100%;
@@ -7,6 +20,32 @@
   background-size: cover;
   background-position: center;*/
   position: relative;
+  padding-top: 80px;
+}
+.pendleton-left-text-wrapper {
+  color: #d7cdc1;
+  /*border: 2px solid white;*/
+}
+.pendleton-left-text-wrapper h1 {
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+.pendleton-left-text-wrapper p {
+  font-size: 16px;
+  padding-bottom: 30px;
+  font-weight: lighter;
+}
+.pendleton-left-text-wrapper h2 {
+  font-size: 14px;
+}
+.pendleton-left-text-wrapper h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pendleton-left-text-wrapper h1, .pendleton-left-text-wrapper p, .pendleton-left-text-wrapper h2 {
+  padding-left: 45px;
 }
 #pendleton-vid{
   position: absolute;
@@ -19,16 +58,6 @@
   color: #fff;
   width: 100%;
 }
-.pendleton-text-left-wrapper {
-  height: 100px;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid white;
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 20px;
-  /*z-index: 2;*/
-}
 .categories-container {
   height: 517px;
   width: 100%;
@@ -40,12 +69,28 @@
   position: relative;
 }
 .categories-left-text-wrapper {
-  height: 270px;
-  width: 190px;
+  width: 200px;
   /*border: 1px solid black;*/
   position: absolute;
   margin-top: 110px;
-  margin-left: 40px;
+  margin-left: 45px;
+}
+.find-the-right-shoe {
+  font-size: 25px;
+  line-height: 30px;
+}
+.up-your-game {
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+  padding-bottom: 10px;
+}
+.shop-all-mens-shoes {
+  font-size: 11px;
+  font-weight: bold;
+}
+.shop-all-mens-shoes a {
+  color: black;
 }
 .mens-shoes-container {
   height: 100%;
@@ -58,6 +103,14 @@
   align-items: center;
   margin-right: 50px;
 }
+.mens-shoes-container a{
+  text-decoration: none;
+  color: black;
+}
+.mens-shoes-container a:hover{
+  text-decoration: underline;
+}
+
 .mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
   height: 40%;
   width: 28%;
@@ -101,13 +154,24 @@
 }
 .below-vest-text-wrapper {
   /*border: 2px solid blue;*/
-  width: 30%;
+  width: 250px;
   text-align: center;
 }
 .below-watch-text-wrapper {
   /*border: 2px solid green;*/
-  width: 30%;
+  width: 250px;
   text-align: center;
+}
+.below-vest-text-wrapper h1, .below-watch-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-vest-text-wrapper h2, .below-watch-text-wrapper h2 {
+  font-size: 12px;
+}
+.below-vest-text-wrapper:hover, .below-watch-text-wrapper:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .orange-shirt-container {
   height: 555px;
@@ -126,7 +190,18 @@
   width: 520px;
   /*border: 2px solid gray;*/
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 28px;
+}
+.below-orange-shirt-text-wrapper:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.below-orange-shirt-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-orange-shirt-text-wrapper h2 {
+  font-size: 12px;
 }
 .jacket-ball-container {
   height: 555px;
@@ -141,13 +216,19 @@
   align-items: flex-start;
   padding-top: 465px;
 }
-.below-jacket-text-wrapper {
+.below-jacket-text-wrapper, .below-ball-text-wrapper {
   /*border: 2px solid yellow;*/
   text-align: center;
   width: 505px;
 }
-.below-ball-text-wrapper {
-  /*border: 2px solid orange;*/
-  text-align: center;
-  width: 505px;
+.below-jacket-text-wrapper:hover, .below-ball-text-wrapper:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.below-jacket-text-wrapper h1, .below-ball-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-jacket-text-wrapper p, .below-ball-text-wrapper p {
+  font-size: 12px;
 }
