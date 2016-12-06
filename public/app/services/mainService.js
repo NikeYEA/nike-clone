@@ -18,10 +18,10 @@ angular.module('nike-clone').service('mainService', function($http) {
     });
   };
 
-  this.getUserOrder = function(id) {
+  this.getUserOrder = function() {
     return $http({
         method: 'GET',
-        url: '/api/order/' + id
+        url: '/api/order'
       })
       .catch(function(err) {
         console.log(err);
@@ -36,12 +36,12 @@ angular.module('nike-clone').service('mainService', function($http) {
     });
   };
 
-  this.addToCart = function(id, product_id, qty) {
+  this.addToCart = function(product_id, qty) {
     return $http({
       method: 'POST',
-      url: '/api/add/item/cart/' + id,
+      url: '/api/add/item/cart',
       data: {
-        id: product_id,
+        product_id: product_id,
         qty: qty
       }
     });
@@ -251,5 +251,17 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response;
     })
   }
+
+  this.getOneProductById = function(id) {
+
+    return $http({
+      method: 'GET',
+      url: '/api/products/' + id
+    }).then(function(response){
+      return response.data;
+    })
+  }
+
+
 
 });
