@@ -16,6 +16,7 @@
 }
 
 
+
 li {
   float: left;
   padding: 14px 16px;
@@ -68,12 +69,14 @@ color: black;
   width: auto;
   margin-top: 20px;
   font-family: arial;
-}*/*/
-
-/*.cart {
-  overflow-y: auto;
 }*/
+
+
 /*.cart h3 {
+=======
+}
+.cart h3 {
+>>>>>>> master
   padding-top: 10px;
   padding-left: 20px;
 }

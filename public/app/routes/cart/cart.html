@@ -8,18 +8,20 @@
         </div>
         <div class="cart">
           <h3>YOUR CART</h3>
-          <img src="https://secure-images.nike.com/is/image/DotCom/878670_001?wid=150&hei=150&align=0,1&cropN=0,0,0,0&fmt=png-alpha&resMode=sharp&defaultImage=DotCom/SEARCH_002"/>
+          <div ng-repeat="product in productImages">
+          <img ng-src="{{product.img}}"/>
 
-          <section>Nike Zoom All Out Low Men's Running Shoe</section>
+          <section>{{product.name}}</section>
           <div>
             <ul>
               <li><strong>Style#:</strong> 878670-001</li>
               <li><strong>Size:</strong>9.5</li>
               <li><strong>Color:</strong>Black/Anthracite/White/Dark Grey</li>
-              <li><strong>Qty:</strong>1 @ $140.00</li>
+              <li><strong>Qty:</strong>{{product.quantity}} @ ${{product.price}}</li>
             </ul>
 
         </div>
+      </div>
 
         <br>
         <button>REMOVE</button>
