@@ -43,6 +43,7 @@ passport.serializeUser(function(user, done) {
 });
 passport.deserializeUser(function(id, done) {
   db.user.user_search_id([id], function(err, user) {
+
     done(err, user[0]);
   })
 });
