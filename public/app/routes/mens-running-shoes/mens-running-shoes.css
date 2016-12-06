@@ -48,3 +48,6 @@
 .shoe-options-box img{
   width: 100%;
 }
+#grey-border:hover {
+  border: 1px solid #ddd;
+}
