@@ -114,7 +114,7 @@
 .mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
   height: 40%;
   width: 28%;
-  /*border: 2px solid red;*/
+  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: flex-end;
