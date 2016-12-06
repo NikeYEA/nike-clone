@@ -105,14 +105,17 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response;
     })
   }
+
   this.getWomensTraining = function() {
     return $http({
-      method:'GET',
+      method: 'GET',
       url: '/api/womens/training'
     }).then(function(response){
       return response;
     })
   }
+
+
 
   this.getMenBasketballShoes = function() {
     return $http({
