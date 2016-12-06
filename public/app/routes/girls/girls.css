@@ -47,3 +47,126 @@
   padding-right: 21px;
   padding-left: 21px;
 }
+
+
+
+section.girls-shoes{
+  justify-content: space-around;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.girls-find-shoes  {
+  font-size: 24px;
+  line-height: 24px;
+  float: left;
+  width: 240px;
+}
+.girls-all {
+  border: solid;
+  color: white;
+}
+.girls-all a {
+  background-color: rgb(26, 26, 26);
+  font-size: 15px;
+  line-height: 38px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.girls-shoe-box-container {
+  padding-left: 230px;
+  max-width: 100%;
+}
+.girls-shoe-box-wrapper {
+  display: flex;
+  max-width: 100%
+}
+.girls-shoe-box {
+  width: 20%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.girls-shoe-box img {
+  max-width: 100%;
+}
+
+
+.girl-grey-block {
+  background-color: rgb(71, 71, 71);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.girl-grey-block .girls-signup {
+  display: flex;
+  padding: 40px;
+}
+.girl-grey-block .girls-signup h2{
+  font-size: 20px;
+  line-height: 20px;
+}
+.girl-grey-block .girls-signup p{
+  font-size: 14px;
+  line-height: 17px;
+}
+.girl-grey-block .girls-signup img {
+  font-size: 20px;
+  line-height: 20px;
+  width: 70px;
+}
+.girl-grey-block .girls-signup a{
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 27px;
+}
+.girl-grey-block .girls-signup a:hover{
+  text-decoration: underline;
+}
+
+.girls-season-essentials {
+
+}
+.girls-season-essentials h2{
+  text-transform: uppercase;
+}
+.girls-season-boxes {
+  border: solid;
+  border-color: green;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.girl-image-box {
+  border: solid;
+  width: 33.3%;
+}
+.girl-image-box a{
+  border: solid;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.girls-follow-athletes {
+  text-align: center;
+  border-color: rgb(245, 245, 245);
+}
+.girls-follow-athletes h2{
+  font-size: 21px;
+  line-height: 21px;
+  margin-bottom: 30px;
+  padding-top: 96px;
+  text-transform: uppercase;
+}
+.girls-follow-athletes img{
+  width: 35px;
+  padding-bottom: 107px;
+}
