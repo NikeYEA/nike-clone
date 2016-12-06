@@ -42,7 +42,7 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     .state('individual-shoe', {
       templateUrl: './app/routes/individual-shoe/individual-shoe.html',
       controller: 'individual-shoeCtrl',
-      url: '/individual-shoe'
+      url: '/individual-shoe/:id'
     })
 
     .state('boys-running-shoes', {

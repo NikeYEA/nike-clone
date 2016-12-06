@@ -10,7 +10,7 @@
       <img src="./../app/images/individual-shoe/front-left.jpg">
     </div>
     <div class="shoe-big-view">
-      <img src="./../app/images/individual-shoe/front-left-big.jpg" alt="">
+      <img ng-src="{{oneId.img}}" alt="">
 
     </div>
     <div class="clear"></div>
@@ -18,9 +18,9 @@
 
   <div class="shoe-purchase-info">
     <div class="name-price-info oswald">
-      <h2>Nike Zoom All Out Low</h2>
-      <p class="shoe-name">Men's Running Shoe</p>
-      <p class="shoe-price">$140</p>
+      <h2>{{oneId.name}}</h2>
+      <p class="shoe-name">{{oneId.mini_desc}}</p>
+      <p class="shoe-price">${{oneId.price}}</p>
       <hr>
     </div>
 
