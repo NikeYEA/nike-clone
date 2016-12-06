@@ -155,7 +155,25 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     .state('cart', {
       templateUrl: './app/routes/cart/cart.html',
       controller: 'cartCtrl',
-      url: '/cart'
+      url: '/cart',
+      resolve: {
+        user: function(authService, $state) {
+          return authService.getCurrentUser()
+            .then(function(response) {
+              if (!response.data.email) {
+                return $state.go('login');
+              }
+              return response.data
+            }).catch(function(err) {
+              $state.go('login');
+            })
+        },
+        order: function(mainService) {
+          return mainService.getUserOrder().then(function(response) {
+            return response.data
+          });
+        }
+      }
     })
 
   .state('login', {
@@ -178,6 +196,11 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
           }).catch(function(err) {
             $state.go('login');
           })
+      },
+      order: function(mainService) {
+        return mainService.getUserOrder().then(function(response) {
+          return response.data
+        });
       }
     }
   })

@@ -16,6 +16,7 @@ ul {
 }
 
 
+
 li {
   float: left;
   padding: 14px 16px;
@@ -70,9 +71,9 @@ color: black;
   font-family: arial;
 }
 
-/*.cart {
+.cart {
   overflow-y: auto;
-}*/
+}
 .cart h3 {
   padding-top: 10px;
   padding-left: 20px;

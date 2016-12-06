@@ -8,6 +8,11 @@ module.exports = {
 				return res.status(500)
 					.send(err);
 			}
+			console.log('NEW ORDER ID:', order);
+
+			if (req.user) {
+				req.user.order_id = order[0].id;
+			}
 			res.status(200)
 				.send('Order created successfully');
 		});
@@ -24,7 +29,7 @@ module.exports = {
 	getUserOrder: function(req, res, next) {
 		console.log(req.params.userid);
 		var completeOrder = {};
-		db.order_by_user([req.params.userid], function(err, order) {
+		db.order_by_user([req.user.id], function(err, order) {
 			if (err) {
 				console.log(err);
 				return res.status(500)

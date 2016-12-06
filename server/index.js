@@ -70,17 +70,27 @@ app.post('/api/register', authCtrl.register);
 app.get('/api/me', isAuthed, authCtrl.me);
 app.put('/api/user/current', isAuthed, authCtrl.update);
 // app.get('/api/logout', authCtrl.logout);
+
+
+
 // USER //
 app.post('/api/user', userCtrl.createUser);
 app.get('/api/user', userCtrl.getUsers);
 // ORDER //
 app.post('/api/order/:userid', orderCtrl.createOrder);
 app.put('/api/order/complete/:orderid/:userid', orderCtrl.completeOrder, orderCtrl.createOrder);
-app.get('/api/order/:userid', orderCtrl.getUserOrder);
+app.get('/api/order', isAuthed, orderCtrl.getUserOrder);
 app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 // PRODUCTS //
 app.get('/api/products', productCtrl.getProducts);
 app.get('/api/products/:id',productCtrl.getProductById);
+// CART //
+app.get('/api/in/cart/:orderid',isAuthed,productCtrl.getInCart);
+app.post('/api/add/item/cart',isAuthed,productCtrl.addToCart);
+app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
+app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
+
+
 
 // GIRLS //
 app.get('/api/girls', girlsCtrl.getGirlsShoes);
@@ -111,11 +121,7 @@ app.get('/api/boys/lifestyle', boysCtrl.getBoysLifestyle);
 app.get('/api/boys/running', boysCtrl.getBoysRunning);
 app.get('/api/boys/soccer', boysCtrl.getBoysSoccer);
 
-// CART //
-app.get('/api/in/cart/:orderid', productCtrl.getInCart);
-app.post('/api/add/item/cart/:orderid', productCtrl.addToCart);
-app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
-app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
+
 
 // TWILIO //
 app.get('/testtwilio', function(req, res) {
