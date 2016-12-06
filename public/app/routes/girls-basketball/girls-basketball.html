@@ -2,7 +2,7 @@
   <section class="image-large-men-running section-one">
     <div class="home-inner-wrapper">
       <div class="text-wrapper">
-        <h2 class="oswald">Men's Running Shoe Guide</h2>
+        <h2 class="oswald">Men's Basketball Shoe Guide</h2>
         <p>Find the perfect shoes for your run</p>
         <p class="return">60-Day Free Returns. Wear it, test it, keep what you like.</p>
       </div>
@@ -11,7 +11,7 @@
 
   <section class="shoe-option-title">
     <div class="title-container">
-      <h2>Men's Running Shoes</h2>
+      <h2>Girls Basketball Shoes</h2>
       <h3>(141)</h3>
     </div>
     <div class="sort-by-container">
@@ -21,15 +21,11 @@
   </section >
 
   <section class="shoe-options-container">
-     <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1" id="grey-border">
+    <div ng-repeat="shoe in basketballShoes" class="shoe-options-box box-num-1">
         <img ng-src="{{shoe.img}}" alt="">
         <p>{{shoe.name}}</p>
         <p>{{shoe.mini_desc}}</p>
         <p>${{shoe.price}}</p>
-
     </div>
-
-
-
   </section>
 </div>

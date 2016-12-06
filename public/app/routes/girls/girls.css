@@ -1,0 +1,49 @@
+.girls-content-wrapper h1 {
+  font-size: 43px;
+  line-height: 43px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 106px;
+  text-transform: uppercase;
+}
+.girls-content-wrapper .girls-img {
+  background-image: url("./../app/images/girls/girls-head-image.jpg");
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.girl-text-wrapper {
+  max-width: 230px;
+  margin-top: 83px;
+  margin-bottom: 83px;
+  float: right;
+}
+.girl-text-wrapper h2 {
+  font-size: 26px;
+  line-height: 26px;
+  color: #222222;
+  margin-bottom: 3px;
+}
+.girl-text-wrapper p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+.girl-text-wrapper a {
+  font-size: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  background-color: #222222;
+  width: 126px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 21px;
+  padding-left: 21px;
+}

@@ -89,5 +89,167 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response;
     })
   }
+  this.getWomensLifestyle = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/lifestyle'
+    }).then(function(response){
+      return response;
+    })
+  }
+  this.getWomensRunning = function() {
+    return $http({
+      method:'GET',
+      url: '/api/womens/running'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getWomensTraining = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/womens/training'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+
+
+  this.getMenBasketballShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/basketball'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenSoccerShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/soccer',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMenTrainingGymShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/training',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensSportswearShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/sportswear',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getMensJordanShoes = function() {
+    return $http({
+      method:'GET',
+      url: '/api/mens/jordan',
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getBoysRunningShoes = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/boys/running'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getBoysSoccer = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/boys/soccer'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getBoysBasketball = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/boys/basketball'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getBoysLifestyle = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/boys/lifestyle'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getBoysJordan = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/boys/jordan'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getGirlsBasketball = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/girls/basketball'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getGirlsLifestyle = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/girls/lifestyle'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getGirlsSoccer = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/girls/soccer'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getGirlsJordan = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/girls/jordan'
+    }).then(function(response){
+      return response;
+    })
+  }
+
+  this.getGirlsRunning = function() {
+    return $http({
+      method: 'GET',
+      url: '/api/girls/running'
+    }).then(function(response){
+      return response;
+    })
+  }
 
 });
