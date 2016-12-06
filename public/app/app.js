@@ -115,10 +115,12 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       templateUrl: './app/routes/womensRunning/womensRunning.html',
       controller: 'womensRunningCtrl'
     })
+
     .state('womens-training', {
-      url: '/womens-training',
-      templateUrl: './app/routes/womens-training/womensTraining.html',
-      controller: 'womensTrainingCtrl'
+      templateUrl: './app/routes/womens-training/womens-training.html',
+      controller: 'womens-trainingCtrl',
+      url: '/womens-training'
+    })
 
     .state('mens-basketball', {
       templateUrl: './app/routes/mens-basketball/mens-basketball.html',
@@ -180,4 +182,3 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
     }
   })
 });
-})
