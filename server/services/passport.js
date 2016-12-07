@@ -39,11 +39,13 @@ passport.use(new LocalStrategy({
 }));
 
 passport.serializeUser(function(user, done) {
+	// console.log(user);
   done(null, user.id)
 });
 passport.deserializeUser(function(id, done) {
+	console.log(id);
   db.user.user_search_id([id], function(err, user) {
-
+		console.log(err, user);
     done(err, user[0]);
   })
 });
