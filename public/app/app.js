@@ -152,6 +152,12 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       url: '/mens-jordan'
     })
 
+    .state('payments', {
+      templateUrl: './app/routes/payments/payments.html',
+      controller: 'paymentsCtrl',
+      url: '/payments'
+    })
+
     .state('cart', {
       templateUrl: './app/routes/cart/cart.html',
       controller: 'cartCtrl',
