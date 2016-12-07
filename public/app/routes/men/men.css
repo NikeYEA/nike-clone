@@ -120,8 +120,10 @@
 .mens-shoes-container a:hover{
   text-decoration: underline;
 }
-
-.mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
+.mens-shoes-container h1:hover {
+  cursor: pointer;
+}
+.mens-text-wrapper {
   /*height: 40%;*/
   width: 30%;
   /*border: 2px solid red;*/
@@ -129,10 +131,9 @@
   justify-content: center;
   align-items: flex-end;
 }
-/*.mens-running-shoe-wrapper:hover, .mens-basketball-shoe-wrapper:hover, .mens-soccer-shoe-wrapper:hover, .mens-training-shoe-wrapper:hover, .mens-sportswear-shoe-wrapper:hover, .mens-jordan-shoe-wrapper:hover,
 .mens-running-text:hover {
   cursor: pointer;
-}*/
+}
 .mens-basketball-text {
 
 }
