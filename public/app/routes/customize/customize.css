@@ -1,3 +1,4 @@
+
 .customize-content-wrapper {
   width: 100%;
 }
@@ -82,8 +83,10 @@
 .starting-pics {
   display: flex;
   flex-wrap: wrap;
-  /*flex-grow: 2;*/
   justify-content: center;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 .starting-pics img{
