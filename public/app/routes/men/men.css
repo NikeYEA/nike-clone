@@ -12,7 +12,8 @@
   font-size: 45px;
 }
 .pendleton-container {
-  min-height: 517px;
+  /*min-height: 517px;*/
+  height: 83vh;
   width: 100%;
   /*border: 1px solid black;*/
   /*background-image: url('../app/images/mens/Pendlton.jpg');*/
@@ -20,11 +21,15 @@
   background-size: cover;
   background-position: center;*/
   position: relative;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 .pendleton-left-text-wrapper {
   color: #d7cdc1;
   /*border: 2px solid white;*/
+  /*margin-top: 150px;*/
+  margin: 5vh 1vh;
+  position: absolute;
+  padding: 50px;
 }
 .pendleton-left-text-wrapper h1 {
   font-size: 40px;
@@ -44,9 +49,6 @@
   text-decoration: underline;
   cursor: pointer;
 }
-.pendleton-left-text-wrapper h1, .pendleton-left-text-wrapper p, .pendleton-left-text-wrapper h2 {
-  padding-left: 45px;
-}
 #pendleton-vid{
   position: absolute;
   top: 0;
@@ -59,7 +61,8 @@
   width: 100%;
 }
 .categories-container {
-  height: 517px;
+  /*height: 517px;*/
+  height: 78vh;
   width: 100%;
   /*border: 1px solid blue;*/
   background-image: url('./../app/images/mens/men_categories.jpg');
@@ -67,17 +70,23 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  /*display: flex;*/
+  justify-content: space-between;
+  align-items: center;
 }
 .categories-left-text-wrapper {
-  width: 200px;
+  /*width: 200px;*/
   /*border: 1px solid black;*/
   position: absolute;
-  margin-top: 110px;
-  margin-left: 45px;
+  /*margin: 20vh 2vw;*/
+  margin-top: 25vh;
+  /*margin-left: 45px;*/
+  padding: 2vh 2vw;
 }
 .find-the-right-shoe {
-  font-size: 25px;
-  line-height: 30px;
+  /*font-size: 43px;*/
+  font-size: 2.5em;
+  line-height: 45px;
 }
 .up-your-game {
   font-size: 14px;
@@ -94,14 +103,15 @@
 }
 .mens-shoes-container {
   height: 100%;
-  width: 75%;
+  width: 78%;
   /*border: 2px solid black;*/
   float: right;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  margin-right: 50px;
+  /*align-items: center;*/
+  /*margin-right: 5vw;*/
+  padding-right: 7vw;
 }
 .mens-shoes-container a{
   text-decoration: none;
@@ -112,35 +122,38 @@
 }
 
 .mens-running-shoe-wrapper, .mens-basketball-shoe-wrapper, .mens-soccer-shoe-wrapper, .mens-training-shoe-wrapper, .mens-sportswear-shoe-wrapper, .mens-jordan-shoe-wrapper {
-  height: 40%;
-  width: 28%;
+  /*height: 40%;*/
+  width: 30%;
   /*border: 2px solid red;*/
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.mens-running-text {
-
-}
+/*.mens-running-shoe-wrapper:hover, .mens-basketball-shoe-wrapper:hover, .mens-soccer-shoe-wrapper:hover, .mens-training-shoe-wrapper:hover, .mens-sportswear-shoe-wrapper:hover, .mens-jordan-shoe-wrapper:hover,
+.mens-running-text:hover {
+  cursor: pointer;
+}*/
 .mens-basketball-text {
 
 }
 .mens-soccer-text {
-  padding-right: 30px;
+  /*padding-right: 5px;*/
+  padding-left: 34px;
 }
 .mens-training-text {
-  padding-bottom: 25px;
+  padding-bottom: 48px;
 }
 .mens-sportswear-text {
-  padding-bottom: 25px;
+  padding-bottom: 48px;
 }
 .mens-jordan-text {
-  padding-bottom: 25px;
-  padding-right: 30px;
+  padding-bottom: 48px;
+  padding-left: 34px;
 }
 
 .vest-watch-container {
-  height: 555px;
+  /*height: 555px;*/
+  height: 84vh;
   width: 100%;
   /*border: 2px solid blue;*/
   background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
@@ -150,7 +163,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  padding-bottom: 55px;
+  padding-bottom: 7vh;
 }
 .below-vest-text-wrapper {
   /*border: 2px solid blue;*/
@@ -174,7 +187,8 @@
   cursor: pointer;
 }
 .orange-shirt-container {
-  height: 555px;
+  /*height: 555px;*/
+  height: 84vh;
   width: 100%;
   /*border: 2px solid red;*/
   background-image: url('./../app/images/mens/orange_shirt.jpg');
@@ -185,12 +199,14 @@
   justify-content: center;
   align-items: flex-end;
   /*padding-bottom: 35px;*/
+  /*position: relative;*/
 }
 .below-orange-shirt-text-wrapper {
-  width: 520px;
+  /*width: 520px;*/
   /*border: 2px solid gray;*/
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 5vh;
+  /*position: absolute;*/
 }
 .below-orange-shirt-text-wrapper:hover {
   text-decoration: underline;
@@ -204,7 +220,8 @@
   font-size: 12px;
 }
 .jacket-ball-container {
-  height: 555px;
+  /*height: 555px;*/
+  height: 84vh;
   width: 100%;
   /*border: 2px solid purple;*/
   background-image: url('./../app/images/mens/jacket_ball.jpg');
@@ -214,12 +231,13 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding-top: 465px;
+  /*padding-top: 465px;*/
 }
 .below-jacket-text-wrapper, .below-ball-text-wrapper {
   /*border: 2px solid yellow;*/
   text-align: center;
   width: 505px;
+  margin-top: 71vh;
 }
 .below-jacket-text-wrapper:hover, .below-ball-text-wrapper:hover {
   text-decoration: underline;
