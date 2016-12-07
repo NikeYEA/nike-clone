@@ -111,9 +111,9 @@ float:right;
 }
 .phone-chat  {
   min-width: 210px;
+  float: right;
 }
 .phone-chat .phone {
-  border: solid;
   display: inline-block;
 }
 
@@ -122,7 +122,6 @@ float:right;
   line-height: 15px;
   color: #767676;
   display: inline-block;
-  border: solid;
 }
 .phone-chat .phone .phone-img {
   background-image: url("/app/images/cart/vector-sprite-sheet.svg");
@@ -131,20 +130,36 @@ float:right;
   width: 34px;
   display: inline-block;
 }
-
+.phone-chat .chat {
+  display: inline-block;
+}
 .phone-chat .chat .chat-img {
   background-image: url("/app/images/cart/vector-sprite-sheet.svg");
   background-position: 0 -800px;
   height: 29px;
   width: 34px;
   display: inline-block;
-
 }
 .phone-chat .phone a {
   font-size: 11px;
   line-height: 15px;
   color: #767676;
   text-decoration: none;
+}
 
+.cart-body-wrapper {
+
+}
+.free h2{
+  color: #fa5400;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: TradeGo
+}
+.free p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 17px;
+  font-family: helvetica;
 }
 /*this is a test for css*/
