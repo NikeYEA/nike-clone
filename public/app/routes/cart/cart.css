@@ -1,55 +1,55 @@
 /*body {
-  background: springgreen;
+background: springgreen;
 }*/
 /*nav {
-  width:auto;
-  height: 50px;
-  /*background-color: springgreen;*/
+width:auto;
+height: 50px;
+background-color: springgreen;
 }*/
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border-bottom: 1px solid #ddd;
+/*ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border-bottom: 1px solid #ddd;
 }
 
 
 
 li {
-  float: left;
-  padding: 14px 16px;
-  font-size: 14px;
+float: left;
+padding: 14px 16px;
+font-size: 14px;
 }
 
 .continue{
 font-size: 12px;
 text-decoration: underline;
-}
+}*/
 
-#wrapper {
-  position: relative;
-  margin: 0 auto;
-  /*background-color: springgreen;*/
-  width:100%;
-  height:1000px;
-}
+/*#wrapper {
+position: relative;
+margin: 0 auto;
+background-color: springgreen;
+width:100%;
+height:1000px;
+}*/
 
-#innerwrapper {
+/*#innerwrapper {
 
-  width:664px;
-  height:395px;
-  margin-left: 468px;
+width:664px;
+height:395px;
+margin-left: 468px;
 }
 
 #innerwrapper div:first-child {
-  background-color: #eee;
-  height: 82px;
-  width: auto;
-  font-family: Helvetica;
-  padding-top: 10px;
-  padding-left: 20px;
+background-color: #eee;
+height: 82px;
+width: auto;
+font-family: Helvetica;
+padding-top: 10px;
+padding-left: 20px;
 }
 
 #plus {
@@ -58,45 +58,93 @@ color: black;
 }
 
 #orange {
-  color: #FA5400;
-  font-size: 20px;
+color: #FA5400;
+font-size: 20px;
 }
 
 
 #innerwrapper div:nth-of-type(2) {
-  background-color: #eee;
-  height: 295px;
-  width: auto;
-  margin-top: 20px;
-  font-family: arial;
-}
+background-color: #eee;
+height: 295px;
+width: auto;
+margin-top: 20px;
+font-family: arial;
+}*/
 
-.cart {
-  overflow-y: auto;
+
+/*.cart h3 {
+=======
 }
 .cart h3 {
-  padding-top: 10px;
-  padding-left: 20px;
+>>>>>>> master
+padding-top: 10px;
+padding-left: 20px;
 }
 
 .cart div img {
-  padding-left: 20px;
+padding-left: 20px;
 }
 
 
 #test {
 
-  background-color: cyan;
-  height: 545px;
-  width: auto;
+background-color: cyan;
+height: 545px;
+width: auto;
 }
 
 .swoosh {
-  display:inline-block;
-  width: 35px;
-  height: 18px;
+display:inline-block;
+width: 35px;
+height: 18px;
 }
 
 .rs {
-  float:right;
+float:right;
+}*/
+.info-top {
+  /*border: solid;*/
+  /*max-width: 1200px;*/
 }
+.back-link {
+  float: left;
+}
+.phone-chat  {
+  min-width: 210px;
+}
+.phone-chat .phone {
+  border: solid;
+  display: inline-block;
+}
+
+.phone-chat .phone p {
+  font-size: 11px;
+  line-height: 15px;
+  color: #767676;
+  display: inline-block;
+  border: solid;
+}
+.phone-chat .phone .phone-img {
+  background-image: url("/app/images/cart/vector-sprite-sheet.svg");
+  background-position: 0 -200px;
+  height: 29px;
+  width: 34px;
+  display: inline-block;
+}
+
+.phone-chat .chat .chat-img {
+  background-image: url("/app/images/cart/vector-sprite-sheet.svg");
+  background-position: 0 -800px;
+  height: 29px;
+  width: 34px;
+  display: inline-block;
+
+}
+.phone-chat .phone a {
+  font-size: 11px;
+  line-height: 15px;
+  color: #767676;
+  text-decoration: none;
+
+}
+/*this is a test for css*/

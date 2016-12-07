@@ -48,6 +48,7 @@
   padding-left: 21px;
 }
 
+
 section.boys-shoes{
   justify-content: space-around;
   padding-right: 15px;
@@ -55,6 +56,7 @@ section.boys-shoes{
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 .boys-find-shoes  {
@@ -91,4 +93,89 @@ section.boys-shoes{
 }
 .boys-shoe-box img {
   max-width: 100%;
+}
+
+
+.boy-grey-block {
+  background-color: rgb(71, 71, 71);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.boy-grey-block .boys-signup {
+  display: flex;
+  padding: 18px;
+}
+.boy-grey-block .boys-signup h2{
+  font-size: 20px;
+  line-height: 20px;
+}
+.boy-grey-block .boys-signup p{
+  font-size: 14px;
+  line-height: 17px;
+}
+.boy-grey-block .boys-signup img {
+  font-size: 20px;
+  line-height: 20px;
+  width: 70px;
+}
+.boy-grey-block .boys-signup a{
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 27px;
+}
+.boy-grey-block .boys-signup a:hover{
+  text-decoration: underline;
+}
+
+
+.boys-season-essentials {
+  text-align: center;
+}
+.boys-season-essentials h2{
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+}
+.boys-season-boxes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.boy-image-box {
+  width: 33.3%;
+}
+.boy-image-box a{
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.boys-follow-athletes {
+  text-align: center;
+  border-color: rgb(245, 245, 245);
+}
+.boys-follow-athletes h2{
+  font-size: 21px;
+  line-height: 21px;
+  margin-bottom: 30px;
+  padding-top: 96px;
+  text-transform: uppercase;
+}
+.boys-follow-athletes img{
+  width: 35px;
+  padding-bottom: 107px;
+}
+.boys-follow-athletes a{
+  width: 35px;
+  padding-bottom: 107px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.girls-signup-text{
+  text-align: left;
 }

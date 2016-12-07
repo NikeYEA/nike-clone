@@ -22,7 +22,7 @@ header {
 header nav {
   display: flex;
 }
-header nav a {
+header a {
   padding-left: 23px;
   padding-right: 23px;
   font-size: 14px;

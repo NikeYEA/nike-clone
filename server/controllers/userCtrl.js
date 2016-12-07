@@ -19,14 +19,7 @@ module.exports = {
 			}
 
 			user = user[0];
-			db.order_create([user.id], function(err, order) {
-				if (err) {
-					return res.status(500)
-						.send(err);
-				}
-				res.status(200)
-					.send('User and Order created successfully');
-			});
+
 		});
 	},
 	getUsers: function(req, res, next) {
@@ -49,13 +42,22 @@ console.log(err);
     user.email = user.email.toLowerCase();
 
     db.user.user_create([user.name, user.email, user.password, user.mobile_phone], function(err, newUser) {
-			console.log('this is the server newUser:',newUser);
+			console.log('this is the server newUser:',newUser[0].id);
 
       if (err) {
         console.log("Registration err: ", err);
         return res.status(401).send(err);
       }
-      res.status(200).send('User created successfully!');
+
+      db.order_create([newUser[0].id], function(err, order) {
+				if (err) {
+          console.log('this is the one: ',err);
+					return res.status(500)
+						.send(err);
+				}
+				res.status(200)
+					.send('User and Order created successfully');
+			});
     })
   },
 
