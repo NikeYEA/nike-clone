@@ -148,13 +148,26 @@ float:right;
 }
 
 .cart-body-wrapper {
-
+  max-width: 1200px;;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+}
+.free {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(236, 237, 236);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
 }
 .free h2{
   color: #fa5400;
   font-size: 20px;
   line-height: 24px;
-  font-family: TradeGo
 }
 .free p {
   color: #666666;
@@ -162,4 +175,123 @@ float:right;
   line-height: 17px;
   font-family: helvetica;
 }
-/*this is a test for css*/
+
+.your-cart-main {
+  margin-top: 22px;
+}
+.your-cart {
+  background-color: rgb(236, 237, 236);
+  padding-left: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.cart-info {
+  padding-top: 35px;
+  border: solid;
+  display: flex;
+}
+.cart-info-button {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(246, 246, 246);
+  font-size: 14px;
+  line-height: 14px;
+  color: #111111;
+  border:0 none;
+   cursor:pointer;
+   outline:none;
+   vertical-align:top;
+   border: solid thin;
+   border-color: rgb(227, 227, 227);
+}
+.cart-info-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.right-cart-info {
+  border: solid;
+  background-color: rgb(20, 20, 20);
+
+}
+.summary {
+  font-size: 20px;
+  line-height: 28px;
+  color: #efefef;
+  background-color: rgb(20, 20, 20);
+  text-transform: uppercase;
+}
+.subtotal {
+  color: #efefef;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.subtotal p{
+display: inline-block;;
+}
+/*.subtotal-word {
+float: left;
+}
+.subtotal-cost {
+float: right;
+}*/
+.shipping-info {
+  color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.shipping-info p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.shipping-time ul {
+  background-color: rgb(246, 246, 246);
+  color: black;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.tax {
+  color: rgb(165, 165, 165);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.tax p {
+  display: inline-block;
+}
+.total-cost {
+  color: #efefef;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout {
+  color: #efefef;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  /*display: flex;
+  flex-direction: column;*/
+}
+.orange-button {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: rgb(246, 72, 6);
+  text-transform: uppercase;
+}
