@@ -105,7 +105,7 @@ section.boys-shoes{
 }
 .boy-grey-block .boys-signup {
   display: flex;
-  padding: 40px;
+  padding: 18px;
 }
 .boy-grey-block .boys-signup h2{
   font-size: 20px;
@@ -133,24 +133,22 @@ section.boys-shoes{
 
 
 .boys-season-essentials {
-
+  text-align: center;
 }
 .boys-season-essentials h2{
   text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
 }
 .boys-season-boxes {
-  border: solid;
-  border-color: green;
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
 .boy-image-box {
-  border: solid;
   width: 33.3%;
 }
 .boy-image-box a{
-  border: solid;
   padding-top: 15px;
   text-transform: uppercase;
 }
@@ -169,4 +167,15 @@ section.boys-shoes{
 .boys-follow-athletes img{
   width: 35px;
   padding-bottom: 107px;
+}
+.boys-follow-athletes a{
+  width: 35px;
+  padding-bottom: 107px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.girls-signup-text{
+  text-align: left;
 }
