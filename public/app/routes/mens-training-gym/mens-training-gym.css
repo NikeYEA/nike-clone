@@ -1,35 +1,56 @@
-.men-running-content-wrapper .image-large-men-running {
-  min-height: 430px;
+.men-training-content-wrapper .image-large-men-training {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
+  height: 510px;
 }
-.men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+.men-training-content-wrapper .image-large-men-training.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Training/PWHs/1114-fw-pwh/FW_PWH_FLOW2_1114_NA_A.jpg.transform/full-screen/FW_PWH_FLOW2_1114_NA_A.jpg");
 }
-.men-running-inner-wrapper {
+.men-training-inner-wrapper {
   max-width: 10060px;
-  padding: 43px 61px;
-  margin-right: auto;
-  margin-left: auto;
 }
-.image-large-men-running .text-wrapper{
+.image-large-men-training .text-wrapper{
   max-width: 230px;
-  padding-top: 130px;
+  margin-left: 280px;
+  margin-top: 50px;
 }
-.image-large-men-running .text-wrapper h2{
-  font-size: 27px;
-  line-height: 27px;
+.image-large-men-training .text-wrapper h2{
+  font-size: 2rem;;
   text-transform: uppercase;
   margin-bottom: 22px;
+  line-height: 43px;
 }
-.image-large-men-running .text-wrapper p{
-  font-size: 10px;
-  line-height: 12px;
+.image-large-men-training .text-wrapper p{
+  font-size: 14px;
   padding-bottom: 9px;
+  max-width: 180px;
+  line-height: 18px;
+}
+.mens-training-under-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.ask-expert {
+  padding-top: 140px;
+  padding-left: 370px;
+}
+.mens-training-under-image div {
+  margin-top: 30px;
+}
+.mens-training-under-image h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
+.shoe-option-title {
+  margin-top: 50px;
+}
 .shoe-options-container {
   justify-content: space-around;
   text-align: center;
