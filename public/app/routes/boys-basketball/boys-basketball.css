@@ -1,30 +1,30 @@
-.men-running-content-wrapper .image-large-men-running {
-  min-height: 430px;
+.boys-basketball-content-wrapper .image-large-boys-basketball {
+  min-height: 502px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
 }
-.men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+.boys-basketball-content-wrapper .image-large-boys-basketball.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_3.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_3.jpg");
 }
-.men-running-inner-wrapper {
+.boys-basketball-inner-wrapper {
   max-width: 10060px;
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
 }
-.image-large-men-running .text-wrapper{
+.image-large-boys-basketball .text-wrapper{
   max-width: 230px;
   padding-top: 130px;
 }
-.image-large-men-running .text-wrapper h2{
+.image-large-boys-basketball .text-wrapper h2{
   font-size: 27px;
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
-.image-large-men-running .text-wrapper p{
+.image-large-boys-basketball .text-wrapper p{
   font-size: 10px;
   line-height: 12px;
   padding-bottom: 9px;
