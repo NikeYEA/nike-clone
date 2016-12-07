@@ -5,8 +5,8 @@ angular.module("nike-clone").controller("loginCtrl", function($scope, authServic
   // VARIABLES
   // ============================================================
   $scope.user= {
-    email: "dwight@office.com",
-    password: "dwight"
+    email: "sups@gmail.com",
+    password: "lois"
   };
 
   // FUNCTIONS
