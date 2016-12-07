@@ -5,8 +5,8 @@ angular.module("nike-clone").controller("loginCtrl", function($scope, authServic
   // VARIABLES
   // ============================================================
   $scope.user= {
-    email: "a@a.com",
-    password: "a"
+    email: "expotus@whitehouse.com",
+    password: "michelle"
   };
 
   // FUNCTIONS
@@ -29,11 +29,13 @@ angular.module("nike-clone").controller("loginCtrl", function($scope, authServic
 
     authService.register(newUser)
     .then(function(response) {
-      if (response.data !== "User created successfully!") {
+      console.log(response);
+      if (response.data !== "User and Order created successfully") {
         return alert("Could not register user");
       }
       alert(response.data);
     }).catch(function(err) {
+      console.log(err);
       return alert("Could not register user");
     });
   };
