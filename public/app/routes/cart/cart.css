@@ -124,7 +124,6 @@ float:right;
   display: inline-block;
   border: solid;
 }
-
 .phone-chat .phone .phone-img {
   background-image: url("/app/images/cart/vector-sprite-sheet.svg");
   background-position: 0 -200px;
@@ -132,6 +131,7 @@ float:right;
   width: 34px;
   display: inline-block;
 }
+
 .phone-chat .chat .chat-img {
   background-image: url("/app/images/cart/vector-sprite-sheet.svg");
   background-position: 0 -800px;
@@ -147,3 +147,4 @@ float:right;
   text-decoration: none;
 
 }
+/*this is a test for css*/
