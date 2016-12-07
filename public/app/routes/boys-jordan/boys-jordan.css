@@ -29,22 +29,3 @@
   line-height: 12px;
   padding-bottom: 9px;
 }
-
-.shoe-options-container {
-  justify-content: space-around;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-.shoe-options-box {
-  padding-right: 24px;
-  padding-left: 24px;
-
-}
-.shoe-options-box img{
-  width: 100%;
-}
