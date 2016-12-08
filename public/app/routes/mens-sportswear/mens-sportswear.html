@@ -5,16 +5,20 @@
 <br>
 <br>
 <hr>
-  <section class="shoe-option-title">
-    <div class="title-container">
-      <h2>Men's Running Shoes</h2>
-      <h3>(141)</h3>
-    </div>
-    <div class="sort-by-container">
-      <p>Sort By </p>
-    </div>
-
-  </section >
+<section class="shoe-option-title">
+  <div class="title-container">
+    <h2 class="oswald">Men's Sportswear Shoes <i>(10)</i></h2>
+  </div>
+  <div class="sort-by-container">
+    <select class="oswald" name="sort-by">
+      <option selected disabled>Sort By:</option>
+      <option value="newest">Newest</option>
+      <option value="highest">Highest Rated</option>
+      <option value="expensive-cheap">$$-$</option>
+      <option value="cheap-expensive">$-$$</option>
+    </select>
+  </div>
+</section>
 
   <section class="shoe-options-container">
     <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1">
