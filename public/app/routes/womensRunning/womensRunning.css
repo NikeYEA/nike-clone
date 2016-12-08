@@ -24,12 +24,14 @@
 }
 .image-large-womens-running .text-wrapper h2{
   font-size: 27px;
+  /*font-size: 1.688em;*/
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
 .image-large-womens-running .text-wrapper p{
   font-size: 10px;
+  /*font-size: 0.625em;*/
   line-height: 12px;
   padding-bottom: 9px;
 }

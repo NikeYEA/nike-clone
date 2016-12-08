@@ -1,3 +1,6 @@
+.womens-page-container {
+  background-color: #dcdcdc;
+}
 .womens-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +13,8 @@
   align-items: center;
   /*border: 2px solid black;*/
   padding: 50px;
+  background-color: #ffffff;
+  /*position: relative;*/
 }
 .nike-women-text-wrapper {
   /*border: 2px solid black;*/
@@ -20,6 +25,8 @@
 .womens-sneak-boots-container {
   position: relative;
   min-height: 425px;
+  /*height: 0px;*/
+  /*min-height: 0;*/
   /*min-height: 67vh;*/
   /*width: 100%;*/
   /*min-height: 472px;*/
@@ -32,13 +39,14 @@
 }
 #sneak-boots {
   /*min-height: 425px;*/
-  position: relative;
+  /*position: absolute;*/
+  /*bottom: 0;*/
   /*top: 0;*/
   /*max-width: 100%;*/
   /*z-index: -1;*/
-  /*background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
   /*color: #fff;*/
   width: 100%;
   /*border: 2px solid yellow;*/
@@ -71,8 +79,8 @@
   cursor: pointer;
 }
 .womens-categories-container {
-  /*min-height: 527px;*/
-  min-height: 61vh;
+  min-height: 300px;
+  height: 61vh;
   /*width: 100%;*/
   background-image: url('./../app/images/womens/womens_categories_pic.jpg');
   background-repeat: no-repeat;
@@ -155,7 +163,7 @@
   font-size: 12px;
 }
 .tights-bras-yoga-container {
-  min-height: 368px;
+  min-height: 282px;
   height: 52.5vh;
   /*width: 100%;*/
   background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
@@ -169,8 +177,8 @@
 .shop-by-text-wrapper {
   height: 7.5vh;
   /*border: 2px solid yellow;*/
-  padding-top: 15px;
-  padding-left: 48px;
+  padding-top: 2vh;
+  padding-left: 7vh;
 }
 .tights-bras-yoga-text-wrapper {
   display: flex;
@@ -191,7 +199,8 @@
   cursor: pointer;
 }
 .shoes-legs-container {
-  min-height: 512px;
+  /*min-height: 512px;*/
+  min-height: 296px;
   height: 72.5vh;
   background-image: url('./../app/images/womens/shoes_legs.jpg');
   /*padding-top: 70px;
@@ -201,7 +210,7 @@
   /*border: 2px solid yellow;*/
   height: 17vh;
   padding-top: 10vh;
-  padding-left: 2.5vw;
+  padding-left: 7vh;
 }
 .below-shoes-legs-container {
   min-height: 267px;
@@ -211,6 +220,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #ffffff;
 }
 .nike-beautiful-text-wrapper {
   /*border: 2px solid blue;*/
