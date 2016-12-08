@@ -3,22 +3,22 @@ var db = app.get('db');
 
 module.exports = {
 	createOrder: function(req, res, next) {
-		db.order_create([req.params.userid], function(err, order) {
+		db.order_create([req.user.id], function(err, order) {
 			if (err) {
 				return res.status(500)
 					.send(err);
 			}
-			console.log('NEW ORDER ID:', order);
+			console.log('NEW ORDER ID:', order.id);
 
 			if (req.user) {
-				req.user.order_id = order[0].id;
+				req.user.order_id = order.id;
 			}
 			res.status(200)
 				.send('Order created successfully');
 		});
 	},
 	completeOrder: function(req, res, next) {
-		db.order_complete([req.params.orderid], function(err, order) {
+		db.order_complete([req.user.order_id], function(err, order) {
 			if (err) {
 				return res.status(500)
 					.send(err);
