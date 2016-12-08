@@ -26,9 +26,9 @@ module.exports = {
 		});
 	},
 	updateProductInCart: function(req, res, next) {
-		db.product_cart_update([req.body.qty, req.params.productid], function(err, productInCart) {
+		db.product_cart_update([req.body.qty, req.params.cartid], function(err, productInCart) {
 			console.log('FUCKING REQ.BODY.QTY: ',req.body.qty);
-			console.log('FUCKING TOLD YOU REQ.PARAMS.PRODUCTID: ',req.params.productid);
+			console.log('FUCKING TOLD YOU REQ.PARAMS.PRODUCTID: ',req.params.cartid);
 			if (err) {
 				return res.status(500)
 					.send(err);

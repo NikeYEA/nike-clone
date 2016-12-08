@@ -1,5 +1,8 @@
 angular.module('nike-clone').controller('cartCtrl', function($scope, authService, user, order, $state, mainService) {
 
+  console.log('THIS IS THE FUCKING FUCKING $SCOPE.OPTIONS: ',$scope.options);
+  console.log('THIS IS THE FUCKING SELECTED OPTION: ',$scope.selectedOption);
+
   $scope.user = user;
   $scope.order = order.order;
   $scope.total = 0;

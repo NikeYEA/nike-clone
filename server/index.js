@@ -91,7 +91,7 @@ app.get('/api/products/:id',productCtrl.getProductById);
 // CART //
 app.get('/api/in/cart/:orderid',isAuthed,productCtrl.getInCart);
 app.post('/api/add/item/cart',isAuthed,productCtrl.addToCart);
-app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
+app.put('/api/update/qty/:cartid', productCtrl.updateProductInCart);
 app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
 
 // GIRLS //

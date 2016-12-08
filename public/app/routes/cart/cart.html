@@ -39,12 +39,10 @@
           </ul>
           <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="remove(cart.id)">Remove</button>
 
-          <div class="remove-button cart-info-button oswald" ng-click="edit(cart.product_id,cart.quantity)">
-            <select class="oswald" name="edit-cart">
-              <option selected disabled>Edit:</option>
-              <option value="add">+</option>
-              <option value="remove">-</option>
-            </select>
+          <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="edit(cart.id,cart.quantity)">Edit</button>
+
+          <div class="remove-button cart-info-button oswald">
+            <input ng-model="cart.quantity" type="number" class="oswald" name="edit-cart">
           </div>
 
         </div>
