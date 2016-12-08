@@ -5,6 +5,8 @@
   background-size: cover;
   background-position: center;
   color: #111111;
+  /*border: 2px solid black;*/
+  position: relative;
 }
 .womens-training-content-wrapper .image-large-womens-training.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpghttps://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpg");
@@ -14,6 +16,7 @@
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
+  /*border: 2px solid black;*/
 }
 .image-large-womens-training .text-wrapper{
   max-width: 230px;
@@ -29,4 +32,37 @@
   font-size: 10px;
   line-height: 12px;
   padding-bottom: 9px;
+}
+.studio-gym-cardio-high-container {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  min-height: 111px;
+  width: 100%;
+  /*border: 2px solid yellow;*/
+  display: flex;
+  justify-content: space-between;
+}
+.wt-text-wrapper {
+  /*border: 2px solid red;*/
+  width: 17%;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.wt-text-wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+.wt-text-wrapper h2 {
+  font-size: 11px;
+}
+.wt-studio-wrapper {
+  padding-right: 7%;
+}
+.wt-gym-wrapper {
+  padding-right: 7%;
+}
+.wt-cardio-wrapper {
+  padding-right: 5%;
 }
