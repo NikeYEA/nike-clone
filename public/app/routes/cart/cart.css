@@ -1,107 +1,4 @@
-/*body {
-background: springgreen;
-}*/
-/*nav {
-width:auto;
-height: 50px;
-background-color: springgreen;
-}*/
 
-/*ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-border-bottom: 1px solid #ddd;
-}
-
-
-
-li {
-float: left;
-padding: 14px 16px;
-font-size: 14px;
-}
-
-.continue{
-font-size: 12px;
-text-decoration: underline;
-}*/
-
-/*#wrapper {
-position: relative;
-margin: 0 auto;
-background-color: springgreen;
-width:100%;
-height:1000px;
-}*/
-
-/*#innerwrapper {
-
-width:664px;
-height:395px;
-margin-left: 468px;
-}
-
-#innerwrapper div:first-child {
-background-color: #eee;
-height: 82px;
-width: auto;
-font-family: Helvetica;
-padding-top: 10px;
-padding-left: 20px;
-}
-
-#plus {
-font-size: 10px;
-color: black;
-}
-
-#orange {
-color: #FA5400;
-font-size: 20px;
-}
-
-
-#innerwrapper div:nth-of-type(2) {
-background-color: #eee;
-height: 295px;
-width: auto;
-margin-top: 20px;
-font-family: arial;
-}*/
-
-
-/*.cart h3 {
-=======
-}
-.cart h3 {
->>>>>>> master
-padding-top: 10px;
-padding-left: 20px;
-}
-
-.cart div img {
-padding-left: 20px;
-}
-
-
-#test {
-
-background-color: cyan;
-height: 545px;
-width: auto;
-}
-
-.swoosh {
-display:inline-block;
-width: 35px;
-height: 18px;
-}
-
-.rs {
-float:right;
-}*/
 .info-top {
   /*border: solid;*/
   /*max-width: 1200px;*/
@@ -151,9 +48,11 @@ float:right;
   max-width: 1200px;;
   margin-right: auto;
   margin-left: auto;
-  border: solid;
   display: flex;
   justify-content: space-around;
+  align-items: stretch;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .free {
   max-width: 100%;
@@ -189,7 +88,6 @@ float:right;
 }
 .cart-info {
   padding-top: 35px;
-  border: solid;
   display: flex;
 }
 .cart-info-button {
@@ -212,9 +110,16 @@ float:right;
   background-color: rgb(255, 255, 255);
 }
 
+.left-cart-info {
+  width: 100%;
+  padding-right: 20px;
+  max-width: 100%;
+}
 .right-cart-info {
   border: solid;
   background-color: rgb(20, 20, 20);
+  width: 340px;
+  flex: 0 0 340px;
 
 }
 .summary {
@@ -282,10 +187,13 @@ float: right;
 }
 .checkout {
   color: #efefef;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   text-transform: uppercase;
   text-align: center;
+  max-width: 125px;
+  margin-right: auto;
+  margin-left: auto;
   /*display: flex;
   flex-direction: column;*/
 }
@@ -293,5 +201,17 @@ float: right;
   color: #ffffff;
   font-size: 14px;
   background-color: rgb(246, 72, 6);
-  text-transform: uppercase;
+  text-transform: capitalize;
+  max-width: 124px;
+
+}
+.card-pay {
+  max-width: 125px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.stripe-button {
+  max-width: 125px;
+
+
 }

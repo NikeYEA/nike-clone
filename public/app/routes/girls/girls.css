@@ -58,33 +58,49 @@ section.girls-shoes{
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  margin-top: 51px;
+  margin-bottom: 75px;
 }
 
 .girls-find-shoes  {
   font-size: 24px;
   line-height: 24px;
   float: left;
-  width: 240px;
+  width: 162px;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.girls-find-shoes p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 31px;
+
 }
 .girls-all {
   color: white;
+  text-transform: capitalize;
 }
 .girls-all a {
   background-color: rgb(26, 26, 26);
-  font-size: 15px;
+  font-size: 11px;
   line-height: 38px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 .girls-shoe-box-container {
   padding-left: 230px;
   max-width: 100%;
+
 }
 .girls-shoe-box-wrapper {
   display: flex;
-  max-width: 100%
+  max-width: 100%;
+  font-size: 15px;
+  color: rgb(146, 146, 146);
+
 }
 .girls-shoe-box {
   width: 20%;
@@ -98,10 +114,15 @@ section.girls-shoes{
 
 .girl-grey-block {
   background-color: rgb(71, 71, 71);
+}
+.girls-grey-block-wrapper {
   color: #ffffff;
   display: flex;
   justify-content: space-around;
   text-align: center;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .girl-grey-block .girls-signup {
   display: flex;
@@ -135,16 +156,16 @@ section.girls-shoes{
   text-decoration: underline;
 }
 .girls-signup-text{
-  text-align: left;
 }
 
 .girls-season-essentials {
   text-align: center;
+  padding-top: 19px;
 }
 .girls-season-essentials h2{
   text-transform: uppercase;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 23px;
+  line-height: 28px;
 }
 .girls-season-boxes {
   display: flex;
@@ -152,25 +173,43 @@ section.girls-shoes{
   text-align: center;
 }
 .girl-image-box {
-  width: 33.3%;
+  width: 33%;
+  padding-bottom: 58px;
+}
+.girl-image-box img {
+  max-width: 100%;
 }
 .girl-image-box a{
   padding-top: 15px;
   text-transform: uppercase;
+  color: rgb(200, 200, 200);
+  font-size: 13px;
+  line-height: 16px;
+  font-size: 11px;
 }
 
 .girls-follow-athletes {
   text-align: center;
   background-color: rgb(245, 245, 245);
 }
+.girls-follow-athletes a{
+  display: block;
+  height: 100%
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
 .girls-follow-athletes h2{
-  font-size: 21px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 18px;
   margin-bottom: 30px;
-  padding-top: 96px;
+  padding-top: 80px;
   text-transform: uppercase;
+  max-width: 93px;
+  margin-right:auto;
+  margin-left:auto;
 }
 .girls-follow-athletes img{
   width: 35px;
-  padding-bottom: 107px;
+  padding-bottom: 69px;
 }
