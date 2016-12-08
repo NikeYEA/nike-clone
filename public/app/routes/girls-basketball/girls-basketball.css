@@ -30,8 +30,8 @@
   padding-bottom: 9px;
 }
 
-.girls-basketball-under-image-wrapper {
-  margin-top: 250px;
+.girls-under-image-wrapper {
+  margin-top: 260px;
   font-weight: bold;
 }
 
@@ -43,4 +43,28 @@
 
 .girls-basketball-jordan-under-image {
   padding-right: 80px;
+}
+.girls-running-under-image {
+  text-decoration: none;
+  color: black;
+}
+.girls-running-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-soccer-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-basketball-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-lifestyle-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-jordan-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
