@@ -5,8 +5,9 @@ var bodyParser = require('body-parser');
 var config = require('./../config');
 var session = require('express-session');
 var client = require('twilio')(config.accountSid, config.authToken);
-var stripeApiKey = "sk_test_qq3yUt9sLzCVopxQ0fkfDalr";
-var stripe = require('stripe')(stripeApiKey);
+var stripeKey = require('./stripeSecretKeys');
+
+var stripe = require('stripe')(stripeKey.secretKey);
 
 var app = module.exports = express();
 app.use(bodyParser.json());
@@ -122,6 +123,49 @@ app.get('/api/boys/lifestyle', boysCtrl.getBoysLifestyle);
 app.get('/api/boys/running', boysCtrl.getBoysRunning);
 app.get('/api/boys/soccer', boysCtrl.getBoysSoccer);
 
+// PAYMENT //
+app.post('/api/payment',function(req, res, next){
+	console.log(req.body);
+
+	//convert amount to pennies
+	var chargeAmt = req.body.amount;
+	var amountArray = chargeAmt.toString().split('');
+	var pennies = [];
+	for (var i = 0; i < amountArray.length; i++) {
+		if(amountArray[i] === ".") {
+			if(typeof amountArray[i + 1] === "string") {
+				pennies.push(amountArray[i + 1]);
+			} else {
+				pennies.push("0");
+			}
+			if(typeof amountArray[i + 2] === "string") {
+				pennies.push(amountArray[i + 2]);
+			} else {
+				pennies.push("0");
+			}
+			break;
+		} else {
+			pennies.push(amountArray[i])
+		}
+	}
+	var convertedAmt = parseInt(pennies.join(''));
+	console.log('Pennies: ');
+	console.log(convertedAmt);
+
+	var charge = stripe.charges.create({
+		amount: convertedAmt, //amount in cents, again
+		currency: 'usd',
+		source: req.body.payment.token,
+		description: 'Test charge for NikeClone.com'
+	}, function(err, charge) {
+		res.sendStatus(200);
+		//if (err && err.type === 'StripeCardError') {
+		//The card has been declined
+		// }
+	
+	});
+});
+
 
 
 // TWILIO //
@@ -139,7 +183,7 @@ app.get('/testtwilio', function(req, res) {
 	})
 })
 
-//STRIPE//
+
 
 
 app.listen(port, function() {
