@@ -1,3 +1,36 @@
+
+.shoe-option-title {
+  text-align: center;
+  margin-right: 125px;
+  margin-left: 125px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.shoe-option-title .title-container {
+  font-size: 24px;
+  display: inline-block;
+}
+.shoe-option-title .title-container h2{
+  font-size: 24px;
+  display: inline-block;
+}
+.shoe-option-title .title-container i{
+  color: rgb(146, 146, 146);
+}
+.sort-by-container{
+  display: inline-block;
+}
+.sort-by-container select{
+  background-color: white;
+  font-size: 15px;
+  line-height: 38px;
+  color: #111;
+  text-transform: uppercase;
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .shoe-options-container {
   justify-content: space-around;
   text-align: center;
@@ -12,7 +45,6 @@
   width: 300px;
   padding-top: 50px;
   padding-bottom: 15px;
-  margin-right: 30px;
   border-bottom: solid lightgrey 1px;
 }
 .shoe-options-box {
