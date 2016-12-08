@@ -82,7 +82,7 @@ app.post('/api/user', userCtrl.createUser);
 app.get('/api/user', userCtrl.getUsers);
 // ORDER //
 app.post('/api/order/:userid', orderCtrl.createOrder);
-app.put('/api/order/complete/:orderid/:userid', orderCtrl.completeOrder, orderCtrl.createOrder);
+app.put('/api/order/complete', orderCtrl.completeOrder, orderCtrl.createOrder);
 app.get('/api/order', isAuthed, orderCtrl.getUserOrder);
 app.get('/api/order/completed/:userid', orderCtrl.getUserHistory);
 // PRODUCTS //
