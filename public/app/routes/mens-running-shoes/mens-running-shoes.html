@@ -8,7 +8,6 @@
       </div>
     </div>
   </section>
-
   <section class="shoe-option-title">
     <div class="title-container">
       <h2>Men's Running Shoes</h2>
@@ -17,19 +16,13 @@
     <div class="sort-by-container">
       <p>Sort By </p>
     </div>
-
   </section >
-
   <section class="shoe-options-container">
      <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1" id="grey-border">
         <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
-        <p>{{shoe.name}}</p>
-        <p>{{shoe.mini_desc}}</p>
-        <p>${{shoe.price}}</p>
-
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
     </div>
-
-
-
   </section>
 </div>
