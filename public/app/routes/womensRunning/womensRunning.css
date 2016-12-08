@@ -5,6 +5,8 @@
   background-size: cover;
   background-position: center;
   color: #111111;
+  /*border: 2px solid black;*/
+  position: relative;
 }
 .womens-running-content-wrapper .image-large-womens-running.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_lu/HO16/Running/PWH/Womens/HO16_RUNNING_W_PWH_1_NA_1600px.jpg.transform/full-screen/HO16_RUNNING_W_PWH_1_NA_1600px.jpg");
@@ -14,6 +16,7 @@
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
+  /*border: 2px solid black;*/
 }
 .image-large-womens-running .text-wrapper{
   max-width: 230px;
@@ -29,4 +32,33 @@
   font-size: 10px;
   line-height: 12px;
   padding-bottom: 9px;
+}
+.longer-stronger-faster-container {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  min-height: 139px;
+  width: 100%;
+  /*border: 2px solid yellow;*/
+  display: flex;
+  justify-content: space-between;
+}
+.wr-text-wrapper {
+  /*border: 2px solid red;*/
+  /*min-width: 290px;*/
+  width: 25%;
+  text-align: center;
+  padding-top: 7vh;
+}
+.wr-text-wrapper h3 {
+  padding-top: 8vh;
+  padding-right: 13vh;
+  font-size: 11px;
+}
+.wr-text-wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+.wr-text-wrapper h2 {
+  font-size: 11px;
 }
