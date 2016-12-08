@@ -195,9 +195,11 @@ angular.module('nike-clone', ['ui.router']).config(function($stateProvider, $url
       user: function(authService, $state) {
         return authService.getCurrentUser()
           .then(function(response) {
+            console.log('RESOLVE',response);
             if (!response.data.email) {
               return $state.go('login');
             }
+
             return response.data
           }).catch(function(err) {
             $state.go('login');

@@ -56,7 +56,6 @@ angular.module('nike-clone').service('mainService', function($http) {
       }
     });
   };
-
   this.removeFromCart = function(id) {
     return $http({
       method: 'DELETE',
@@ -257,6 +256,15 @@ angular.module('nike-clone').service('mainService', function($http) {
     return $http({
       method: 'GET',
       url: '/api/products/' + id
+    }).then(function(response){
+      return response.data;
+    })
+  }
+  this.completeOrder = function() {
+
+    return $http({
+      method: 'PUT',
+      url: '/api/order/complete'
     }).then(function(response){
       return response.data;
     })
