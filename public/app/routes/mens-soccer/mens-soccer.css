@@ -1,9 +1,9 @@
 .men-soccer-content-wrapper .image-large-men-soccer {
-  min-height: 430px;
+  min-height: 300px;
+  height: 53vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: #111111;
-  height: 500px;
 }
 .men-soccer-content-wrapper .image-large-men-soccer.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Football/NA/NA_Soccer_PWH.jpg.transform/full-screen/NA_Soccer_PWH.jpg");

@@ -1,12 +1,13 @@
 .men-running-content-wrapper .image-large-men-running {
-  min-height: 430px;
+  min-height: 300px;
+  height: 63vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
 }
 .men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Running/NA/HO16_RUNNING_PWH_v3_1600x528px.jpg.transform/full-screen/HO16_RUNNING_PWH_v3_1600x528px.jpg");
 }
 .men-running-inner-wrapper {
   max-width: 10060px;
