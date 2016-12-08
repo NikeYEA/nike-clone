@@ -5,6 +5,9 @@ var bodyParser = require('body-parser');
 var config = require('./../config');
 var session = require('express-session');
 var client = require('twilio')(config.accountSid, config.authToken);
+var stripeApiKey = "sk_test_qq3yUt9sLzCVopxQ0fkfDalr";
+var stripe = require('stripe')(stripeApiKey);
+
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -90,8 +93,6 @@ app.post('/api/add/item/cart',isAuthed,productCtrl.addToCart);
 app.put('/api/update/qty/:productid', productCtrl.updateProductInCart);
 app.delete('/api/delete/item/cart/:productid', productCtrl.deleteCartItem);
 
-
-
 // GIRLS //
 app.get('/api/girls', girlsCtrl.getGirlsShoes);
 app.get('/api/girls/basketball', girlsCtrl.getGirlsBasketball);
@@ -137,6 +138,8 @@ app.get('/testtwilio', function(req, res) {
 		}
 	})
 })
+
+//STRIPE//
 
 
 app.listen(port, function() {

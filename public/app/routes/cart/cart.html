@@ -26,18 +26,18 @@
       <div class="your-cart">
         <p class="oswald">Your Cart (#)</p>
       </div>
-      <div class="cart-info">
-        <img src="https://secure-images.nike.com/is/image/DotCom/878670_001?wid=150&hei=150&align=0,1&cropN=0,0,0,0&fmt=png-alpha&resMode=sharp&defaultImage=DotCom/SEARCH_002"/>
+      <div class="cart-info" ng-repeat="cart in productImages">
+        <img ng-src="{{cart.img}}"/>
           <div class="cart-info-shoe">
 
-          <p>Nike Zoom All Out Low Men's Running Shoe</p>
+          <p>{{cart.name}}</p>
           <ul>
             <li><strong>Style#:</strong> 878670-001</li>
             <li><strong>Size:</strong>9.5</li>
             <li><strong>Color:</strong>Black/Anthracite/White/Dark Grey</li>
-            <li><strong>Qty:</strong>1 @ $140.00</li>
+            <li><strong>Qty:</strong>{{cart.quantity}} @ ${{cart.price}}</li>
           </ul>
-          <button class="remove-button cart-info-button oswald" type="button" name="button">Remove</button>
+          <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="remove(cart.id)">Remove</button>
           <button class="remove-button cart-info-button oswald" type="button" name="button">Edit</button>
         </div>
       </div>
@@ -52,7 +52,7 @@
     <hr>
     <div class="subtotal">
       <p class="subtotal-word">Subtotal</p>
-      <p class="subtotal-cost">$140.00</p>
+      <p class="subtotal-cost">${{total}}</p>
       <!-- <div class="clear"></div> -->
     </div>
     <hr>
@@ -76,7 +76,9 @@
 
     <div class="total-cost">
       <p>Total</p>
-      <p>$165.00</p>
+
+      <p>${{total}}</p>
+
     </div>
     <hr>
     <div class="checkout">

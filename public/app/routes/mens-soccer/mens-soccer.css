@@ -1,50 +1,97 @@
-.men-running-content-wrapper .image-large-men-running {
+.men-soccer-content-wrapper .image-large-men-soccer {
   min-height: 430px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   color: #111111;
+  height: 500px;
 }
-.men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+.men-soccer-content-wrapper .image-large-men-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Football/NA/NA_Soccer_PWH.jpg.transform/full-screen/NA_Soccer_PWH.jpg");
 }
-.men-running-inner-wrapper {
+.men-soccer-inner-wrapper {
   max-width: 10060px;
-  padding: 43px 61px;
-  margin-right: auto;
-  margin-left: auto;
 }
-.image-large-men-running .text-wrapper{
-  max-width: 230px;
-  padding-top: 130px;
+.image-large-men-soccer .text-wrapper{
+  margin-top: 200px;
 }
-.image-large-men-running .text-wrapper h2{
-  font-size: 27px;
-  line-height: 27px;
+.image-large-men-soccer .text-wrapper h2{
+  max-width: 250px;
+  font-size: 3rem;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
-.image-large-men-running .text-wrapper p{
-  font-size: 10px;
-  line-height: 12px;
+.image-large-men-soccer .text-wrapper p{
+  font-size: 14px;
   padding-bottom: 9px;
+  max-width: 160px;
 }
 
-.shoe-options-container {
-  justify-content: space-around;
+.shoe-subtitle-section {
   text-align: center;
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-bottom: 50px;
   display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
-.shoe-options-box {
-  padding-right: 24px;
-  padding-left: 24px;
-
+.shoe-subtitle-wrapper {
+display: flex;
+justify-content: space-between;;
+align-items: center;
 }
-.shoe-options-box img{
-  width: 100%;
+.mercurial {
+  margin-right: 30px;
+}
+.hypervenom {
+  margin-left: 130px;
+}
+.magista {
+  margin-left: 120px;
+}
+.tiempo {
+  margin-left: 90px;
+}
+.soccerx {
+  margin-left: 140px;
+}
+.mercurial h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.hypervenom h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.magista h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.tiempo h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.soccerx h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.mercurial p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.hypervenom p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.magista p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.tiempo p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.soccerx p {
+    margin-top: 10px;
+    font-weight: 100;
 }

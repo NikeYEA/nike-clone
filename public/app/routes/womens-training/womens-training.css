@@ -1,50 +1,31 @@
-.men-running-content-wrapper .image-large-men-running {
-  min-height: 430px;
+.womens-training-content-wrapper .image-large-womens-training {
+  min-height: 519px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
 }
-.men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+.womens-training-content-wrapper .image-large-womens-training.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpghttps://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpg");
 }
-.men-running-inner-wrapper {
+.womens-training-inner-wrapper {
   max-width: 10060px;
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
 }
-.image-large-men-running .text-wrapper{
+.image-large-womens-training .text-wrapper{
   max-width: 230px;
   padding-top: 130px;
 }
-.image-large-men-running .text-wrapper h2{
+.image-large-womens-training .text-wrapper h2{
   font-size: 27px;
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
-.image-large-men-running .text-wrapper p{
+.image-large-womens-training .text-wrapper p{
   font-size: 10px;
   line-height: 12px;
   padding-bottom: 9px;
-}
-
-.shoe-options-container {
-  justify-content: space-around;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-.shoe-options-box {
-  padding-right: 24px;
-  padding-left: 24px;
-
-}
-.shoe-options-box img{
-  width: 100%;
 }

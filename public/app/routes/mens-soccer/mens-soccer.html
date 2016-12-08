@@ -1,13 +1,38 @@
-<div class="men-running-content-wrapper">
-  <section class="image-large-men-running section-one">
+<div class="men-soccer-content-wrapper">
+  <section class="image-large-men-soccer section-one">
     <div class="home-inner-wrapper">
       <div class="text-wrapper">
-        <h2 class="oswald">Men's Running Shoe Guide</h2>
-        <p>Find the perfect shoes for your run</p>
-        <p class="return">60-Day Free Returns. Wear it, test it, keep what you like.</p>
+        <h2 class="oswald">Choose your cleat</h2>
+        <p>Find the perfect fit for your playing style.</p>
       </div>
     </div>
   </section>
+  <section class="shoe-subtitle-section">
+    <div class="shoe-subtitle-wrapper">
+      <div class="mercurial">
+        <h2>Mercurial</h2>
+        <p>Explosive Speed</p>
+      </div>
+      <div class="hypervenom">
+        <h2>Hypervenom</h2>
+        <p>Deadly Agility</p>
+      </div>
+      <div class="magista">
+        <h2>Magista</h2>
+        <p>Unstoppable Playmaking</p>
+      </div>
+      <div class="tiempo">
+        <h2>Tiempo</h2>
+        <p>Dominating Touch</p>
+      </div>
+      <div class="soccerx">
+        <h2>SoccerX</h2>
+        <p>Small-Sided</p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
 
   <section class="shoe-option-title">
     <div class="title-container">
@@ -23,13 +48,9 @@
   <section class="shoe-options-container">
     <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1">
         <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
-        <p>{{shoe.name}}</p>
-        <p>{{shoe.mini_desc}}</p>
-        <p>${{shoe.price}}</p>
-
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
     </div>
-
-
-
   </section>
 </div>

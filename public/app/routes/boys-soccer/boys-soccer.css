@@ -1,50 +1,32 @@
-.men-running-content-wrapper .image-large-men-running {
-  min-height: 430px;
+.boys-soccer-content-wrapper .image-large-boys-soccer {
+  min-height: 502px;
+  /*height: 64vh;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
 }
-.men-running-content-wrapper .image-large-men-running.section-one{
-  background-image: url("./../app/images/mens-running/mens-running-top-photo.jpg");
+.boys-soccer-content-wrapper .image-large-boys-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-sp/Boys/0407-Boys-Football-PWH/US/SU16_0407_YA_GF_GBL_PWH_NA.jpg.transform/full-screen/SU16_0407_YA_GF_GBL_PWH_NA.jpg");
 }
-.men-running-inner-wrapper {
+.boys-soccer-inner-wrapper {
   max-width: 10060px;
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
 }
-.image-large-men-running .text-wrapper{
+.image-large-boys-soccer .text-wrapper{
   max-width: 230px;
   padding-top: 130px;
 }
-.image-large-men-running .text-wrapper h2{
+.image-large-boys-soccer .text-wrapper h2{
   font-size: 27px;
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
-.image-large-men-running .text-wrapper p{
+.image-large-boys-soccer .text-wrapper p{
   font-size: 10px;
   line-height: 12px;
   padding-bottom: 9px;
-}
-
-.shoe-options-container {
-  justify-content: space-around;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 50px;
-}
-.shoe-options-box {
-  padding-right: 24px;
-  padding-left: 24px;
-
-}
-.shoe-options-box img{
-  width: 100%;
 }

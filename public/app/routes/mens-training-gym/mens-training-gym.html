@@ -1,15 +1,35 @@
-<div class="men-running-content-wrapper">
-  <section class="image-large-men-running section-one">
+<div class="men-training-content-wrapper">
+  <section class="image-large-men-training section-one">
+
     <div class="home-inner-wrapper">
       <div class="text-wrapper">
-        <h2 class="oswald">Men's Running Shoe Guide</h2>
-        <p>Find the perfect shoes for your run</p>
-        <p class="return">60-Day Free Returns. Wear it, test it, keep what you like.</p>
+        <h2 class="oswald">BECAUSE YOU
+          MOVE IN EVERY
+          DIRECTION
+        </h2>
+        <p>Shoes that let you train the way you want.</p>
+      </div>
+    </div>
+    <div class="mens-training-under-image">
+      <p class="ask-expert">Ask an expert</p>
+      <div class="mens-training-free">
+        <h3><strong>FREE</strong></h3>
+        <p>Natural Feel</p>
+      </div>
+      <div>
+        <h3><strong>CUSHIONING</strong></h3>
+        <p>Versatile Cushioning</p>
+      </div>
+      <div>
+        <h3><strong>STABILITY</strong></h3>
+        <p>Ultimate Stability</p>
       </div>
     </div>
   </section>
-
   <section class="shoe-option-title">
+    <hr>
+    <br>
+    <br>
     <div class="title-container">
       <h2>Men's Running Shoes</h2>
       <h3>(141)</h3>
@@ -17,19 +37,13 @@
     <div class="sort-by-container">
       <p>Sort By </p>
     </div>
-
   </section >
-
   <section class="shoe-options-container">
     <div ng-repeat="shoe in mensshoes"class="shoe-options-box box-num-1">
         <a ui-sref="individual-shoe({id:shoe.id})"><img ng-src="{{shoe.img}}" alt=""></a>
-        <p>{{shoe.name}}</p>
-        <p>{{shoe.mini_desc}}</p>
-        <p>${{shoe.price}}</p>
-
+        <p class="shoe-repeat-name">{{shoe.name}}</p>
+        <p class="shoe-repeat-mini-desc">{{shoe.mini_desc}}</p>
+        <p class="shoe-repeat-price"> ${{shoe.price}}</p>
     </div>
-
-
-
   </section>
 </div>
