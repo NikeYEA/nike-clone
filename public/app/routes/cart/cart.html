@@ -62,7 +62,7 @@
       </div>
       <div class="shipping-time">
         <ul>
-          <li>Next-Day: $25.00 Arrives 1-2 Days</li>
+          <li>Next-Day: $0.00 Arrives 1-2 Days</li>
         </ul>
       </div>
       </div>
@@ -76,15 +76,26 @@
 
     <div class="total-cost">
       <p>Total</p>
+
       <p>${{total}}</p>
+
     </div>
     <hr>
     <div class="checkout">
-      <button class="orange-button" type="button" name="button">Checkout</button>
-      <p>or</p>
-      <button class="paypal-button" type="button" name="button">Checkout with PayPal</button>
-
+      <a ui-sref="payments"><button class="orange-button" type="button" name="button">Checkout</button></a>
     </div>
-
+    <div class="card-pay">
+      <form action="/your-server-side-code" method="POST">
+        <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_63kRPoKVSdivI9xDMxDPXsDZ"
+        data-amount="2000"
+        data-name="Demo Site"
+        data-description="2 widgets"
+        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+        data-locale="auto">
+        </script>
+        </form>
+    </div>
   </section>
 </section>
