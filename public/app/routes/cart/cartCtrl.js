@@ -1,7 +1,7 @@
 angular.module('nike-clone').controller('cartCtrl', function($scope, authService, user, order, $state, mainService) {
 
   $scope.user = user;
-  $scope.order = order;
+  $scope.order = order.order;
   $scope.total = 0;
   $scope.productImages = order.products;
   console.log('this is the $scope.user: ',$scope.user);
@@ -16,17 +16,22 @@ angular.module('nike-clone').controller('cartCtrl', function($scope, authService
     }
   }
 
-console.log('this is FUCKING $scope.total: ',$scope.total);
+console.log('this is $scope.total: ',$scope.total);
 $scope.getTotalPrice();
 
 $scope.remove = function(id) {
   console.log('this is the id: ',id);
   mainService.removeFromCart(id).then(function(response) {
-    console.log('this is the fucking remove response: ',response);
+    console.log('this is the remove response: ',response);
   })
 }
 
+$scope.checkoutcart = function () {
+  mainService.completeOrder() .then(function(response) {
+    console.log(response);
 
+  });
+}
 
 
 
