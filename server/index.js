@@ -162,7 +162,7 @@ app.post('/api/payment',function(req, res, next){
 		//if (err && err.type === 'StripeCardError') {
 		//The card has been declined
 		// }
-	
+
 	});
 });
 

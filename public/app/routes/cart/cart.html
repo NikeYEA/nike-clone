@@ -38,7 +38,7 @@
             <li><strong>Qty:</strong>{{cart.quantity}} @ ${{cart.price}}</li>
           </ul>
           <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="remove(cart.id)">Remove</button>
-          <button class="remove-button cart-info-button oswald" type="button" name="button">Edit</button>
+          <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="edit(cart.product_id,cart.quantity)">Edit</button>
         </div>
       </div>
     </section>
