@@ -1,5 +1,6 @@
 .home-content-wrapper .image-large{
   min-height: 430px;
+  height: 68vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
