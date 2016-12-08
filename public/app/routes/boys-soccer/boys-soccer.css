@@ -16,17 +16,56 @@
   margin-left: auto;
 }
 .image-large-boys-soccer .text-wrapper{
-  max-width: 230px;
-  padding-top: 130px;
+  padding-top: 200px;
+  margin-left: 30px;
 }
 .image-large-boys-soccer .text-wrapper h2{
-  font-size: 27px;
-  line-height: 27px;
+  font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 22px;
+  line-height: 48px;
 }
 .image-large-boys-soccer .text-wrapper p{
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 18px;
   padding-bottom: 9px;
+}
+.boys-soccer-mini-desc {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: Arial;
+}
+
+.boys-under-image-wrapper-soccer {
+  padding-top: 120px;
+  font-weight: bold;
+}
+.boys-header-under-image-soccer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 400px;
+}
+.boys-header-under-image-soccer div {
+  text-align: center;
+}
+
+.boys-running-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-soccer-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-basketball-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-lifestyle-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-jordan-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
