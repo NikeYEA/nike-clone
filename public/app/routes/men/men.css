@@ -153,7 +153,7 @@
 }
 
 .vest-watch-container {
-  /*height: 555px;*/
+  min-height: 559px;
   height: 84vh;
   width: 100%;
   /*border: 2px solid blue;*/
@@ -165,6 +165,7 @@
   justify-content: space-around;
   align-items: flex-end;
   padding-bottom: 7vh;
+  /*padding-bottom: 45px;*/
 }
 .below-vest-text-wrapper {
   /*border: 2px solid blue;*/
@@ -188,7 +189,7 @@
   cursor: pointer;
 }
 .orange-shirt-container {
-  /*height: 555px;*/
+  min-height: 559px;
   height: 84vh;
   width: 100%;
   /*border: 2px solid red;*/
@@ -221,7 +222,7 @@
   font-size: 12px;
 }
 .jacket-ball-container {
-  /*height: 555px;*/
+  min-height: 555px;
   height: 84vh;
   width: 100%;
   /*border: 2px solid purple;*/
@@ -231,14 +232,21 @@
   background-position: center;
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: flex-end;
   /*padding-top: 465px;*/
 }
 .below-jacket-text-wrapper, .below-ball-text-wrapper {
   /*border: 2px solid yellow;*/
   text-align: center;
   width: 505px;
-  margin-top: 71vh;
+  /*margin-top: 66vh;
+  margin-bottom: 5vh;*/
+}
+.below-jacket-text-wrapper {
+  margin-bottom: 6vh;
+}
+.below-ball-text-wrapper {
+  margin-bottom: 7vh;
 }
 .below-jacket-text-wrapper:hover, .below-ball-text-wrapper:hover {
   text-decoration: underline;
