@@ -1,10 +1,15 @@
 .home-content-wrapper .image-large{
   min-height: 430px;
-  height: 68vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #fff;
+}
+.section-one {
+  height: 68vh;
+}
+.section-three {
+  height: 68vh;
 }
 .home-content-wrapper .image-large.section-one{
   background-image: url("./../app/images/home/give_nike_gray.jpg");
@@ -70,6 +75,7 @@
 }
 .section-four{
   background-color: rgb(242, 242, 242);
+  height: 80vh;
 }
 
 article {
