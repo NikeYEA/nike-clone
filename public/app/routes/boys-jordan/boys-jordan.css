@@ -30,3 +30,9 @@
   line-height: 12px;
   padding-bottom: 9px;
 }
+
+.easter-egg {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+}
