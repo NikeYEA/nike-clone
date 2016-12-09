@@ -1,6 +1,6 @@
 <section class="info-top">
   <div class="back-link">
-    <a href="#"> < Continue Shoping</a>
+    <a href="#"> <span>&#9666;</span> Continue Shoping</a>
   </div>
   <div class="phone-chat">
     <div class="phone">
@@ -28,7 +28,7 @@
       </div>
       <div class="cart-info" ng-repeat="cart in productImages">
         <img ng-src="{{cart.img}}"/>
-          <div class="cart-info-shoe">
+        <div class="cart-info-shoe">
 
           <p>{{cart.name}}</p>
           <ul>
@@ -49,66 +49,67 @@
       </div>
     </section>
   </section>
-  <section class="right-cart-info">
-    <div class="cart-summary">
+  <section class="right-cart-info oswald">
+    <div class="cart-summary cart-info-inner-wrapper">
       <div class="summary">
         <h2>Summary</h2>
       </div>
     </div>
     <hr>
-    <div class="subtotal">
+    <div class="subtotal cart-info-inner-wrapper">
       <p class="subtotal-word">Subtotal</p>
       <p class="subtotal-cost">${{total}}</p>
       <!-- <div class="clear"></div> -->
     </div>
     <hr>
-    <div class="shipping-info">
+    <div class="shipping-info cart-info-inner-wrapper">
       <p>Estimated Shipping & Handling</p>
       <p>$0.00</p>
-      </div>
-      <div class="shipping-time">
-        <ul>
-          <li>Next-Day: $0.00 Arrives 1-2 Days</li>
-        </ul>
-      </div>
-      </div>
-
-    <hr>
-    <div class="tax">
-      <p>Tax</p>
-      <p>$_._</p>
     </div>
-    <hr>
-
-    <div class="total-cost">
-      <p>Total</p>
-
-      <p>${{total}}</p>
-
+    <div class="shipping-time cart-info-inner-wrapper">
+      <ul>
+        <li>Next-Day: $0.00 Arrives 1-2 Days</li>
+      </ul>
     </div>
-    <hr>
-    <div class="checkout">
+  </div>
 
-      <button class="orange-button" type="button" name="button" ng-click="checkoutcart()">Checkout</button>
-      <p>or</p>
-      <button class="paypal-button" type="button" name="button">Checkout with PayPal</button>
+  <hr>
+  <div class="tax cart-info-inner-wrapper">
+    <p>Tax</p>
+    <p>$_._</p>
+  </div>
+  <hr>
+
+  <div class="total-cost cart-info-inner-wrapper">
+    <p>Total</p>
+
+    <p>${{total}}</p>
+
+  </div>
+  <hr>
+  <div class="checkout cart-info-inner-wrapper">
+
+    <!-- <button class="orange-button" type="button" name="button" ng-click="checkoutcart()">Checkout</button> -->
+
+    <!-- <button class="paypal-button" type="button" name="button">Checkout with PayPal</button> -->
 
 
-      <a ui-sref="payments"><button class="orange-button" type="button" name="button">Checkout</button></a>
-    </div>
-    <div class="card-pay">
-      <form action="/your-server-side-code" method="POST">
-        <script
-        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-        data-key="pk_test_63kRPoKVSdivI9xDMxDPXsDZ"
-        data-amount="2000"
-        data-name="Demo Site"
-        data-description="2 widgets"
-        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-        data-locale="auto">
-        </script>
-        </form>
+    <a ui-sref="payments" class="orange-button">Checkout</a>
+  </div>
+  <p>or</p>
+  <!-- <div class="card-pay cart-info-inner-wrapper">
+    <form action="/your-server-side-code" method="POST">
+      <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_test_63kRPoKVSdivI9xDMxDPXsDZ"
+      data-amount="2000"
+      data-name="Demo Site"
+      data-description="2 widgets"
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+      data-locale="auto">
+      </script>
+    </form> -->
 
-    </div>
-  </section>
+  </div>
+</section>
 </section>
