@@ -1,4 +1,25 @@
-<form action="/#/home" method="GET">
+<form ng-submit='charge(payment)'>
+  <section class="credit-wrap">
+    <div class="card-name">Name on card:</div>
+    <input class='card-name-input' type="text" name="name" required>
+    <div class="card-num">Card number:</div>
+    <input ng-model="payment.card.number" class='card-num-input' type="text" required>
+    <div class="cvc-outer-wrap">
+      <div class="cvc-wrap">
+        <div class="cvc">CVC:</div>
+        <input ng-model="payment.card.cvc" class='cvc-input' type="text" required>
+      </div>
+      <div class="exp-mo-wrap">
+        <div class="exp-mo">Exp. Mo</div>
+        <input ng-model="payment.card.exp_month" class='exp-mo-input' type="text" name="name" placeholder="MM">
+      </div>
+      <div class="exp-year-wrap">
+        <div class="exp-year">Exp. Yr</div>
+        <input ng-model="payment.card.exp_year" class='exp-year-input' type="text" name="name" placeholder="YY">
+      </div>
+    </div>
+  </section>
+
   <script
   src="https://checkout.stripe.com/checkout.js" class="stripe-button"
   data-key="pk_test_63kRPoKVSdivI9xDMxDPXsDZ"

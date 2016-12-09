@@ -1,5 +1,7 @@
 angular.module('nike-clone').controller('cartCtrl', function($scope, authService, user, order, $state, mainService) {
 
+
+
   $scope.user = user;
   $scope.order = order.order;
   $scope.total = 0;
@@ -8,10 +10,12 @@ angular.module('nike-clone').controller('cartCtrl', function($scope, authService
   console.log('this is the $scope.order: ',$scope.order);
   console.log('this is order.products: ', order.products);
 
+
   $scope.getTotalPrice = function() {
     for (var i = 0; i < order.products.length; i++) {
-      $scope.total = $scope.total + order.products[i].price;
+      $scope.total = ($scope.total + (order.products[i].price * order.products[i].quantity));
       console.log('$scope.total: ',$scope.total);
+      console.log('this is order.products[i].quantity: ',order.products[i].quantity);
       console.log('order.products[i].price: ',order.products[i].price);
     }
   }
@@ -33,6 +37,12 @@ $scope.checkoutcart = function () {
   });
 }
 
+$scope.edit = function (id, qty) {
+  mainService.updateProductQty(id, qty).then(function(response) {
+    console.log('this is the updateProductQty response: ',response);
+
+  });
+}
 
 
 })
