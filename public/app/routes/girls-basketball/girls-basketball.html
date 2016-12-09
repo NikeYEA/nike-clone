@@ -29,14 +29,18 @@
 
   <section class="shoe-option-title">
     <div class="title-container">
-      <h2>Girls Basketball Shoes</h2>
-      <h3>(141)</h3>
+      <h2 class="oswald">Girl's Basketball Shoes <i>(10)</i></h2>
     </div>
     <div class="sort-by-container">
-      <p>Sort By </p>
+      <select class="oswald" name="sort-by">
+        <option selected disabled>Sort By:</option>
+        <option value="newest">Newest</option>
+        <option value="highest">Highest Rated</option>
+        <option value="expensive-cheap">$$-$</option>
+        <option value="cheap-expensive">$-$$</option>
+      </select>
     </div>
-
-  </section >
+  </section>
 
   <section class="shoe-options-container">
     <div ng-repeat="shoe in basketballShoes" class="shoe-options-box box-num-1">
