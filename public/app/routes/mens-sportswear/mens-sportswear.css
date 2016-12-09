@@ -1,10 +1,10 @@
 .men-sportswear-content-wrapper .image-large-men-sportswear {
-  min-height: 430px;
+  min-height: 300px;
+  height: 51vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
-  height: 460px;
 }
 .men-sportswear-content-wrapper .image-large-men-sportswear.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Sportswear/PWH/NA/NSW_PWH_mens_hub.jpg.transform/full-screen/NSW_PWH_mens_hub.jpg");

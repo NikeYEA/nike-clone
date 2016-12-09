@@ -1,1 +1,11 @@
-
+.men-jordan-content-wrapper .image-large-men-jordan {
+  min-height: 300px;
+  height: 51vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-jordan-content-wrapper .image-large-men-jordan.section-one{
+  /*background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Sportswear/PWH/NA/NSW_PWH_mens_hub.jpg.transform/full-screen/NSW_PWH_mens_hub.jpg");*/
+}

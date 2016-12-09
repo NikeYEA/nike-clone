@@ -3,7 +3,8 @@
   background-size: cover;
   background-position: center;
   color: #111111;
-  height: 510px;
+  height: 56vh;
+  min-height: 300px;
 }
 .men-training-content-wrapper .image-large-men-training.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Training/PWHs/1114-fw-pwh/FW_PWH_FLOW2_1114_NA_A.jpg.transform/full-screen/FW_PWH_FLOW2_1114_NA_A.jpg");
