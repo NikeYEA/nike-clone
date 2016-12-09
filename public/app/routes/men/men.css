@@ -61,7 +61,7 @@
   width: 100%;
 }
 .categories-container {
-  /*height: 517px;*/
+  min-height: 300px;
   height: 78vh;
   width: 100%;
   /*border: 1px solid blue;*/
