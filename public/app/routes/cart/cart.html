@@ -37,7 +37,8 @@
             <li><strong>Color:</strong>Black/Anthracite/White/Dark Grey</li>
             <li><strong>Qty:</strong>{{cart.quantity}} @ ${{cart.price}}</li>
           </ul>
-          <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="remove(cart.id)">Remove</button>
+          <div>
+          <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="remove(cart.id, cart.price)">Remove</button>
 
           <button class="remove-button cart-info-button oswald" type="button" name="button" ng-click="edit(cart.id,cart.quantity)">Edit</button>
 
