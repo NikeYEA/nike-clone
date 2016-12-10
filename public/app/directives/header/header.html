@@ -1,7 +1,19 @@
 <header>
   <div class="header_top">
     <div class="header_top_content">
-      <a ui-sref="login" class="waves-effect waves-light btn" href="#modal1">Join / Log In To Nike+ Account</a>
+      <div class="dropdown">
+
+      <a ui-sref="login" class="dropbtn join-login waves-effect waves-light btn" href="#modal1">Join / Log In To Nike+ Account</a>
+
+  <!-- <button class="dropbtn">Dropdown</button> -->
+  <div class="dropdown-content">
+    <a ui-sref="login">Join/Login</a>
+    <a ui-sref="profile">Profile</a>
+    <a ui-sref="cart">Orders</a>
+    <a ui-sref="home">Logout</a>
+  </div>
+</div>
+      <a href="#"></a>
       <a href="http://www.nike.com/us/en_us/c/help">Help</a>
       <a ui-sref="cart"><img class="cart" src="./../../../app/images/headerFooter/shopping_cart.png" alt="cart" /></a>
       <a href="#"  ng-class="navClass('today')"><img class="flag" src="./../../../app/images/headerFooter/us_sml.png" alt="cart" /></a>

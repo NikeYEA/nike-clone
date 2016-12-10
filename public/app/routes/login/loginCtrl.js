@@ -56,4 +56,12 @@ angular.module("nike-clone").controller("loginCtrl", function($scope, authServic
   }
   $scope.getUsers();
 
+$(document).ready(function() {
+  $('.message a').click(function(){
+    $('form').animate({
+      height: 'toggle',
+      opacity: 'toggle'
+    },'slow');
+  });
+})
 });
