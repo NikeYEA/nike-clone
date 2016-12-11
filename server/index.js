@@ -33,7 +33,7 @@ var womensCtrl = require('./controllers/womensCtrl');
 var mensCtrl = require('./controllers/mensCtrl');
 var boysCtrl = require('./controllers/boysCtrl');
 
-
+var twilioCtrl = require('./controllers/twilioCtrl');
 
 //POLICIES//
 var passport = require('./services/passport');
@@ -166,23 +166,22 @@ app.post('/api/payment',function(req, res, next){
 	});
 });
 
-
+// app.get('/testtwilio', function(req, res) {
+// 	client.sendMessage({
+// 		to:'+18016945874',
+// 		from: '+13857071154',
+// 		body: 'Yo what up, booooiiiissss'
+// 	}, function(err, data) {
+// 		if(err) {
+// 			console.log(err);
+// 		} else {
+// 			console.log(data);
+// 		}
+// 	})
+// })
 
 // TWILIO //
-app.get('/testtwilio', function(req, res) {
-	client.sendMessage({
-		to:'+18016945874',
-		from: '+13857071154',
-		body: 'Yo what up, booooiiiissss'
-	}, function(err, data) {
-		if(err) {
-			console.log(err);
-		} else {
-			console.log(data);
-		}
-	})
-})
-
+app.get('/testtwilio/:order_id',twilioCtrl.getTwilioImages);
 
 
 
