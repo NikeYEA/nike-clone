@@ -24,6 +24,8 @@
   width: 33%;
   flex-direction: row;
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .shipment-box a{
   text-decoration: none;
@@ -43,11 +45,13 @@
 }
 .shipment-box h2{
   font-size: 25px;
+  line-height: 32px;
   padding-bottom: 16px;
   text-transform: uppercase;
 }
 .shipment-box p{
   font-size: 14px;
+  line-height: 17px;
   color: rgb(159, 159, 159);
   padding-bottom: 20px;
 }
@@ -177,4 +181,32 @@ color: #000;
   display: inline-block;
   padding-right: 25px;
   padding-top: 16px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .box-options{
+    display: block;
+  }
+  .shipment-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
 }
