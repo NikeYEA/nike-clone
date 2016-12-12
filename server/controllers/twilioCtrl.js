@@ -6,24 +6,34 @@ var client = require('twilio')('ACe9d83d04deacdf40673b9822f3addee7','68d5e4fbb22
 
 module.exports = {
   getTwilioImages: function(req, res, next) {
-    db.twiliocheckout([req.user.order_id], function(err, twilio) {
+
       console.log('this is the fucking req.user.order_id: ',req.user.order_id);
-      console.log('this is twilio: ',twilio);
-      if (err) {
-        console.log('TWILIO ERROR: ',err);
-        return res.status(500)
-          .send(err);
+    db.twiliocheckout([req.user.order_id], function(err, cart) {
+
+      console.log(" THIS IS THE FREAKING CART: ", cart);
+
+      var imgArr = [];
+      for (var i = 0; i < cart.length; i++) {
+        imgArr.push(cart[i].img);
       }
-    var x = twilio.map(function(el) {
-        console.log('el.img:',el.img);
-        return el.img;
-      })
-      console.log('this is the motherfucking XXXXXXX: ',x);
+
+    //   console.log('this is twilio: ',twilio);
+    //   if (err) {
+    //     console.log('TWILIO ERROR: ',err);
+    //     return res.status(500)
+    //       .send(err);
+    //   }
+    // var x = twilio.map(function(el) {
+    //     console.log('el.img:',el.img);
+    //     return el.img;
+    //   })
+    //   console.log('this is the motherfucking XXXXXXX: ',x);
+
       client.sendMessage({
         to:'+18016945874',
         from: '+13857071154',
         body: 'Here is your shit',
-        mediaUrl: x
+        mediaUrl: imgArr
       }, function(err, twilio) {
         if(err) {
           console.log(err);
