@@ -49,6 +49,12 @@ $scope.checkoutcart = function () {
     // console.log(response);
   });
 }
+$scope.twilio = function() {
+
+  mainService.twilioPics().then(function(response) {
+
+  });
+}
 $scope.edit = function (id, qty) {
   mainService.updateProductQty(id, qty).then(function(response) {
     // console.log('this is the updateProductQty response: ',response);

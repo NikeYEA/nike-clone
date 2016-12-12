@@ -181,7 +181,7 @@ app.post('/api/payment',function(req, res, next){
 // })
 
 // TWILIO //
-app.get('/testtwilio/:order_id',twilioCtrl.getTwilioImages);
+app.get('/testtwilio',twilioCtrl.getTwilioImages);
 
 
 

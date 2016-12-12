@@ -2,11 +2,15 @@ var app = require('./../index');
 var db = app.get('db');
 var client = require('twilio')('ACe9d83d04deacdf40673b9822f3addee7','68d5e4fbb222435cb64e698b01589eb7');
 
+
+
 module.exports = {
   getTwilioImages: function(req, res, next) {
-    db.twiliocheckout([req.params.order_id], function(err, twilio) {
+    db.twiliocheckout([req.user.order_id], function(err, twilio) {
+      console.log('this is the fucking req.user.order_id: ',req.user.order_id);
       console.log('this is twilio: ',twilio);
       if (err) {
+        console.log('TWILIO ERROR: ',err);
         return res.status(500)
           .send(err);
       }
