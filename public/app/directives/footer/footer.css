@@ -30,7 +30,8 @@ footer{
 .social-media img {
   height: 23px;
   width: 23px;
-  margin-left: 12px;
+  margin-right: 6px;
+  margin-left: 6px;
   opacity: .2;
 }
 .social-media img:hover {
@@ -76,4 +77,67 @@ footer{
 }
 .bottom-right-footer a {
   color: #888;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 980px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 718px) {
+  .footer-wrapper {
+
+  }
+  hr {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .footer-container {
+    display: block;
+    text-align: center;
+  }
+  .footer-container p{
+    margin-bottom: 9px;
+  }
+  .left-footer {
+    width: 100%;
+    display: block;
+  }
+  .right-footer {
+    display: block;
+    width: 100%;
+  }
+  .social-media {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+  }
+  .bottom-left-footer {
+    float: none;
+    text-align: center;
+  }
+  .bottom-right-footer {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+
+
+}
+@media only screen and (max-width: 547px) {
+
+}
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
 }
