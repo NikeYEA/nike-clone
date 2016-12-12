@@ -1,9 +1,12 @@
 .girls-soccer-content-wrapper .image-large-girls-soccer {
-  min-height: 650px;
+  min-height: 300px;
+  height: 72vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #111111;
+  position: relative;
+  /*border: 2px solid black;*/
 }
 .girls-soccer-content-wrapper .image-large-girls-soccer.section-one{
   background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-su/Girls/0407-Girls-Football-PWH/US/SP16_0407_YA_GF_GBL_GIRLS_PWH_NA.jpg.transform/full-screen/SP16_0407_YA_GF_GBL_GIRLS_PWH_NA.jpg");
@@ -13,10 +16,12 @@
   padding: 43px 61px;
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
+  /*border: 2px solid black;*/
 }
 .image-large-girls-soccer .text-wrapper{
-  padding-top: 200px;
-  margin-left: 30px;
+  /*padding-top: 200px;
+  margin-left: 30px;*/
 }
 .image-large-girls-soccer .text-wrapper h2{
   font-size: 40px;
@@ -34,17 +39,40 @@
   font-weight: normal;
   line-height: 30px;
   font-family: Arial;
+  /*border: 1px solid yellow;*/
 }
 
-.girls-under-image-wrapper-soccer {
+/*.girls-under-image-wrapper-soccer {
   margin-top: 120px;
   font-weight: bold;
-}
-.girls-header-under-image-soccer {
+  border: 2px solid yellow;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 21vh;
   display: flex;
-  justify-content: space-around;
-  margin-left: 400px;
+  align-items: center;
+}*/
+.girls-header-under-image-soccer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  /*justify-content: flex-end;*/
+  padding-left: 40vh;
+  /*border: 2px solid red;*/
+  height: 22vh;
+  width: 100%;
+  /*padding-right: 11vh;*/
 }
 .girls-header-under-image-soccer div {
+  text-align: center;
+}
+.gs-in-between {
+  /*border: 1px solid black;*/
+  /*padding-left: 20vh;*/
+  width: 30vh;
+  padding-top: 10vh;
+}
+.gs-in-between h1 p {
   text-align: center;
 }

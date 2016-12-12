@@ -79,37 +79,72 @@
   </section>
 
   <section class='vest-watch-container'>
-    <div class='below-vest-text-wrapper '>
-      <h1 class='oswald'>NIKE AEROLOFT FLASH VEST</h1>
-      <h2 class='roboto'>A lighter way to light it up.</h2>
+    <div class='vest-watch-hover-container'>
+      <div ng-mouseenter='showButton1()' ng-mouseleave='hideButton1()' class='vest-hover-wrapper'>
+        <button class='mens-button oswald' ng-style='fadeButton1' >
+          SHOP NOW
+        </button>
+      </div>
+      <div ng-mouseenter='showButton2()' ng-mouseleave='hideButton2()' class='watch-hover-wrapper'>
+        <button class='mens-button oswald' ng-style='fadeButton2'>
+          SHOP NOW
+        </button>
+      </div>
     </div>
-    <div class='below-watch-text-wrapper oswald'>
-      <h1 class='oswald'>APPLE WATCH NIKE+</h1>
-      <h2 class='roboto'>Your perfect running partner.</h2>
+    <div class='below-vest-watch-container'>
+      <div class='below-vest-text-wrapper '>
+        <h1 class='oswald'>NIKE AEROLOFT FLASH VEST</h1>
+        <h2 class='roboto'>A lighter way to light it up.</h2>
+      </div>
+      <div class='below-watch-text-wrapper oswald'>
+        <h1 class='oswald'>APPLE WATCH NIKE+</h1>
+        <h2 class='roboto'>Your perfect running partner.</h2>
+      </div>
     </div>
   </section>
 
   <section class='orange-shirt-container'>
-    <div class='below-orange-shirt-text-wrapper'>
-      <h1 class='oswald'>OUR FAVORITE MEN'S GIFTS</h1>
-      <h2 class='roboto'>
-        We'll help you find the right gear for every athlete on your list.
-      </h2>
+    <div ng-mouseenter='showButton3()' ng-mouseleave='hideButton3()' class='orange-shirt-hover-wrapper'>
+      <button class='mens-button oswald' ng-style='fadeButton3' >
+        SHOP NOW
+      </button>
+    </div>
+    <div class='below-orange-shirt-container'>
+      <div class='below-orange-shirt-text-wrapper'>
+        <h1 class='oswald'>OUR FAVORITE MEN'S GIFTS</h1>
+        <h2 class='roboto'>
+          We'll help you find the right gear for every athlete on your list.
+        </h2>
+      </div>
     </div>
   </section>
 
   <section class='jacket-ball-container'>
-    <div class='below-jacket-text-wrapper'>
-      <h1 class='oswald'>SESSION EVERYDAY</h1>
-      <p class='roboto'>
-        The Nike SB Wool Coaches Jacket combines fashion and</br> function for your daily skate, no matter the weather.
-      </p>
+    <div class='jacket-ball-hover-container'>
+      <div ng-mouseenter='showButton4()' ng-mouseleave='hideButton4()' class='jacket-hover-wrapper'>
+        <button ng-style='fadeButton4'class='mens-button oswald'>
+          SHOP NOW
+        </button>
+      </div>
+      <div class='ball-hover-wrapper' ng-mouseenter='showButton5()' ng-mouseleave='hideButton5()'>
+        <button class='mens-button oswald' ng-style='fadeButton5'>
+          SHOP NOW
+        </button>
+      </div>
     </div>
-    <div class='below-ball-text-wrapper'>
-      <h1 class='oswald'>UNLIMITED WARMTH</h1>
-      <p class='roboto'>
-        Nike Pro HyperWarm AeroLoft. Your first layer of warmth.
-      </p>
+    <div class='below-jacket-ball-container'>
+      <div class='below-jacket-text-wrapper'>
+        <h1 class='oswald'>SESSION EVERYDAY</h1>
+        <p class='roboto'>
+          The Nike SB Wool Coaches Jacket combines fashion and</br> function for your daily skate, no matter the weather.
+        </p>
+      </div>
+      <div class='below-ball-text-wrapper'>
+        <h1 class='oswald'>UNLIMITED WARMTH</h1>
+        <p class='roboto'>
+          Nike Pro HyperWarm AeroLoft. Your first layer of warmth.
+        </p>
+      </div>
     </div>
   </section>
 </div>
