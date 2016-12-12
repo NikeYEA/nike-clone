@@ -14,7 +14,8 @@
 .box-options{
   background-color: rgb(249, 249, 249);
   display: flex;
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 31px;
 }
 .shipment-box {
   /*border: solid;*/
@@ -23,6 +24,8 @@
   width: 33%;
   flex-direction: row;
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .shipment-box a{
   text-decoration: none;
@@ -41,20 +44,25 @@
   margin-bottom: 20px;
 }
 .shipment-box h2{
-  font-size: 45px;
-  padding-bottom: 40px;
+  font-size: 25px;
+  line-height: 32px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
 }
 .shipment-box p{
-  font-size: 25px;
-  color: rgb(83, 83, 83);
-  padding-bottom: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(159, 159, 159);
+  padding-bottom: 20px;
 }
-
+.shipment-box-2, .shipment-box-3 {
+  border-left: 1px solid;
+  border-color:rgb(226, 226, 226);
+}
 .customize-mid-section {
 
 }
 .starting-text{
-  border: solid;
   text-align: center;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -105,11 +113,38 @@
   line-height: 23px;
   text-align:
 }
-#bgshoevid2{
-  margin-right: auto;
-  margin-left:auto;
-  /*border: solid;*/
-  width: 99%;
+.bottom-photo img {
+    max-width: 100%;
+}
+.need-it {
+  text-align: center;
+  padding-top: 35px;
+}
+.need-it h2{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.need-it p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+  padding-top: 19px;
+}
+.need-it ul {
+  display: inline-block;
+  padding-top: 43px;
+}
+.need-it li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 35px;
+  color: #000;
+}
+.need-it a {
+text-decoration: underline;
+color: #000;
+
 }
 .battle-built {
   text-align: center;
@@ -146,4 +181,32 @@
   display: inline-block;
   padding-right: 25px;
   padding-top: 16px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .box-options{
+    display: block;
+  }
+  .shipment-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
 }

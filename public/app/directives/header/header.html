@@ -1,17 +1,34 @@
 <header>
   <div class="header_top">
-    <div class="header_top_content">
-      <a ui-sref="login">Join / Log In To Nike+ Account</a>
-      <a href="http://www.nike.com/us/en_us/c/help">Help</a>
-      <a ui-sref="cart"><img class="cart" src="./../../../app/images/headerFooter/shopping_cart.png" alt="cart" /></a>
-      <a href="#"  ng-class="navClass('today')"><img class="flag" src="./../../../app/images/headerFooter/us_sml.png" alt="cart" /></a>
+    <div class="header_top_content ">
+
+      <div class="dropdown">
+
+        <a ui-sref="login" class="dropbtn join-login desktop" href="#modal1">Join / Log In To Nike+ Account</a>
+        <img class="mobile" src="./../../../app/images/headerFooter/hamburger.svg">
+
+        <!-- <button class="dropbtn">Dropdown</button> -->
+        <div class="dropdown-content">
+          <a ui-sref="login">Join/Login</a>
+          <a ui-sref="profile">Profile</a>
+          <a ui-sref="cart">Orders</a>
+          <a ui-sref="home">Logout</a>
+          <a class="mobile"href="http://www.nike.com/us/en_us/c/help">Help</a>
+
+        </div>
+      </div>
+
+      <a class="desktop" href="http://www.nike.com/us/en_us/c/help">Help</a>
+      <a class="desktop" ui-sref="cart"><img class="cart" src="./../../../app/images/headerFooter/shopping_cart.png" alt="cart" /></a>
+      <a href="#" class="us-flag"><img class="flag" src="./../../../app/images/headerFooter/us_sml.png" alt="cart" /></a>
     </div>
     <div class="clear"></div>
   </div>
   <hr>
   <div class="header_bottom">
-    <a ui-sref="home"><img class="nike-image" src="./../../../app/images/headerFooter/nike_logo.png" alt="logo" /></a>
+    <a ui-sref="home"><img class="nike-image desktop" src="./../../../app/images/headerFooter/nike_logo.png" alt="logo" /></a>
     <nav class="oswald">
+      <a ui-sref="home" class="mobile">Home</a>
       <a ui-sref="men">Men</a>
       <a ui-sref="women">Women</a>
       <a ui-sref="boys">Boys</a>
@@ -20,5 +37,20 @@
     </nav>
     <input class="search" ng-model="string" placeholder="Search"></input>
   </div>
+
   <hr>
 </header>
+
+
+<!-- <a class="waves-effect waves-light btn" href="#modal1">Modal</a>
+
+
+<div id="modal1" class="modal">
+<div class="modal-content">
+<h4>Modal Header</h4>
+<p>A bunch of text</p>
+</div>
+<div class="modal-footer">
+<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+</div>
+</div> -->
