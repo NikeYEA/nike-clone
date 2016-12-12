@@ -9,8 +9,8 @@
 </label>
 <button ng-click="postUsers(fname,email)">LOGIN</button> -->
 
-<h1>LOGIN</h1>
-<form ng-submit="login(user)">
+<!-- <h1>LOGIN</h1>
+<form class="test" ng-submit="login(user)">
   email: <input type="email" ng-model="user.email">
   <br>
   password: <input type="password" ng-model="user.password">
@@ -20,7 +20,7 @@
 <br><hr>
 <br>
 <h1>REGISTER</h1>
-<form ng-submit="register(newUser)">
+<form class="test" ng-submit="register(newUser)">
   name: <input type="text" ng-model="newUser.name">
   <br>
   email: <input type="email" ng-model="newUser.email">
@@ -30,4 +30,30 @@
   mobile: <input type="text" ng-model="newUser.mobile_phone">
   <br>
   <button type="submit" name="button">register</button>
-</form>
+</form> -->
+<body id="bbody" translate="no">
+<div class="login-page xyz">
+  <div class="form xyz">
+    <form class="register-form" ng-submit="register(newUser)" style="display:none;">
+      <input class="inp" type="text" ng-model="newUser.name" placeholder="name">
+      <input class="inp" type="text" ng-model="newUser.email" placeholder="email address">
+      <input class="inp" type="password" ng-model="newUser.password" placeholder="password">
+        <input class="inp" type="password" ng-model="newUser.mobile_phone" placeholder="mobile">
+      <button class="bbuton" type="submit">Register</button>
+      <p class="message pie">
+        "Already regitered? "
+        <a class="aa" href="#">Sign In</a>
+      </p>
+    </form>
+    <form class="login-form" ng-submit="login(user)" style="display: block;">
+      <input class="inp" type="text" ng-model="user.email" placeholder="email">
+      <input class="inp" type="password" ng-model="user.password" placeholder="password">
+      <button class="bbuton" type="submit">login</button>
+      <p class="message pie">
+        "Not registered? "
+        <a class="aa" href="#">Create an account</a>
+      </p>
+    </form>
+  </div>
+</div>
+</body>
