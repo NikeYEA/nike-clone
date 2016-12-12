@@ -269,7 +269,14 @@ angular.module('nike-clone').service('mainService', function($http) {
       return response.data;
     })
   }
-
+  this.twilioPics = function() {
+    return $http({
+      method: 'GET',
+      url: '/testtwilio'
+    }).then(function(response){
+      return response;
+    })
+  }
 
 
 
