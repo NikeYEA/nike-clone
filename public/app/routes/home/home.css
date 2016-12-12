@@ -5,12 +5,8 @@
   background-position: center;
   color: #fff;
 }
-.section-one {
-  height: 68vh;
-}
-.section-three {
-  height: 68vh;
-}
+
+
 .home-content-wrapper .image-large.section-one{
   background-image: url("./../app/images/home/give_nike_gray.jpg");
 }
@@ -69,17 +65,19 @@
 
 .article-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 49px;
   margin-bottom: 49px;
 }
 .section-four{
   background-color: rgb(242, 242, 242);
-  height: 80vh;
 }
 
 article {
   width: 24%;
+  min-width: 250px;
+  margin: 5px;
 }
 
 article h3 {
@@ -106,4 +104,42 @@ article img {
 
 article a {
   text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .image-large.section-two video{
+    display: none;
+  }
+  .section-two {
+    background-image: url("/app/images/home/photo-video-replace.jpg");
+  }
+  .home-content-wrapper .image-large.section-two{
+    height: auto;
+    min-height: 340px;
+    padding-bottom: 0px;
+  }
+  .home-content-wrapper .image-large{
+    min-height: 340px;
+  }
+
+
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
 }
