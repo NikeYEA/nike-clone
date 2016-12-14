@@ -141,7 +141,7 @@ header hr {
 
 
 @media only screen and (max-width: 718px) {
-    input {
+    header input {
         display: none;
     }
 }

@@ -4,6 +4,7 @@
   /*max-width: 1200px;*/
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 27px;
 }
 .back-link {
   float: left;
@@ -21,11 +22,12 @@
   display: inline-block;
 }
 
-.phone-chat .phone p {
+.info-top p, .info-top a {
   font-size: 11px;
   line-height: 15px;
   color: #767676;
   display: inline-block;
+  margin-top: 15px;
 }
 .phone-chat .phone .phone-img {
   background-image: url("/app/images/cart/vector-sprite-sheet.svg");
@@ -33,6 +35,8 @@
   height: 29px;
   width: 34px;
   display: inline-block;
+  position: relative;
+  top: 8px;
 }
 .phone-chat .chat {
   display: inline-block;
@@ -43,6 +47,8 @@
   height: 29px;
   width: 34px;
   display: inline-block;
+  position: relative;
+  top: 8px;
 }
 .phone-chat .phone a {
   font-size: 11px;
@@ -60,6 +66,7 @@
   align-items: stretch;
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 55px;
 }
 .free {
   max-width: 100%;
@@ -96,6 +103,15 @@
 .cart-info {
   padding-top: 35px;
   display: flex;
+  flex-wrap: wrap;
+}
+.cart-info p,
+.cart-info li {
+  font-size: 16px;
+  line-height: 22px;
+}
+.cart-info ul{
+  padding-bottom: 15px;
 }
 .cart-info-button {
   /*padding-right: 60px;*/
@@ -114,6 +130,11 @@
    border-color: rgb(227, 227, 227);
    display: inline-block;
    width: 140px;
+}
+div.cart-info-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left:8px
 }
 .cart-info-button:hover {
   background-color: rgb(255, 255, 255);
@@ -190,6 +211,7 @@ float: right;
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 3px;
+  margin-top: 10px;
 }
 .tax {
   color: rgb(165, 165, 165);
@@ -281,9 +303,19 @@ float: right;
   }
   .cart-info-button {
   }
-  .cart-info-shoe {
-    /*padding-bottom: 46px;*/
+  /*.info-top .back-link {
+    display: block;
+    border: solid;
+    max-width: 100%;
   }
+  .info-top .phone {
+    display: block;
+    border: solid;
+  }
+  .info-top .chat {
+    display: block;
+    border: solid;
+  }*/
 }
 
 @media only screen and (max-width: 767px) {
@@ -293,7 +325,16 @@ float: right;
 }
 
 @media only screen and (max-width: 650px) {
-
+  /*.cart-info-shoe {
+    display: block;
+  }*/
+  /*.cart-info img {
+    display: block;
+    max-width: 100%
+  }*/
+  .cart-info {
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -301,5 +342,9 @@ float: right;
 }
 
 @media only screen and (max-width: 400px) {
-
+  .cart-info img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
 }

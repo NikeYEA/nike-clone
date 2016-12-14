@@ -68,6 +68,9 @@ width: 100%;
 }
 .cart-info img {
   padding-bottom: 46px;
+  padding-right: 20px;
+  width: 240px;
+  height: 240px;
 }
 .grey-option {
   width: 107px;
