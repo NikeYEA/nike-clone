@@ -16,7 +16,7 @@ angular.module('nike-clone').controller('paymentsCtrl', function($scope, authSer
 //     }
 //   }
 //
-// console.log('this is FUCKING $scope.total: ',$scope.total);
+// console.log('this is   $scope.total: ',$scope.total);
 // $scope.getTotalPrice();
 //
 // //==================STRIPE==============================

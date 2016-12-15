@@ -7,7 +7,7 @@ $scope.qty = 1;
 
 $scope.oneObject = function(){
   mainService.getOneProductById($state.params.id).then(function(response) {
-    console.log('this is the mofo response: ',response);
+    console.log('this is the   response: ',response);
     $scope.oneId = response[0];
   })
 }

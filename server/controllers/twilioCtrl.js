@@ -7,10 +7,10 @@ var client = require('twilio')('ACe9d83d04deacdf40673b9822f3addee7','68d5e4fbb22
 module.exports = {
   getTwilioImages: function(req, res, next) {
 
-      console.log('this is the fucking req.user.order_id: ',req.user.order_id);
+      console.log('this is the   req.user.order_id: ',req.user.order_id);
     db.twiliocheckout([req.user.order_id], function(err, cart) {
 
-      console.log(" THIS IS THE FREAKING CART: ", cart);
+      console.log(" THIS IS THE   CART: ", cart);
 
       var imgArr = [];
       for (var i = 0; i < cart.length; i++) {
@@ -27,7 +27,7 @@ module.exports = {
     //     console.log('el.img:',el.img);
     //     return el.img;
     //   })
-    //   console.log('this is the motherfucking XXXXXXX: ',x);
+    //   console.log('this is the mother  XXXXXXX: ',x);
 
       client.sendMessage({
         to:'+18016945874',
