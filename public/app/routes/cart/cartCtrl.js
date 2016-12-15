@@ -53,6 +53,7 @@ $scope.twilio = function() {
 
   mainService.twilioPics().then(function(response) {
     $scope.checkoutcart();
+
   });
 }
 $scope.edit = function (id, qty) {
