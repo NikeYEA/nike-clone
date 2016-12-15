@@ -16,7 +16,7 @@ app.use(express.static(__dirname + './../public'));
 var port = 9000;
 
 var sdrDatabase = massive.connectSync({
-	connectionString: process.env.massiveUri || config.massiveUri
+	connectionString: process.env.massiveUri
 });
 app.set('db', sdrDatabase);
 var db = app.get('db');
