@@ -1,0 +1,3371 @@
+footer{
+  background-color: rgb(19, 19, 19);
+  padding-bottom: 25px;
+}
+.footer-wrapper {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.footer-container {
+  /* background-color: rgb(19, 19, 19); */
+  display: flex;
+  flex-direction: row;
+  padding-top: 33px;
+}
+.footer-container p {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 19px;
+}
+
+.footer-container a {
+  color: white;
+}
+.social-media {
+  text-align: right;
+}
+.social-media img {
+  height: 23px;
+  width: 23px;
+  margin-right: 6px;
+  margin-left: 6px;
+  opacity: .2;
+}
+.social-media img:hover {
+  opacity: .85;
+}
+.left-footer {
+  width: 58%;
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer-columns {
+  flex-direction: column;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.left-footer-columns a {
+  flex-direction: column;
+  color: #888;
+  font-size: 13px;
+}
+.left-footer-columns a.footer_caps {
+  color: white;
+}
+.right-footer {
+  width: 42%;
+}
+.bottom-left-footer {
+  float: left;
+  font-size: 13px;
+  color: #888;
+}
+.bottom-left-footer a {
+  color: white;
+}
+.bottom-left-footer p {
+  color: #888;
+  display: inline-block;
+}
+.bottom-right-footer {
+  float:right;
+  text-align: right;
+  font-size: 13px;
+}
+.bottom-right-footer a {
+  color: #888;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 980px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 718px) {
+  .footer-wrapper {
+
+  }
+  footer hr {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .footer-container {
+    display: block;
+    text-align: center;
+  }
+  .footer-container p{
+    margin-bottom: 9px;
+  }
+  .left-footer {
+    width: 100%;
+    display: block;
+  }
+  .right-footer {
+    display: block;
+    width: 100%;
+  }
+  .social-media {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+  }
+  .bottom-left-footer {
+    float: none;
+    text-align: center;
+  }
+  .bottom-right-footer {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+
+
+}
+@media only screen and (max-width: 547px) {
+
+}
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+.clear{
+  clear: both;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+}
+header nav {
+  display: flex;
+}
+header a {
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 14px;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.mobile {
+  display: none;
+}
+.header_top {
+  display: block;
+  width: 100%;
+}
+.header_top_content {
+  float: right;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.header_top_content a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: #8D8D8D;
+  font-size: 12px;
+  line-height: 15px;
+}
+.header_top_content a:hover{
+  cursor: pointer;
+}
+
+
+
+.join-login {
+  /*background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;*/
+border: none;
+cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .join-login {
+    /*background-color: #3e8e41;*/
+}
+
+
+
+
+.cart {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.flag {
+  width: 20px;
+  margin-bottom: -3px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33px;
+  padding-left: 33px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.nike-image {
+  width: 58px;
+}
+input {
+  padding-left: 8px;
+  margin-right: 11px;
+}
+header hr {
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+
+@media only screen and (max-width: 718px) {
+    header input {
+        display: none;
+    }
+}
+@media only screen and (max-width: 650px) {
+  .flag {
+      display: none;
+  }
+}
+@media only screen and (max-width: 561px) {
+  .header_bottom {
+    display: block;
+    text-align: center;
+  }
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header nav a {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile {
+    display: initial;
+  }
+  .desktop {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 547px) {
+    .header_top_content {
+      text-align: center;
+    }
+    .header_top_content a{
+      /*flex-direction: column;*/
+
+    }
+    .flag {
+        display: none;
+    }
+}
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+.boys-content-wrapper h1 {
+  font-size: 43px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 106px;
+  text-transform: uppercase;
+}
+.boys-content-wrapper .boys-img {
+  background-image: url("./../app/images/boys/boys-head-image.jpg");
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.boy-text-wrapper {
+  max-width: 230px;
+  margin-top: 83px;
+  margin-bottom: 83px;
+  float: right;
+}
+.boy-text-wrapper h2 {
+  font-size: 26px;
+  line-height: 34px;
+  color: #222222;
+  margin-bottom: 3px;
+}
+.boy-text-wrapper p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+.boy-text-wrapper a {
+  font-size: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  background-color: #222222;
+  width: 126px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+
+
+section.boys-shoes{
+  justify-content: space-around;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 75px;
+}
+
+.boys-find-shoes  {
+  font-size: 24px;
+  line-height: 29px;
+  float: left;
+  width: 162px;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.boys-find-shoes p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 31px;
+
+}
+.boys-all {
+  color: white;
+  text-transform: capitalize;
+}
+.boys-all a {
+  background-color: rgb(26, 26, 26);
+  font-size: 11px;
+  line-height: 38px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.boys-shoe-box-container {
+  padding-left: 230px;
+  max-width: 100%;
+
+}
+.boys-shoe-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  font-size: 15px;
+  color: rgb(146, 146, 146);
+
+}
+.boys-shoe-box {
+  width: 20%;
+  min-width: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.boys-shoe-box img {
+  max-width: 100%;
+}
+
+
+.boy-grey-block {
+  background-color: rgb(71, 71, 71);
+}
+.boys-grey-block-wrapper {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.boy-grey-block .boys-signup {
+  display: flex;
+  padding: 18px;
+}
+.boy-grey-block .boys-signup h2{
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.boy-grey-block .boys-signup p{
+  font-size: 10px;
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+.boy-grey-block .boys-signup img {
+  font-size: 20px;
+  line-height: 20px;
+  width: 70px;
+}
+.boy-grey-block .boys-signup a{
+  font-size: 11px;
+  line-height: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 27px;
+  text-transform: uppercase;
+}
+.boy-grey-block .boys-signup a:hover{
+  text-decoration: underline;
+}
+.boys-signup-text{
+}
+
+.boys-season-essentials {
+  text-align: center;
+  padding-top: 19px;
+}
+.boys-season-essentials h2{
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 28px;
+}
+.boys-season-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.boy-image-box {
+  width: 33%;
+  min-width: 300px;
+  padding-bottom: 58px;
+}
+.boy-image-box img {
+  max-width: 100%;
+}
+.boy-image-box a{
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: rgb(200, 200, 200);
+  font-size: 13px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.boys-follow-athletes {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+.boys-follow-athletes a{
+  display: block;
+  height: 100%
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+.boys-follow-athletes h2{
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  padding-top: 80px;
+  text-transform: uppercase;
+  max-width: 93px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.boys-follow-athletes img{
+  width: 35px;
+  padding-bottom: 69px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .boys-shoe-box-container {
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .boys-shoe-box-wrapper {
+    justify-content: center;
+  }
+  .boys-find-shoes  {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .boys-grey-block {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .boys-shoe-box {
+    padding-bottom: 15px;
+  }
+  .boys-grey-block-wrapper {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .boy-grey-block .boys-signup {
+    display: block;
+    padding: 9px;
+  }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+.boys-basketball-content-wrapper .image-large-boys-basketball {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-basketball-content-wrapper .image-large-boys-basketball.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_3.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_3.jpg");
+}
+.boys-basketball-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-basketball .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-boys-basketball .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-boys-basketball .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.boys-jordan-content-wrapper .image-large-boys-jordan {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-jordan-content-wrapper .image-large-boys-jordan.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_5.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_5.jpg");
+}
+.boys-jordan-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-jordan .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-boys-jordan .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-boys-jordan .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.easter-egg {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+}
+
+.boys-lifestyle-content-wrapper .image-large-boys-lifestyle {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-lifestyle-content-wrapper .image-large-boys-lifestyle.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_4.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_4.jpg");
+}
+.boys-lifestyle-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-lifestyle .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-boys-lifestyle .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.image-large-boys-lifestyle .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.boys-running-content-wrapper .image-large-boys-running {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-running-content-wrapper .image-large-boys-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Boys/1004_B_PWH_FOOTWEAR/120516_GL_FootwearFinder_Update_1.jpg.transform/full-screen/120516_GL_FootwearFinder_Update_1.jpg");
+}
+.boys-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-boys-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-boys-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.boys-soccer-content-wrapper .image-large-boys-soccer {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.boys-soccer-content-wrapper .image-large-boys-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-sp/Boys/0407-Boys-Football-PWH/US/SU16_0407_YA_GF_GBL_PWH_NA.jpg.transform/full-screen/SU16_0407_YA_GF_GBL_PWH_NA.jpg");
+}
+.boys-soccer-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-boys-soccer .text-wrapper{
+  padding-top: 200px;
+  margin-left: 30px;
+}
+.image-large-boys-soccer .text-wrapper h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  line-height: 48px;
+}
+.image-large-boys-soccer .text-wrapper p{
+  font-size: 18px;
+  padding-bottom: 9px;
+}
+.boys-soccer-mini-desc {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: Arial;
+}
+
+.boys-under-image-wrapper-soccer {
+  padding-top: 120px;
+  font-weight: bold;
+}
+.boys-header-under-image-soccer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 400px;
+}
+.boys-header-under-image-soccer div {
+  text-align: center;
+}
+
+.boys-running-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-soccer-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-basketball-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-lifestyle-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.boys-jordan-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.info-top {
+  /*border: solid;*/
+  /*max-width: 1200px;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 27px;
+}
+.back-link {
+  float: left;
+  color: #666;
+  font-size: 10px;
+}
+.back-link span{
+  font-size: 15px;
+}
+.phone-chat  {
+  min-width: 210px;
+  float: right;
+}
+.phone-chat .phone {
+  display: inline-block;
+}
+
+.info-top p, .info-top a {
+  font-size: 11px;
+  line-height: 15px;
+  color: #767676;
+  display: inline-block;
+  margin-top: 15px;
+}
+.phone-chat .phone .phone-img {
+  background-image: url("/app/images/cart/vector-sprite-sheet.svg");
+  background-position: 0 -200px;
+  height: 29px;
+  width: 34px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+.phone-chat .chat {
+  display: inline-block;
+}
+.phone-chat .chat .chat-img {
+  background-image: url("/app/images/cart/vector-sprite-sheet.svg");
+  background-position: 0 -800px;
+  height: 29px;
+  width: 34px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+.phone-chat .phone a {
+  font-size: 11px;
+  line-height: 15px;
+  color: #767676;
+  text-decoration: none;
+}
+
+.cart-body-wrapper {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 55px;
+}
+.free {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(236, 237, 236);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.free h2{
+  color: #fa5400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.free p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 17px;
+  font-family: helvetica;
+}
+
+.your-cart-main {
+  margin-top: 22px;
+}
+.your-cart {
+  background-color: rgb(236, 237, 236);
+  padding-left: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.cart-info {
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-info p,
+.cart-info li {
+  font-size: 16px;
+  line-height: 22px;
+}
+.cart-info ul{
+  padding-bottom: 15px;
+}
+.cart-info-button {
+  /*padding-right: 60px;*/
+  /*padding-left: 60px;*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(246, 246, 246);
+  font-size: 14px;
+  line-height: 14px;
+  color: #111111;
+  border:0 none;
+   cursor:pointer;
+   outline:none;
+   vertical-align:top;
+   border: solid thin;
+   border-color: rgb(227, 227, 227);
+   display: inline-block;
+   width: 140px;
+}
+div.cart-info-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left:8px
+}
+.cart-info-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.left-cart-info {
+  width: 100%;
+  padding-right: 20px;
+  max-width: 100%;
+}
+.right-cart-info {
+  border: solid;
+  background-color: rgb(20, 20, 20);
+  width: 340px;
+  flex: 0 0 340px;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+.cart-info-inner-wrapper{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.summary {
+  font-size: 20px;
+  line-height: 28px;
+  color: #efefef;
+  background-color: rgb(20, 20, 20);
+  text-transform: uppercase;
+}
+.summary h2 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.right-cart-info hr {
+  background-color: #363333;
+  height: 1px;
+  border: none;
+}
+.subtotal {
+  color: #efefef;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.subtotal p{
+display: inline-block;;
+}
+/*.subtotal-word {
+float: left;
+}
+.subtotal-cost {
+float: right;
+}*/
+.shipping-info {
+  color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.shipping-info p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.shipping-time ul {
+  background-color: rgb(246, 246, 246);
+  color: black;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.tax {
+  color: rgb(165, 165, 165);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+
+}
+.tax p {
+  display: inline-block;
+}
+.total-cost {
+  color: #efefef;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout {
+  color: #efefef;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  /*display: flex;
+  flex-direction: column;*/
+}
+.checkout .orange-button {
+  background-color: rgb(246, 72, 6);
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: capitalize;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.card-pay {
+  max-width: 125px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-pay {
+  /* max-width: 125px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.card-pay button{
+  display: block;
+  width: 100%;
+}
+.stripe-button {
+  /*max-width: 125px;*/
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+  .cart-body-wrapper {
+       max-width: 1200px;
+       margin-right: auto;
+       margin-left: auto;
+       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+       align-items: stretch;
+     padding-right: 15px;
+      padding-left: 15px;
+  }
+  .left-cart-info {
+    width: 100%;
+     padding-right: 20px;
+    max-width: 100%;
+  }
+  .right-cart-info {
+    padding-top: 20px;
+    flex: none;
+
+  }
+  .cart-info-button {
+  }
+  /*.info-top .back-link {
+    display: block;
+    border: solid;
+    max-width: 100%;
+  }
+  .info-top .phone {
+    display: block;
+    border: solid;
+  }
+  .info-top .chat {
+    display: block;
+    border: solid;
+  }*/
+}
+
+@media only screen and (max-width: 767px) {
+  .cart-info-button input{
+
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /*.cart-info-shoe {
+    display: block;
+  }*/
+  /*.cart-info img {
+    display: block;
+    max-width: 100%
+  }*/
+  .cart-info {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+  .cart-info img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.customize-content-wrapper {
+  width: 100%;
+}
+.customize-top-section{
+  background-color: rgb(245, 245, 245);
+}
+#bgshoevid{
+  margin-right: auto;
+  margin-left:auto;
+  /*border: solid;*/
+  width: 99%;
+}
+.box-options{
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 31px;
+}
+.shipment-box {
+  /*border: solid;*/
+  /*padding-top: 50px;*/
+  display: inline-block;
+  width: 33%;
+  flex-direction: row;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.shipment-box a{
+  text-decoration: none;
+  color: rgb(159, 159, 159);
+  border: solid thin;
+  border-color: rgb(179, 179, 179);
+  font-size: 12px;
+  height: 25px;
+  /*line height must be the same as the heightfor contentto be in the middle*/
+  line-height: 23px;
+  width: 25px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.shipment-box h2{
+  font-size: 25px;
+  line-height: 32px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+}
+.shipment-box p{
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(159, 159, 159);
+  padding-bottom: 20px;
+}
+.shipment-box-2, .shipment-box-3 {
+  border-left: 1px solid;
+  border-color:rgb(226, 226, 226);
+}
+.customize-mid-section {
+
+}
+.starting-text{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  /*display: inline-block;*/
+  /*margin-left: 100px;*/
+  /*margin-left: auto;*/
+}
+.starting-text h2{
+  font-size: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+
+}
+.starting-text p{
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+}
+.starting-text .p-1 {
+  padding-bottom: 10px;
+
+}
+.starting-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.starting-pics img{
+  max-width: 475px;
+  padding: 16px;
+}
+
+.customize-mid-lower-section {
+
+}
+.feature-text h2 {
+  text-align: center;
+  padding-top: 82px;
+  padding-bottom: 102px;
+  font-size: 23px;
+  line-height: 23px;
+  text-align:
+}
+.bottom-photo img {
+    max-width: 100%;
+}
+.need-it {
+  text-align: center;
+  padding-top: 35px;
+}
+.need-it h2{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.need-it p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+  padding-top: 19px;
+}
+.need-it ul {
+  display: inline-block;
+  padding-top: 43px;
+}
+.need-it li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 35px;
+  color: #000;
+}
+.need-it a {
+text-decoration: underline;
+color: #000;
+
+}
+.battle-built {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+.battle-built h2 {
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 22px;
+}
+.battle-built p {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 16px;
+}
+.battle-built .customize-link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 38px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.battle-built .customize-link p{
+  padding-top: 16px;
+}
+.battle-built .customize-link img {
+  padding-right: 10px;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.battle-built .customize-link p {
+  display: block;
+  display: inline-block;
+  padding-right: 25px;
+  padding-top: 16px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .box-options{
+    display: block;
+  }
+  .shipment-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+.girls-content-wrapper h1 {
+  font-size: 43px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 106px;
+  text-transform: uppercase;
+}
+.girls-content-wrapper .girls-img {
+  background-image: url("./../app/images/girls/girls-head-image.jpg");
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.girl-text-wrapper {
+  max-width: 230px;
+  margin-top: 83px;
+  margin-bottom: 83px;
+  float: right;
+}
+.girl-text-wrapper h2 {
+  font-size: 26px;
+  line-height: 34px;
+  color: #222222;
+  margin-bottom: 3px;
+}
+.girl-text-wrapper p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+.girl-text-wrapper a {
+  font-size: 15px;
+  line-height: 42px;
+  color: #ffffff;
+  background-color: #222222;
+  width: 126px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+
+
+section.girls-shoes{
+  justify-content: space-around;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 75px;
+}
+
+.girls-find-shoes  {
+  font-size: 24px;
+  line-height: 29px;
+  float: left;
+  width: 162px;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.girls-find-shoes p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 31px;
+
+}
+.girls-all {
+  color: white;
+  text-transform: capitalize;
+}
+.girls-all a {
+  background-color: rgb(26, 26, 26);
+  font-size: 11px;
+  line-height: 38px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.girls-shoe-box-container {
+  padding-left: 230px;
+  max-width: 100%;
+
+}
+.girls-shoe-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  font-size: 15px;
+  color: rgb(146, 146, 146);
+
+}
+.girls-shoe-box {
+  width: 20%;
+  min-width: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.girls-shoe-box img {
+  max-width: 100%;
+}
+
+
+.girl-grey-block {
+  background-color: rgb(71, 71, 71);
+}
+.girls-grey-block-wrapper {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.girl-grey-block .girls-signup {
+  display: flex;
+  padding: 18px;
+}
+.girl-grey-block .girls-signup h2{
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.girl-grey-block .girls-signup p{
+  font-size: 10px;
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+.girl-grey-block .girls-signup img {
+  font-size: 20px;
+  line-height: 20px;
+  width: 70px;
+}
+.girl-grey-block .girls-signup a{
+  font-size: 11px;
+  line-height: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 27px;
+  text-transform: uppercase;
+}
+.girl-grey-block .girls-signup a:hover{
+  text-decoration: underline;
+}
+.girls-signup-text{
+}
+
+.girls-season-essentials {
+  text-align: center;
+  padding-top: 19px;
+}
+.girls-season-essentials h2{
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 28px;
+}
+.girls-season-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.girl-image-box {
+  width: 33%;
+  min-width: 300px;
+  padding-bottom: 58px;
+}
+.girl-image-box img {
+  max-width: 100%;
+}
+.girl-image-box a{
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: rgb(200, 200, 200);
+  font-size: 13px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.girls-follow-athletes {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+.girls-follow-athletes a{
+  display: block;
+  height: 100%
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+}
+.girls-follow-athletes h2{
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  padding-top: 80px;
+  text-transform: uppercase;
+  max-width: 93px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.girls-follow-athletes img{
+  width: 35px;
+  padding-bottom: 69px;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .girls-shoe-box-container {
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .girls-shoe-box-wrapper {
+    justify-content: center;
+  }
+  .girls-find-shoes  {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .girls-grey-block {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .girls-shoe-box {
+    padding-bottom: 15px;
+  }
+  .girls-grey-block-wrapper {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .girl-grey-block .boys-signup {
+    display: block;
+    padding: 9px;
+  }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+.girls-basketball-content-wrapper .image-large-girls-basketball {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.girls-basketball-content-wrapper .image-large-girls-basketball.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Girls/10_04_G_PWH_FOOTWEAR/120516_GL_GirlsFootwearFinder_3.jpg.transform/full-screen/120516_GL_GirlsFootwearFinder_3.jpg");
+}
+.girls-basketball-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-girls-basketball .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-girls-basketball .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-girls-basketball .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.girls-under-image-wrapper {
+  margin-top: 260px;
+  font-weight: bold;
+}
+
+.girls-header-under-image {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 400px;
+}
+
+.girls-basketball-jordan-under-image {
+  padding-right: 80px;
+}
+.girls-running-under-image {
+  text-decoration: none;
+  color: black;
+}
+.girls-running-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-soccer-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-basketball-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-lifestyle-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.girls-jordan-under-image:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.girls-jordan-content-wrapper .image-large-girls-jordan {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.girls-jordan-content-wrapper .image-large-girls-jordan.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Girls/10_04_G_PWH_FOOTWEAR/120516_GL_GirlsFootwearFinder_5.jpg.transform/full-screen/120516_GL_GirlsFootwearFinder_5.jpg");
+}
+.girls-jordan-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-girls-jordan .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-girls-jordan .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-girls-jordan .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.girls-lifestyle-content-wrapper .image-large-girls-lifestyle {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.girls-lifestyle-content-wrapper .image-large-girls-lifestyle.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Girls/10_04_G_PWH_FOOTWEAR/120516_GL_GirlsFootwearFinder_4.jpg.transform/full-screen/120516_GL_GirlsFootwearFinder_4.jpg");
+}
+.girls-lifestyle-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-girls-lifestyle .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-girls-lifestyle .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-girls-lifestyle .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.girls-running-content-wrapper .image-large-girls-running {
+  min-height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.girls-running-content-wrapper .image-large-girls-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/SHOP/YoungAthletes/Girls/10_04_G_PWH_FOOTWEAR/120516_GL_GirlsFootwearFinder_1.jpg.transform/full-screen/120516_GL_GirlsFootwearFinder_1.jpg");
+}
+.girls-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-girls-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-girls-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-girls-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.girls-soccer-content-wrapper .image-large-girls-soccer {
+  min-height: 300px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+  position: relative;
+  /*border: 2px solid black;*/
+}
+.girls-soccer-content-wrapper .image-large-girls-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-su/Girls/0407-Girls-Football-PWH/US/SP16_0407_YA_GF_GBL_GIRLS_PWH_NA.jpg.transform/full-screen/SP16_0407_YA_GF_GBL_GIRLS_PWH_NA.jpg");
+}
+.girls-soccer-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  /*border: 2px solid black;*/
+}
+.image-large-girls-soccer .text-wrapper{
+  /*padding-top: 200px;
+  margin-left: 30px;*/
+}
+.image-large-girls-soccer .text-wrapper h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  line-height: 48px;
+}
+.image-large-girls-soccer .text-wrapper p{
+  font-size: 18px;
+  padding-bottom: 9px;
+}
+
+.girls-soccer-mini-desc {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  font-family: Arial;
+  /*border: 1px solid yellow;*/
+}
+
+/*.girls-under-image-wrapper-soccer {
+  margin-top: 120px;
+  font-weight: bold;
+  border: 2px solid yellow;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 21vh;
+  display: flex;
+  align-items: center;
+}*/
+.girls-header-under-image-soccer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  /*justify-content: flex-end;*/
+  padding-left: 40vh;
+  /*border: 2px solid red;*/
+  height: 22vh;
+  width: 100%;
+  /*padding-right: 11vh;*/
+}
+.girls-header-under-image-soccer div {
+  text-align: center;
+}
+.gs-in-between {
+  /*border: 1px solid black;*/
+  /*padding-left: 20vh;*/
+  width: 30vh;
+  padding-top: 10vh;
+}
+.gs-in-between h1 p {
+  text-align: center;
+}
+
+.home-content-wrapper .image-large{
+  min-height: 430px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+
+.home-content-wrapper .image-large.section-one{
+  background-image: url("./../app/images/home/give_nike_gray.jpg");
+}
+.home-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large .text-wrapper{
+  max-width: 230px;
+}
+.image-large .text-wrapper h2{
+  font-size: 29px;
+  line-height: 41px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large .text-wrapper p{
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 9px;
+}
+.image-large .text-wrapper a {
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-large .text-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.home-content-wrapper .image-large.section-two{
+  position: relative;
+  height: 0px;
+  min-height: 0;
+  padding-bottom: 43.750276%; /*img-height / img-width * 100*/
+}
+
+#bgvid {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+
+.home-content-wrapper .image-large.section-three{
+  background-image: url("./../app/images/home/give-creativity.jpg");
+}
+
+.article-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 49px;
+  margin-bottom: 49px;
+}
+.section-four{
+  background-color: rgb(242, 242, 242);
+}
+
+article {
+  width: 24%;
+  min-width: 250px;
+  margin: 5px;
+}
+
+article h3 {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  padding-bottom: 24px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+article li {
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  padding-bottom: 9px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 650px) {
+  .image-large.section-two video{
+    display: none;
+  }
+  .section-two {
+    background-image: url("/app/images/home/photo-video-replace.jpg");
+  }
+  .home-content-wrapper .image-large.section-two{
+    height: auto;
+    min-height: 340px;
+    padding-bottom: 0px;
+  }
+  .home-content-wrapper .image-large{
+    min-height: 340px;
+  }
+
+
+}
+
+@media only screen and (max-width: 520px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+.individual-shoe-body-wrapper {
+  display: flex;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.shoe-view {
+  width: 60%;
+  /*padding-left: 30px;*/
+
+}
+.shoe-individual-view {
+  float: left;
+  width: 80px;
+  padding-right: 20px;
+}
+.shoe-individual-view img{
+width: 100%;
+}
+.shoe-big-view {
+  padding-left: 80px;
+  max-width: 100%;
+}
+.shoe-big-view img{
+  height: 400px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shoe-purchase-info {
+  width: 40%;
+  margin-left: 24px;
+}
+.shoe-purchase-info h2{
+  font-size: 30px;
+  line-height: 33px;
+  padding-bottom: 7px;
+}
+.shoe-purchase-info .shoe-name{
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+  font-style: italic;
+  padding-bottom: 3px;
+}
+.shoe-purchase-info .shoe-price{
+  font-size: 20px;
+  line-height: 22px
+}
+.cart-info {
+  width: 99%;
+}
+.cart-info .top-line {
+  font-size: 11px;
+  line-height: 15px;
+  color: #666666;
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 10px;
+}
+.cart-info .shoe-style {
+  text-align: right;
+}
+.cart-info img {
+  padding-bottom: 46px;
+  padding-right: 20px;
+  width: 240px;
+  height: 240px;
+}
+.grey-option {
+  width: 107px;
+  font-size: 12px;
+  line-height: 40px;
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+.orange-button {
+  width: 172px;
+  background-color: rgb(246, 72, 6);
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.help-info p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #222222;
+}
+
+#bbody {
+  /*background: #76b852;*/
+  /*background: #FFFFFF;*/
+  background: linear-gradient(to left, #FFFFFF, #FFFFFF);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.xyz {
+  display: block;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form .register-form {
+  display: none;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form .inp {
+  font-family: "Roboto", sans-serif;
+  outline:0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.inp {
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  user-select: text;
+  cursor: auto;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+.inp, textarea, keygen, select, .bbutton {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 11px BlinkMacSystemFont;
+}
+
+.inp, textarea, keygen, select, .bbutton, meter, progress {
+  -webkit-writing-mode: horizontal-tb;
+}
+
+.form .bbutton {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width:100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.bbutton {
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  color: buttontext;
+  background-color: buttonface;
+  box-sizing: border-box;
+  padding: 2px 6px 3px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-image: initial;
+  -webkit-appearance: button;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message .aa {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.aa:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+.pie {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.mens-button {
+  padding: 15px 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  /*background-color: #222222;*/
+  /*color: #ffffff;*/
+  font-size: 14px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.75s;
+  cursor: pointer;
+}
+.nike-men {
+  min-height: 150px;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nike-men-text-wrapper {
+  /*border: 2px solid black;*/
+}
+.nike-men-text-wrapper h1 {
+  font-size: 45px;
+}
+.pendleton-container {
+  /*min-height: 517px;*/
+  height: 83vh;
+  width: 100%;
+  /*border: 1px solid black;*/
+  /*background-image: url('../app/images/mens/Pendlton.jpg');*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  position: relative;
+  /*padding-top: 80px;*/
+}
+.pendleton-left-text-wrapper {
+  color: #d7cdc1;
+  /*border: 2px solid white;*/
+  /*margin-top: 150px;*/
+  margin: 5vh 1vh;
+  position: absolute;
+  padding: 50px;
+}
+.pendleton-left-text-wrapper h1 {
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+.pendleton-left-text-wrapper p {
+  font-size: 16px;
+  padding-bottom: 30px;
+  font-weight: lighter;
+}
+.pendleton-left-text-wrapper h2 {
+  font-size: 14px;
+}
+.pendleton-left-text-wrapper h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#pendleton-vid{
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+}
+.categories-container {
+  min-height: 300px;
+  height: 78vh;
+  width: 100%;
+  /*border: 1px solid blue;*/
+  background-image: url('./../app/images/mens/men_categories.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /*display: flex;*/
+  justify-content: space-between;
+  align-items: center;
+}
+.categories-left-text-wrapper {
+  /*width: 200px;*/
+  /*border: 1px solid black;*/
+  position: absolute;
+  /*margin: 20vh 2vw;*/
+  margin-top: 25vh;
+  /*margin-left: 45px;*/
+  padding: 2vh 2vw;
+}
+.find-the-right-shoe {
+  /*font-size: 43px;*/
+  font-size: 2.5em;
+  line-height: 45px;
+}
+.up-your-game {
+  font-size: 14px;
+  line-height: 18px;
+  color: #222222;
+  padding-bottom: 10px;
+}
+.shop-all-mens-shoes {
+  font-size: 11px;
+  font-weight: bold;
+}
+.shop-all-mens-shoes a {
+  color: black;
+}
+.mens-shoes-container {
+  height: 100%;
+  width: 78%;
+  /*border: 2px solid black;*/
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*align-items: center;*/
+  /*margin-right: 5vw;*/
+  padding-right: 7vw;
+}
+.mens-shoes-container a{
+  text-decoration: none;
+  color: black;
+}
+.mens-shoes-container a:hover{
+  text-decoration: underline;
+}
+.mens-shoes-container h1:hover {
+  cursor: pointer;
+}
+.mens-text-wrapper {
+  /*height: 40%;*/
+  width: 30%;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mens-running-text:hover {
+  cursor: pointer;
+}
+.mens-basketball-text {
+
+}
+.mens-soccer-text {
+  /*padding-right: 5px;*/
+  padding-left: 34px;
+}
+.mens-training-text {
+  padding-bottom: 48px;
+}
+.mens-sportswear-text {
+  padding-bottom: 48px;
+}
+.mens-jordan-text {
+  padding-bottom: 48px;
+  padding-left: 34px;
+}
+.vest-watch-container {
+  min-height: 300px;
+  height: 84vh;
+  width: 100%;
+  /*border: 2px solid blue;*/
+  background-image: url('./../app/images/mens/Vest_WatchMiles.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.vest-watch-hover-container {
+  /*border: 2px solid red;*/
+  height: 62.5vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.vest-hover-wrapper, .watch-hover-wrapper {
+  /*border: 2px solid gray;*/
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-vest-watch-container {
+  position: absolute;
+  width: 100%;
+  /*border: 2px solid yellow;*/
+  bottom: 0;
+  height: 21vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.below-vest-text-wrapper, .below-watch-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 250px;
+  text-align: center;
+}
+.below-vest-text-wrapper h1, .below-watch-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-vest-text-wrapper h2, .below-watch-text-wrapper h2 {
+  font-size: 12px;
+}
+.below-vest-text-wrapper:hover, .below-watch-text-wrapper:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.orange-shirt-container {
+  min-height: 300px;
+  height: 84vh;
+  width: 100%;
+  /*border: 2px solid red;*/
+  background-image: url('./../app/images/mens/orange_shirt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: flex-end;*/
+  /*padding-bottom: 35px;*/
+  position: relative;
+}
+.orange-shirt-hover-wrapper {
+  /*border: 2px solid yellow;*/
+  height: 67.5vh;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-orange-shirt-container {
+  width: 100%;
+  height: 16vh;
+  /*border: 2px solid gray;*/
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.below-orange-shirt-text-wrapper {
+  /*border: 2px solid black;*/
+}
+.below-orange-shirt-text-wrapper h1:hover, .below-orange-shirt-text-wrapper h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.below-orange-shirt-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+  /*border: 1px solid black;*/
+  /*position: absolute;*/
+}
+.below-orange-shirt-text-wrapper h2 {
+  font-size: 12px;
+}
+.jacket-ball-container {
+  min-height: 300px;
+  height: 84vh;
+  width: 100%;
+  /*border: 2px solid purple;*/
+  background-image: url('./../app/images/mens/jacket_ball.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*display: flex;
+  justify-content: space-around;
+  align-items: flex-end;*/
+  /*padding-top: 465px;*/
+  position: relative;
+}
+.jacket-ball-hover-container {
+  height: 64vh;
+  width: 100%;
+  position: absolute;
+  /*border: 2px solid green;*/
+  display: flex;
+  justify-content: space-between;
+}
+.jacket-hover-wrapper, .ball-hover-wrapper {
+  width: 50%;
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-jacket-ball-container {
+  position: absolute;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  /*border: 2px solid black;*/
+}
+.below-jacket-text-wrapper, .below-ball-text-wrapper {
+  /*border: 2px solid yellow;*/
+  text-align: center;
+  width: 505px;
+  /*margin-top: 66vh;
+  margin-bottom: 5vh;*/
+}
+.below-jacket-text-wrapper {
+  /*margin-bottom: 6vh;*/
+}
+.below-ball-text-wrapper {
+  /*margin-bottom: 7vh;*/
+}
+.below-jacket-text-wrapper:hover, .below-ball-text-wrapper:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.below-jacket-text-wrapper h1, .below-ball-text-wrapper h1 {
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-jacket-text-wrapper p, .below-ball-text-wrapper p {
+  font-size: 12px;
+}
+
+.men-basketball-content-wrapper .image-large-men-basketball {
+  min-height: 300px;
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.men-basketball-content-wrapper .image-large-men-basketball.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/Basketball/0725_PWH/All_shoes/BB_Mens_Shoes_PWH.jpg.transform/full-screen/BB_Mens_Shoes_PWH.jpg");
+}
+.men-basketball-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-men-basketball .text-wrapper{
+  max-width: 400px;
+}
+.image-large-men-basketball .text-wrapper h2{
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.image-large-men-basketball .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.men-jordan-content-wrapper .image-large-men-jordan {
+  min-height: 300px;
+  height: 51vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-jordan-content-wrapper .image-large-men-jordan.section-one{
+  /*background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Sportswear/PWH/NA/NSW_PWH_mens_hub.jpg.transform/full-screen/NSW_PWH_mens_hub.jpg");*/
+}
+
+.men-running-content-wrapper .image-large-men-running {
+  min-height: 300px;
+  height: 63vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-running-content-wrapper .image-large-men-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Running/NA/HO16_RUNNING_PWH_v3_1600x528px.jpg.transform/full-screen/HO16_RUNNING_PWH_v3_1600x528px.jpg");
+}
+.men-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.image-large-men-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-men-running .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-running .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+#grey-border {
+  border: 1px solid rgba(221,221,221,0);
+}
+#grey-border:hover {
+  border: 1px solid #ddd;
+}
+
+.men-soccer-content-wrapper .image-large-men-soccer {
+  min-height: 300px;
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #111111;
+}
+.men-soccer-content-wrapper .image-large-men-soccer.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Football/NA/NA_Soccer_PWH.jpg.transform/full-screen/NA_Soccer_PWH.jpg");
+}
+.men-soccer-inner-wrapper {
+  max-width: 10060px;
+}
+.image-large-men-soccer .text-wrapper{
+  margin-top: 200px;
+}
+.image-large-men-soccer .text-wrapper h2{
+  max-width: 250px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-men-soccer .text-wrapper p{
+  font-size: 14px;
+  padding-bottom: 9px;
+  max-width: 160px;
+}
+
+.shoe-subtitle-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 450px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoe-subtitle-wrapper {
+display: flex;
+justify-content: space-between;;
+align-items: center;
+}
+.mercurial {
+  margin-right: 30px;
+}
+.hypervenom {
+  margin-left: 130px;
+}
+.magista {
+  margin-left: 120px;
+}
+.tiempo {
+  margin-left: 90px;
+}
+.soccerx {
+  margin-left: 140px;
+}
+.mercurial h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.hypervenom h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.magista h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.tiempo h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.soccerx h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.mercurial p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.hypervenom p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.magista p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.tiempo p {
+  margin-top: 10px;
+  font-weight: 100;
+}
+.soccerx p {
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.men-sportswear-content-wrapper .image-large-men-sportswear {
+  min-height: 300px;
+  height: 51vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.men-sportswear-content-wrapper .image-large-men-sportswear.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Sportswear/PWH/NA/NSW_PWH_mens_hub.jpg.transform/full-screen/NSW_PWH_mens_hub.jpg");
+}
+
+.men-training-content-wrapper .image-large-men-training {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+  height: 56vh;
+  min-height: 300px;
+}
+.men-training-content-wrapper .image-large-men-training.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Training/PWHs/1114-fw-pwh/FW_PWH_FLOW2_1114_NA_A.jpg.transform/full-screen/FW_PWH_FLOW2_1114_NA_A.jpg");
+}
+.men-training-inner-wrapper {
+  max-width: 10060px;
+}
+.image-large-men-training .text-wrapper{
+  max-width: 230px;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+.image-large-men-training .text-wrapper h2{
+  font-size: 2rem;;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  line-height: 43px;
+}
+.image-large-men-training .text-wrapper p{
+  font-size: 14px;
+  padding-bottom: 9px;
+  max-width: 180px;
+  line-height: 18px;
+}
+.mens-training-under-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.ask-expert {
+  padding-top: 140px;
+  padding-left: 370px;
+}
+.mens-training-under-image div {
+  margin-top: 30px;
+}
+.mens-training-under-image h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.shoe-option-title {
+  margin-top: 50px;
+}
+
+
+
+.shoe-option-title {
+  text-align: center;
+  margin-right: 125px;
+  margin-left: 125px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.shoe-option-title .title-container {
+  font-size: 24px;
+  display: inline-block;
+}
+.shoe-option-title .title-container h2{
+  font-size: 24px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.shoe-option-title .title-container i{
+  color: rgb(146, 146, 146);
+}
+.sort-by-container{
+  display: inline-block;
+}
+.sort-by-container select{
+  background-color: white;
+  font-size: 15px;
+  line-height: 38px;
+  color: #111;
+  text-transform: uppercase;
+  width: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.shoe-options-container {
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 50px;
+}
+
+.shoe-options-box img{
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  border-bottom: solid lightgrey 1px;
+}
+.shoe-options-box {
+  text-align: left;
+}
+.shoe-repeat-name {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  max-width: 300px;
+}
+.shoe-repeat-mini-desc {
+  color: #B6B6B6;
+  font-size: 12px;
+}
+.shoe-repeat-price {
+  color: #B6B6B6;
+  font-size: 12px;
+}
+
+.womens-page-container {
+  background-color: #dcdcdc;
+}
+.womens-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+}
+.nike-women-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 2px solid black;*/
+  padding: 50px;
+  background-color: #ffffff;
+  /*position: relative;*/
+}
+.nike-women-text-wrapper {
+  /*border: 2px solid black;*/
+}
+.nike-women-text-wrapper h1 {
+  font-size: 45px;
+}
+.womens-sneak-boots-container {
+  position: relative;
+  min-height: 425px;
+  /*height: 0px;*/
+  /*min-height: 0;*/
+  /*min-height: 67vh;*/
+  /*width: 100%;*/
+  /*min-height: 472px;*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /*padding: 50px;*/
+  /*border: 2px solid green;*/
+ /*img-height / img-width * 100*/
+}
+#sneak-boots {
+  /*min-height: 425px;*/
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*top: 0;*/
+  /*max-width: 100%;*/
+  /*z-index: -1;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*color: #fff;*/
+  width: 100%;
+  /*border: 2px solid yellow;*/
+}
+.sneak-boot-text-wrapper {
+  /*height: 230px;*/
+  /*width: 475px;*/
+  /*border: 2px solid red;*/
+  text-align: right;
+  /*margin-right: 50px;*/
+  position: absolute;
+  padding: 10px 60px;
+}
+.four-ways-text {
+  font-size: 40px;
+  font-family: 'Roboto: 700', sans-serif;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.cold-wet-weather {
+  font-family: 'Roboto: 300', sans-serif;
+  color: #434343;
+  padding-bottom: 40px;
+}
+.sneak-boot-text-wrapper h1 {
+  color: #222222;
+}
+.sneak-boot-text-wrapper h1:hover {
+  text-decoration: underline;;
+  cursor: pointer;
+}
+.womens-categories-container {
+  min-height: 300px;
+  height: 61vh;
+  /*width: 100%;*/
+  background-image: url('./../app/images/womens/womens_categories_pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.right-shoe-for-you-text-wrapper {
+  /*border: 1px solid red;*/
+  position: absolute;
+  margin: 100px 60px;
+}
+.the-right-shoe {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.different-workouts {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 15px;
+}
+.womens-shoe-wrapper {
+  /*height: 397px;*/
+  height: 41vh;
+  /*border: 2px solid black;*/
+}
+.womens-categories-text-container {
+  /*width: 100%;*/
+  height: 20vh;
+  /*height: 200px;*/
+  /*border: 2px solid yellow;*/
+  /*padding-left: 385px;*/
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  /*justify-content: center;*/
+  white-space: nowrap;
+  /*overflow: hidden;*/
+  /*position: absolute;*/
+  bottom: 0;
+}
+.ask-an-expert {
+  height: 19.5vh;
+  /*width: 560px;*/
+  width: 23%;
+  /*border: 2px solid red;*/
+  display: inline-block;
+}
+.womens-text-wrapper {
+  /*height: 130px;*/
+  height: 19.5vh;
+  /*width: 120px;*/
+  width: 19%;
+  /*border: 2px solid red;*/
+  display: inline-block;
+  /*margin-right: 95px;*/
+  text-align: center;
+  padding: 7vh;
+}
+.womens-running-text-wrapper {
+  /*padding-left: 8vw;*/
+}
+.womens-text-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+.womens-text-wrapper a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.womens-text-wrapper h1 {
+  font-size: 17px;
+  padding-bottom: 5px;
+}
+.womens-text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.tights-bras-yoga-container {
+  min-height: 282px;
+  height: 52.5vh;
+  /*width: 100%;*/
+  background-image: url('./../app/images/womens/tights_bras_yoga.jpg');
+  /*display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+  /*padding-top: 30px;*/
+  /*border: 2px solid red;*/
+  position: relative;
+}
+.shop-by-text-wrapper {
+  height: 7.5vh;
+  /*border: 2px solid yellow;*/
+  padding-top: 2vh;
+  padding-left: 7vh;
+}
+.tights-bras-yoga-text-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*border: 2px solid red;*/
+  /*height: 314px;*/
+  height: 47.5vh;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.tights-bras-yoga-container h1 {
+  color: #ffffff;
+}
+.tights-bras-yoga-container h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shoes-legs-container {
+  /*min-height: 512px;*/
+  min-height: 296px;
+  height: 72.5vh;
+  background-image: url('./../app/images/womens/shoes_legs.jpg');
+  /*padding-top: 70px;
+  padding-left: 48px;*/
+}
+.featured-text-wrapper {
+  /*border: 2px solid yellow;*/
+  height: 17vh;
+  padding-top: 10vh;
+  padding-left: 7vh;
+}
+.below-shoes-legs-container {
+  min-height: 267px;
+  height: 31vh;
+  /*width: 100%;*/
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+.nike-beautiful-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.our-favorite-text-wrapper {
+  /*border: 2px solid blue;*/
+  width: 415px;
+  text-align: center;
+}
+.below-shoes-legs-container h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+.below-shoes-legs-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.below-shoes-legs-container button {
+  border-radius: 3px;
+  background-color: #222222;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+.below-shoes-legs-container button:hover {
+  cursor: pointer;
+}
+
+.womens-lifestyle-content-wrapper .image-large-womens-lifestyle {
+  min-height: 360px;
+  height: 51vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+}
+.womens-lifestyle-content-wrapper .image-large-womens-lifestyle.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-ho/Sportswear/PWH/NA/FA16_NSW_PWH_womens_500_a.jpg.transform/full-screen/FA16_NSW_PWH_womens_500_a.jpg");
+}
+.womens-lifestyle-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image-large-womens-lifestyle .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-womens-lifestyle .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-womens-lifestyle .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+
+.womens-training-content-wrapper .image-large-womens-training {
+  min-height: 520px;
+  height: 74vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+  /*border: 2px solid black;*/
+  position: relative;
+}
+.womens-training-content-wrapper .image-large-womens-training.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpghttps://content.nike.com/content/dam/one-nike/en_us/season-2016-su/wt/0706-wt-footwear-finder/PWH/landing.jpg.transform/full-screen/landing.jpg");
+}
+.womens-training-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+  /*border: 2px solid black;*/
+}
+.image-large-womens-training .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-womens-training .text-wrapper h2{
+  font-size: 27px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-womens-training .text-wrapper p{
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+.studio-gym-cardio-high-container {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  min-height: 111px;
+  width: 100%;
+  /*border: 2px solid yellow;*/
+  display: flex;
+  justify-content: space-between;
+}
+.wt-text-wrapper {
+  /*border: 2px solid red;*/
+  width: 17%;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.wt-text-wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+.wt-text-wrapper h2 {
+  font-size: 11px;
+}
+.wt-studio-wrapper {
+  padding-right: 7%;
+}
+.wt-gym-wrapper {
+  padding-right: 7%;
+}
+.wt-cardio-wrapper {
+  padding-right: 5%;
+}
+
+.womens-running-content-wrapper .image-large-womens-running {
+  min-height: 502px;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #111111;
+  /*border: 2px solid black;*/
+  position: relative;
+}
+.womens-running-content-wrapper .image-large-womens-running.section-one{
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_lu/HO16/Running/PWH/Womens/HO16_RUNNING_W_PWH_1_NA_1600px.jpg.transform/full-screen/HO16_RUNNING_W_PWH_1_NA_1600px.jpg");
+}
+.womens-running-inner-wrapper {
+  max-width: 10060px;
+  padding: 43px 61px;
+  margin-right: auto;
+  margin-left: auto;
+  /*border: 2px solid black;*/
+}
+.image-large-womens-running .text-wrapper{
+  max-width: 230px;
+  padding-top: 130px;
+}
+.image-large-womens-running .text-wrapper h2{
+  font-size: 27px;
+  /*font-size: 1.688em;*/
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.image-large-womens-running .text-wrapper p{
+  font-size: 10px;
+  /*font-size: 0.625em;*/
+  line-height: 12px;
+  padding-bottom: 9px;
+}
+.longer-stronger-faster-container {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  min-height: 139px;
+  width: 100%;
+  /*border: 2px solid yellow;*/
+  display: flex;
+  justify-content: space-between;
+}
+.wr-text-wrapper {
+  /*border: 2px solid red;*/
+  /*min-width: 290px;*/
+  width: 25%;
+  text-align: center;
+  padding-top: 7vh;
+}
+.wr-text-wrapper h3 {
+  padding-top: 8vh;
+  padding-right: 13vh;
+  font-size: 11px;
+}
+.wr-text-wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+.wr-text-wrapper h2 {
+  font-size: 11px;
+}
