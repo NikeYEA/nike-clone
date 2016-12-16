@@ -29,3 +29,6 @@
   line-height: 12px;
   padding-bottom: 9px;
 }
+.girls-header-under-image div h1:visited {
+  text-decoration: none;
+}
