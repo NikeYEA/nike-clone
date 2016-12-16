@@ -1,6 +1,10 @@
 var app = require('./../index');
+var massive = require('massive');
+var sdrDatabase = massive.connectSync({
+	connectionString: config.massiveUri
+});
+app.set('db', sdrDatabase);
 var db = app.get('db');
-
 module.exports = {
   getWomensShoes: function(req,res,next){
     db.womens.product_womens(function(err, products){

@@ -1,4 +1,9 @@
 var app = require('./../index');
+var massive = require('massive');
+var sdrDatabase = massive.connectSync({
+	connectionString: config.massiveUri
+});
+app.set('db', sdrDatabase);
 var db = app.get('db');
 var client = require('twilio')('ACe9d83d04deacdf40673b9822f3addee7','68d5e4fbb222435cb64e698b01589eb7');
 
