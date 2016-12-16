@@ -130,6 +130,6 @@ app.get('/testtwilio',isAuthed,twilioCtrl.getTwilioImages);
 
 
 
-app.listen(9000, function() {
+app.listen(port, function() {
 	console.log('Listening on port ',port);
 });
