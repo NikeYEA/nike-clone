@@ -2,9 +2,9 @@ var express = require('express');
 var cors = require('cors');
 var massive = require('massive');
 var bodyParser = require('body-parser');
-// var config = require('./../config');
+var config = require('./../config');
 var session = require('express-session');
-var client = require('twilio')(process.env.accountSid || config.accountSid,process.env.authToken || config.authToken);
+var client = require('twilio')(config.accountSid,config.authToken);
 var stripeKey = require('./stripeSecretKeys');
 
 var stripe = require('stripe')(stripeKey.secretKey);
@@ -16,7 +16,7 @@ app.use(express.static(__dirname + './../public'));
 var port = 9000;
 
 var sdrDatabase = massive.connectSync({
-	connectionString: process.env.massiveUri
+	connectionString: config.massiveUri
 });
 app.set('db', sdrDatabase);
 var db = app.get('db');
@@ -54,7 +54,7 @@ var isAdmin = function(req, res, next) {
 
 // Session and passport //
 app.use(session({
-	secret: process.env.SESSION_SECRET,
+	secret: config.SESSION_SECRET,
 	saveUninitialized: false,
 	resave: false
 }));
@@ -185,6 +185,6 @@ app.get('/testtwilio',isAuthed,twilioCtrl.getTwilioImages);
 
 
 
-app.listen(process.env.PORT || port, function() {
-	console.log('Listening on port ', this.address().port);
+app.listen(process.env.PORT, function() {
+	console.log('Listening on port ',port);
 });
