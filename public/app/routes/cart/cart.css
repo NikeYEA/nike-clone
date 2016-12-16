@@ -242,7 +242,7 @@ float: right;
   /*display: flex;
   flex-direction: column;*/
 }
-.checkout .orange-button {
+.checkout .checkout-button {
   background-color: rgb(246, 72, 6);
   line-height: 40px;
   text-align: center;
@@ -347,4 +347,15 @@ float: right;
     width: 100%;
     max-width: 100%;
   }
+}
+.checkout-button {
+  width: 172px;
+  background-color: rgb(246, 72, 6);
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }

@@ -20,8 +20,8 @@
   /*border: 2px solid black;*/
 }
 .image-large-girls-soccer .text-wrapper{
-  /*padding-top: 200px;
-  margin-left: 30px;*/
+  padding-top: 200px;
+  margin-left: 30px;
 }
 .image-large-girls-soccer .text-wrapper h2{
   font-size: 40px;
@@ -62,6 +62,8 @@
   /*border: 2px solid red;*/
   height: 22vh;
   width: 100%;
+
+  margin-left: 100px;
   /*padding-right: 11vh;*/
 }
 .girls-header-under-image-soccer div {
