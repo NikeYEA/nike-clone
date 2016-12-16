@@ -1,5 +1,6 @@
 var app = require('./../index');
 var massive = require('massive');
+var config = require('./../../config');
 var sdrDatabase = massive.connectSync({
 	connectionString: config.massiveUri
 });
