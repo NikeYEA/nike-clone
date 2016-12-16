@@ -13,7 +13,7 @@ var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static(__dirname + './../public'));
-var port = 9000;
+var port = 80;
 
 var sdrDatabase = massive.connectSync({
 	connectionString: config.massiveUri
