@@ -123,68 +123,13 @@ app.get('/api/boys/lifestyle', boysCtrl.getBoysLifestyle);
 app.get('/api/boys/running', boysCtrl.getBoysRunning);
 app.get('/api/boys/soccer', boysCtrl.getBoysSoccer);
 
-// PAYMENT //
-app.post('/api/payment',function(req, res, next){
-	console.log(req.body);
 
-	//convert amount to pennies
-	var chargeAmt = req.body.amount;
-	var amountArray = chargeAmt.toString().split('');
-	var pennies = [];
-	for (var i = 0; i < amountArray.length; i++) {
-		if(amountArray[i] === ".") {
-			if(typeof amountArray[i + 1] === "string") {
-				pennies.push(amountArray[i + 1]);
-			} else {
-				pennies.push("0");
-			}
-			if(typeof amountArray[i + 2] === "string") {
-				pennies.push(amountArray[i + 2]);
-			} else {
-				pennies.push("0");
-			}
-			break;
-		} else {
-			pennies.push(amountArray[i])
-		}
-	}
-	var convertedAmt = parseInt(pennies.join(''));
-	console.log('Pennies: ');
-	console.log(convertedAmt);
-
-	var charge = stripe.charges.create({
-		amount: convertedAmt, //amount in cents, again
-		currency: 'usd',
-		source: req.body.payment.token,
-		description: 'Test charge for NikeClone.com'
-	}, function(err, charge) {
-		res.sendStatus(200);
-		//if (err && err.type === 'StripeCardError') {
-		//The card has been declined
-		// }
-
-	});
-});
-
-// app.get('/testtwilio', function(req, res) {
-// 	client.sendMessage({
-// 		to:'+18016945874',
-// 		from: '+13857071154',
-// 		body: 'Yo what up, booooiiiissss'
-// 	}, function(err, data) {
-// 		if(err) {
-// 			console.log(err);
-// 		} else {
-// 			console.log(data);
-// 		}
-// 	})
-// })
 
 // TWILIO //
 app.get('/testtwilio',isAuthed,twilioCtrl.getTwilioImages);
 
 
 
-app.listen(process.env.PORT, function() {
+app.listen(port, function() {
 	console.log('Listening on port ',port);
 });

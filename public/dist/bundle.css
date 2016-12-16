@@ -1064,7 +1064,7 @@ float: right;
   /*display: flex;
   flex-direction: column;*/
 }
-.checkout .orange-button {
+.checkout .checkout-button {
   background-color: rgb(246, 72, 6);
   line-height: 40px;
   text-align: center;
@@ -1169,6 +1169,17 @@ float: right;
     width: 100%;
     max-width: 100%;
   }
+}
+.checkout-button {
+  width: 172px;
+  background-color: rgb(246, 72, 6);
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
 
 
@@ -1822,6 +1833,9 @@ section.girls-shoes{
   line-height: 12px;
   padding-bottom: 9px;
 }
+.girls-header-under-image div h1:visited {
+  text-decoration: none;
+}
 
 .girls-soccer-content-wrapper .image-large-girls-soccer {
   min-height: 300px;
@@ -1845,8 +1859,8 @@ section.girls-shoes{
   /*border: 2px solid black;*/
 }
 .image-large-girls-soccer .text-wrapper{
-  /*padding-top: 200px;
-  margin-left: 30px;*/
+  padding-top: 200px;
+  margin-left: 30px;
 }
 .image-large-girls-soccer .text-wrapper h2{
   font-size: 40px;
@@ -1887,6 +1901,8 @@ section.girls-shoes{
   /*border: 2px solid red;*/
   height: 22vh;
   width: 100%;
+
+  margin-left: 100px;
   /*padding-right: 11vh;*/
 }
 .girls-header-under-image-soccer div {
@@ -2074,8 +2090,6 @@ width: 100%;
   max-width: 100%;
 }
 .shoe-big-view img{
-  height: 400px;
-  width: 500px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -2116,12 +2130,6 @@ width: 100%;
 .cart-info .shoe-style {
   text-align: right;
 }
-.cart-info img {
-  padding-bottom: 46px;
-  padding-right: 20px;
-  width: 240px;
-  height: 240px;
-}
 .grey-option {
   width: 107px;
   font-size: 12px;
@@ -2131,6 +2139,7 @@ width: 100%;
   display: inline-block;
   padding-top: 3px;
   padding-bottom: 2px;
+  margin-left: 10px;
 }
 .orange-button {
   width: 172px;
@@ -2142,12 +2151,17 @@ width: 100%;
   outline: none;
   cursor: pointer;
   border: none;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 6px;
 }
+
 
 .help-info p {
   font-size: 12px;
   line-height: 18px;
   color: #222222;
+  margin-left: 39px;
 }
 
 #bbody {
@@ -2701,12 +2715,12 @@ form {
   line-height: 12px;
   padding-bottom: 9px;
 }
-#grey-border {
+/*#grey-border {
   border: 1px solid rgba(221,221,221,0);
 }
 #grey-border:hover {
   border: 1px solid #ddd;
-}
+}*/
 
 .men-soccer-content-wrapper .image-large-men-soccer {
   min-height: 300px;
